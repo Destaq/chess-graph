@@ -1,10 +1,11 @@
 import plotly.graph_objects as go
-import chess.pgn, time, random
+import chess.pgn, time, random, collections
 from collections import Counter
 
 mine = open('pgns/last50.pgn')
 mine_short = open('pgns/last5.pgn')
 wonder = open('pgns/Carlsen.pgn')
+most_games = open('pgns/Korchnoi.pgn')
 
 def create_game_list(pgn):
     ''' we have one massive pgn that we convert to a list of normal game pgns '''
@@ -14,7 +15,8 @@ def create_game_list(pgn):
         if game is None: #continue until exhausted all games
             break
         else:
-            game_list.append(game)
+            if len(list(game.mainline_moves())) > 1:
+                game_list.append(game)
     return game_list
 
 def parse_individual_games(pgn):
@@ -52,7 +54,10 @@ def form_values(depth):
 
     rids, zids = [], []
     counter = 0
-    acceps = ['e4', 'd4']
+    holder = [first3[i][0] for i in range(len(first3))]
+    holder = dict(Counter(holder))
+    acceps = list(holder.keys())
+
     while counter < depth:
         if counter == 0:
             firstmove = list(Counter([tuple(first3[i][:1]) for i in range(len(lst))]).items())
@@ -89,26 +94,24 @@ def form_values(depth):
 
 
     parents = ['']*firstcount + [item for sublist in pz for item in sublist] #flattening
-    print(pz, '\n\n\n\n')
-    print(parents)
 
     ids = true_ids
     #parents = [""]*len(labels) #keep until solve ID problem
     values = [i[1] for i in firstmove] + [i[1] for move in zids for i in move]
-    '''
+
     print('\n\n', ids)
     print('\n\n')
     print(labels)
     print('\n\n')
     print(parents, '\n\n', values)
-    '''
+
     return ids, labels, parents, values
 
 ## NOTE:  for repeated labels, all you have to do is change the ID of the label e.g fig = go.figure. etc... (ids = 'joe', labels = 'what's displayed)
 
-lst = parse_individual_games(mine) #ask for input here
+lst = parse_individual_games(mine_short) #ask for input here
 
-ids, labels, parents, values = form_values(2)
+ids, labels, parents, values = form_values(3)
 
 fig = form(ids, labels, parents, values)
 

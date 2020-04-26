@@ -1,0 +1,93 @@
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.04.10"]
+[Round "-"]
+[White "Mythaar"]
+[Black "mxstr"]
+[Result "0-1"]
+[WhiteElo "1262"]
+[BlackElo "1234"]
+[TimeControl "900+10"]
+[EndTime "8:47:29 PDT"]
+[Termination "mxstr won by resignation"]
+
+1. d4 d5 2. c4 Nc6 3. Nf3 dxc4 4. e4 e5 5. Be3 exd4 6. Nxd4 Nxd4 7. Bxd4 Be6 8.
+b3 cxb3 9. axb3 c5 10. Be3 Qxd1+ 11. Kxd1 Rd8+ 12. Ke1 b6 13. Bb5+ Bd7 14. Nc3
+Bxb5 15. Nxb5 Nf6 16. Nc3 Ra8 17. f3 Be7 18. Nb5 Kd7 19. Rxa7+ Rxa7 20. Nxa7 Ra8
+21. Ke2 Rxa7 22. Rd1+ Kc6 23. e5 Nd5 24. Bf2 Nc3+ 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.04.10"]
+[Round "-"]
+[White "chess_zeppelin"]
+[Black "Mythaar"]
+[Result "0-1"]
+[WhiteElo "1140"]
+[BlackElo "1271"]
+[TimeControl "900+10"]
+[EndTime "9:19:24 PDT"]
+[Termination "Mythaar won by resignation"]
+
+1. e4 e6 2. Nf3 d5 3. e5 c5 4. d4 f6 5. Bb5+ Bd7 6. Be2 Qb6 7. O-O Nc6 8. c3
+fxe5 9. dxe5 d4 10. c4 O-O-O 11. Bg5 Be7 12. Bf4 Qxb2 13. Nbd2 Rf8 14. g3 h6 15.
+Ne4 Nb4 16. Nd6+ Bxd6 17. exd6 Nxa2 18. Be5 Rh7 19. Re1 Nc3 20. Qc1 Qxc1 21.
+Raxc1 Nxe2+ 22. Rxe2 Rxf3 23. Kg2 Bc6 24. Kg1 g5 25. d7+ Kxd7 26. Ra1 a6 27. Ra5
+Rhf7 28. Rxc5 Rxf2 29. Rxf2 Rxf2 30. Kxf2 d3 31. Ra5 d2 32. Ke2 Bf3+ 33. Kxf3
+d1=Q+ 34. Kg2 Qd2+ 35. Kh3 Qxa5 36. Bg7 Qc5 37. Bxh6 Nxh6 38. g4 Qxc4 39. Kg3
+Qxg4+ 40. Kf2 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.04.10"]
+[Round "-"]
+[White "Mythaar"]
+[Black "SpeedReader"]
+[Result "0-1"]
+[WhiteElo "1261"]
+[BlackElo "1210"]
+[TimeControl "900+10"]
+[EndTime "12:35:56 PDT"]
+[Termination "SpeedReader won by checkmate"]
+
+1. d4 d5 2. c4 e6 3. cxd5 exd5 4. Nf3 Nc6 5. Nc3 Nf6 6. e3 Bf5 7. Bd3 Bxd3 8.
+Qxd3 Bb4 9. Bd2 Bxc3 10. Bxc3 O-O 11. O-O Re8 12. Rfe1 Ne4 13. Rab1 Re6 14. Ne5
+Qh4 15. g3 Qg5 16. f3 Nxe5 17. dxe5 Nxg3 18. hxg3 Qxg3+ 19. Kf1 Qxf3+ 20. Kg1
+Rg6+ 21. Qxg6 fxg6 22. Rf1 Qxe3+ 23. Kg2 d4 24. Rbe1 Qg5+ 25. Kf2 Rf8+ 26. Ke2
+Qe3+ 27. Kd1 Qd3+ 28. Kc1 Rxf1 29. e6 dxc3 30. Rxf1 Qd2+ 31. Kb1 Qxb2# 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.04.11"]
+[Round "-"]
+[White "Mythaar"]
+[Black "Czarfelix"]
+[Result "0-1"]
+[WhiteElo "1254"]
+[BlackElo "1322"]
+[TimeControl "900+10"]
+[EndTime "11:58:43 PDT"]
+[Termination "Czarfelix won by resignation"]
+
+1. d4 Nf6 2. Nc3 d5 3. Nf3 Nc6 4. Bf4 Bg4 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2020.04.11"]
+[Round "-"]
+[White "Mythaar"]
+[Black "Birdman7"]
+[Result "1-0"]
+[WhiteElo "1263"]
+[BlackElo "1294"]
+[TimeControl "900+10"]
+[EndTime "12:43:18 PDT"]
+[Termination "Mythaar won by resignation"]
+
+1. d4 g6 2. e4 Bg7 3. Nf3 d6 4. Bc4 e6 5. c3 Ne7 6. O-O O-O 7. Bf4 e5 8. dxe5
+Bxe5 9. Nxe5 dxe5 10. Bxe5 Nbc6 11. Qxd8 Rxd8 12. Bf6 Re8 13. b4 a6 14. b5 Na5
+15. Bd3 Bd7 16. c4 Be6 17. Na3 axb5 18. Nxb5 Rac8 19. Rfd1 Bxc4 20. Rac1 Bxd3
+21. Rxd3 Nec6 22. Ra3 Rxe4 23. Nc3 Re6 24. Nd5 Rce8 25. h3 Re1+ 26. Rxe1 Rxe1+
+27. Kh2 Re6 28. Bc3 b6 29. Nxc7 Re2 30. Nd5 Rxf2 31. Nxb6 f6 32. Bxa5 Nxa5 33.
+Rxa5 f5 34. Ra7 Rb2 35. Nd5 Rb5 36. Nf6+ Kf8 37. Nxh7+ Ke8 38. Ng5 1-0
+

@@ -101,7 +101,7 @@ def form(ids, labels, parents, values):
 
 user_input_game_file = input('Which game file should be analyzed? Provide FULL path file. ')
 gammme = open(user_input_game_file)
-user_input_depth = int(input('To what depth should we visualize these games? '))
+user_input_depth = int(input('To what ply depth should we visualize these games? '))
 lst = parse_individual_games(gammme, user_input_depth) # ask for input here
 
 ids, labels, parents, values = form_values(user_input_depth)

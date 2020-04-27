@@ -15,7 +15,7 @@ def create_game_list(pgn):
         if game is None: #continue until exhausted all games
             break
         else:
-            if len(list(game.mainline_moves())) > 1:
+            if len(list(game.mainline_moves())) > 2:
                 game_list.append(game)
     return game_list
 
@@ -79,7 +79,7 @@ def form_values(depth):
     true_ids, truu_ids = [], []
 
     # RIDS works well, it displays the proper amount to each proper level. Each 'level' has it's own list
-    print(rids)
+    mmmz = []
 
     for i in range(len(rids)):
         r += len(rids[i])
@@ -92,21 +92,18 @@ def form_values(depth):
             #print([z[:i] for ply_depth in zids[i-1] for z in ply_depth if type(z) == tuple]) #== PARENTS
             labels += [z[i] for ply_depth in zids[i-1] for z in ply_depth if type(z) == tuple]
             true_ids += [rids[i][r][0] for r in range(len(rids[i]))]
+            mmmz += [rids[i][r][0][:len(rids[i][r][0])-1] for r in range(len(rids[i]))]
+
         pz += [z[0][:i] for ply_depth in zids for z in ply_depth]
 
-    print('this is', pz)
-    parents = ['']*firstcount + [item for sublist in pz for item in sublist] #flattening
+    parents = ['']*firstcount + mmmz #flattening
     ## IDEA: parents are flattened. compare parents with ids. parents are too long a list. Redo parents for deeper depths and it will work.
 
     ids = true_ids
     #parents = [""]*len(labels) #keep until solve ID problem
     values = [i[1] for i in firstmove] + [i[1] for move in zids for i in move]
 
-    print('\n\n', ids)
-    print('\n\n')
-    print(labels)
-    print('\n\n')
-    print(parents, '\n\n', values)
+    print(f'\n\nIDS: {ids}\n\nLABELS: {labels}\n\nPARENTS: {parents}\n\nVALUES: {values}')
 
     ## BUG: for higher than two depth, you get the same labels, etc. repeated
 
@@ -114,7 +111,7 @@ def form_values(depth):
 
 ## NOTE:  for repeated labels, all you have to do is change the ID of the label e.g fig = go.figure. etc... (ids = 'joe', labels = 'what's displayed)
 
-lst = parse_individual_games(mine_short) #ask for input here
+lst = parse_individual_games(wonder) #ask for input here
 
 ids, labels, parents, values = form_values(3)
 

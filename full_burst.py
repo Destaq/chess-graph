@@ -94,7 +94,7 @@ def form(ids, labels, parents, values):
         labels = labels,
         parents = parents,
         values = values,
-        branchvalues = 'total', # if children exceed parent, graph will crash
+        branchvalues = 'total', # if children exceed parent, graph will crash and not show
         insidetextorientation = 'horizontal' # text displays PP
     ))
     return fig

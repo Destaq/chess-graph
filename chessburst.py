@@ -78,22 +78,25 @@ def form_values(depth):
     pz = []
     true_ids, truu_ids = [], []
 
+    # RIDS works well, it displays the proper amount to each proper level. Each 'level' has it's own list
+    print(rids)
 
     for i in range(len(rids)):
         r += len(rids[i])
         if i == 0:
             labels += [z[0][0] for z in firstmove]
             true_ids = [rids[0][r][0] for r in range(len(rids[0]))]
-            true_ids = [item for sublist in true_ids for item in sublist]
+            true_ids = [item for sublist in true_ids for item in sublist] #functions perfectly
             firstcount = len(labels)
         else:
             #print([z[:i] for ply_depth in zids[i-1] for z in ply_depth if type(z) == tuple]) #== PARENTS
             labels += [z[i] for ply_depth in zids[i-1] for z in ply_depth if type(z) == tuple]
-            pz += [z[0][:i] for ply_depth in zids for z in ply_depth]
-            true_ids += [rids[x][r][0] for x in range(len(rids)) if x > 0 for r in range(len(rids[x]))]
+            true_ids += [rids[i][r][0] for r in range(len(rids[i]))]
+        pz += [z[0][:i] for ply_depth in zids for z in ply_depth]
 
-
+    print('this is', pz)
     parents = ['']*firstcount + [item for sublist in pz for item in sublist] #flattening
+    ## IDEA: parents are flattened. compare parents with ids. parents are too long a list. Redo parents for deeper depths and it will work.
 
     ids = true_ids
     #parents = [""]*len(labels) #keep until solve ID problem
@@ -104,6 +107,8 @@ def form_values(depth):
     print(labels)
     print('\n\n')
     print(parents, '\n\n', values)
+
+    ## BUG: for higher than two depth, you get the same labels, etc. repeated
 
     return ids, labels, parents, values
 

@@ -72,7 +72,6 @@ def form_values(depth):
             rids.append(othermove)
             zids.append(othermove)
 
-
     r = 0
     labels = []
     pz = []
@@ -80,16 +79,21 @@ def form_values(depth):
 
     # RIDS works well, it displays the proper amount to each proper level. Each 'level' has it's own list
     mmmz = []
+    labs = []
+    print('this is', rids)
 
     for i in range(len(rids)):
         r += len(rids[i])
+        labs += [rids[i][f][0][i] for f in range(len(rids[i]))]
+        print(labs)
         if i == 0:
             labels += [z[0][0] for z in firstmove]
             true_ids = [rids[0][r][0] for r in range(len(rids[0]))]
             true_ids = [item for sublist in true_ids for item in sublist] #functions perfectly
             firstcount = len(labels)
         else:
-            #print([z[:i] for ply_depth in zids[i-1] for z in ply_depth if type(z) == tuple]) #== PARENTS
+            #print(labels)
+            #print('\n\n',zids,'\n\n')
             labels += [z[i] for ply_depth in zids[i-1] for z in ply_depth if type(z) == tuple]
             true_ids += [rids[i][r][0] for r in range(len(rids[i]))]
             mmmz += [rids[i][r][0][:len(rids[i][r][0])-1] for r in range(len(rids[i]))]
@@ -97,23 +101,17 @@ def form_values(depth):
         pz += [z[0][:i] for ply_depth in zids for z in ply_depth]
 
     parents = ['']*firstcount + mmmz #flattening
-    ## IDEA: parents are flattened. compare parents with ids. parents are too long a list. Redo parents for deeper depths and it will work.
 
     ids = true_ids
-    #parents = [""]*len(labels) #keep until solve ID problem
     values = [i[1] for i in firstmove] + [i[1] for move in zids for i in move]
 
     print(f'\n\nIDS: {ids}\n\nLABELS: {labels}\n\nPARENTS: {parents}\n\nVALUES: {values}')
 
-    ## BUG: for higher than two depth, you get the same labels, etc. repeated
-
     return ids, labels, parents, values
 
-## NOTE:  for repeated labels, all you have to do is change the ID of the label e.g fig = go.figure. etc... (ids = 'joe', labels = 'what's displayed)
+lst = parse_individual_games(mine_short) #ask for input here
 
-lst = parse_individual_games(wonder) #ask for input here
-
-ids, labels, parents, values = form_values(3)
+ids, labels, parents, values = form_values(4)
 
 fig = form(ids, labels, parents, values)
 

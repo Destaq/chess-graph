@@ -7,7 +7,7 @@ mine_short = open('pgns/last5.pgn')
 wonder = open('pgns/Carlsen.pgn')
 most_games = open('pgns/Korchnoi.pgn')
 
-def create_game_list(pgn):
+def create_game_list(pgn, depth):
     ''' we have one massive pgn that we convert to a list of normal game pgns '''
     game_list = []
     while True:
@@ -15,20 +15,20 @@ def create_game_list(pgn):
         if game is None: #continue until exhausted all games
             break
         else:
-            if len(list(game.mainline_moves())) > 2:
+            if len(list(game.mainline_moves())) > depth-1:
                 game_list.append(game)
     return game_list
 
-def parse_individual_games(pgn):
+def parse_individual_games(pgn, depth):
     ''' convert each game in the list to SAN format '''
     full_list = []
-    game_list = create_game_list(pgn)
+    game_list = create_game_list(pgn, depth)
     for game in game_list:
         small_list = [] #essentially only that game's list
         board = game.board()
         i = 0
         for move in game.mainline_moves():
-            if i<3:
+            if i<depth:
                 i+=1
                 small_list.append(chess.Board.san(board, move = move))
                 board.push(move)
@@ -49,8 +49,10 @@ def form(ids, labels, parents, values):
     return fig
 
 def form_values(depth):
+    print("here", lst)
 
-    first3 = [lst[i][:3] for i in range(len(lst))]
+    first3 = [lst[i][:depth] for i in range(len(lst))]
+    print("yeehaw", first3)
 
     rids, zids = [], []
     counter = 0
@@ -80,12 +82,11 @@ def form_values(depth):
     # RIDS works well, it displays the proper amount to each proper level. Each 'level' has it's own list
     mmmz = []
     labs = []
-    print('this is', rids)
 
     for i in range(len(rids)):
         r += len(rids[i])
+
         labs += [rids[i][f][0][i] for f in range(len(rids[i]))]
-        print(labs)
         if i == 0:
             labels += [z[0][0] for z in firstmove]
             true_ids = [rids[0][r][0] for r in range(len(rids[0]))]
@@ -94,7 +95,7 @@ def form_values(depth):
         else:
             #print(labels)
             #print('\n\n',zids,'\n\n')
-            labels += [z[i] for ply_depth in zids[i-1] for z in ply_depth if type(z) == tuple]
+            #labels += [z[i] for ply_depth in zids[i-1] for z in ply_depth if type(z) == tuple]
             true_ids += [rids[i][r][0] for r in range(len(rids[i]))]
             mmmz += [rids[i][r][0][:len(rids[i][r][0])-1] for r in range(len(rids[i]))]
 
@@ -103,15 +104,16 @@ def form_values(depth):
     parents = ['']*firstcount + mmmz #flattening
 
     ids = true_ids
+    labels = labs
     values = [i[1] for i in firstmove] + [i[1] for move in zids for i in move]
 
-    print(f'\n\nIDS: {ids}\n\nLABELS: {labels}\n\nPARENTS: {parents}\n\nVALUES: {values}')
+    #print(f'\n\nIDS: {ids}\n\nLABELS: {labels}\n\nPARENTS: {parents}\n\nVALUES: {values}')
 
     return ids, labels, parents, values
 
-lst = parse_individual_games(mine_short) #ask for input here
+lst = parse_individual_games(wonder, 5) #ask for input here
 
-ids, labels, parents, values = form_values(4)
+ids, labels, parents, values = form_values(5)
 
 fig = form(ids, labels, parents, values)
 

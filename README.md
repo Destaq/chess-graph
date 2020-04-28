@@ -22,7 +22,7 @@ The pie chart sizes will be divided based on how frequent the move is compared t
 You can install PyGal using PyPi, as long as you are an admin user on your device. To do so, simply type `pip install pygal` into your terminal.
 
 ### Downloading
-Downloading *is* an option, although to do so you will need to go to vivd_chart.py and scroll to the bottom of the fie. There, several lines will be commented out.
+Downloading *is* an option, although to do so you will need to go to vivid_chart.py and scroll to the bottom of the fie. There, several lines will be commented out.
 
 Currently, you can uncomment the download interactive HTML file without anything else to download. If you do so, an HTML file of the graph will be saved to your device, which you can open with your browser.
 

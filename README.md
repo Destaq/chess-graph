@@ -18,8 +18,8 @@ The pie chart sizes will be divided based on how frequent the move is compared t
 
 ### Prerequisites
 - Runs in Python 3, must have Python 3 installed
-- Requires PyGal
-You can install PyGal using PyPi, as long as you are an admin user on your device. To do so, simply type `pip install pygal` into your terminal.
+- Requires Plotly
+You can install Plotly using PyPi, as long as you are an admin user on your device. To do so, simply type `pip install plotly` into your terminal.
 
 ### Downloading
 Downloading *is* an option, although to do so you will need to go to vivid_chart.py and scroll to the bottom of the fie. There, several lines will be commented out.

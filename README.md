@@ -18,9 +18,9 @@ The pie chart sizes will be divided based on how frequent the move is compared t
 
 ### Prerequisites
 - Runs in Python 3, must have Python 3 installed
-- Requires Plotly
+- Requires Plotly and Python-Chess
 
-You can install Plotly using PyPi, as long as you are an admin user on your device. To do so, simply type `pip install plotly` into your terminal.
+You can install Plotly and Python-Chess using PyPi, as long as you are an admin user on your device. To do so, simply type `pip install plotly` and `pip install python-chess` into your terminal.
 
 ### Downloading
 Downloading *is* an option, although to do so you will need to go to vivid_chart.py and scroll to the bottom of the fie. There, several lines will be commented out.

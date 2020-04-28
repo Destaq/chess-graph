@@ -8,6 +8,14 @@ The vivid_burst python file will then create a vividly colored graphical chart u
 
 The pie chart sizes will be divided based on how frequent the move is compared to its parent. You can hover on the 'slice' of the piechart to see the exact number of games in which that position was reached.
 
+## How to Use
+1. Download the repo (make sure you have fulfilled the prerequisites)
+2. Download the PGN game you want to analyze (or use one of the examples). Make sure it is downloaded in the same folder as the repo.
+3. Run vivid_chart.py.
+- You will be asked for the path to the file. Do so by typing in the path to your pgn game relative to vivid_chart. E.g. if you downloaded your file and dragged it into the pgns subfolder, you would type `pgns/my_file.pgn`
+- You will then be asked to what *depth* the chart should be made. **This is ply depth!**. I suggest starting around 4-7 (I haven't tested to see how long it takes to go to depths beyond that. A depth of 6 takes 30 seconds)
+4. Enjoy!
+
 # Prerequisites
 - Runs in Python 3, must have Python 3 installed
 - Requires PyGal

@@ -40,7 +40,7 @@ def parse_individual_games(pgn, depth):
     return full_list
 
 def form_values(depth):
-
+    ''' create parent, id, labels, and values '''
     firstx = [lst[i][:depth] for i in range(len(lst))] # probably unneeded but for safety's sake...
 
     all_level_moves, exclude_first_moves = [], [] # for parent/labels later
@@ -111,3 +111,14 @@ fig = form(ids, labels, parents, values)
 fig.update_layout(margin = dict(t=0, l=0, r=0, b=0))
 
 fig.show()
+
+# download interactive HTML
+#fig.write_html("fig1.html")
+
+# Note: You can also download the image! You can do so in the following formats:
+# SVG, PNG, JPEG, PDF, and WebP
+# to do so, unhash the below line and fill the file type with your desired file type
+# KEEP IN MIND THAT TO DOWNLOAD AN IMAGE, YOU NEED THE FOLLOWING IN YOUR TERMINAL: npm install -g electron@1.8.4 orca         pip install psutil requests      pip install psutil
+# only then can you download the image without failure
+
+# fig.write_image("fig1.jpeg")

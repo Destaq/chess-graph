@@ -22,3 +22,8 @@ You can install PyGal using PyPi, as long as you are an admin user on your devic
 <p align="center">
   <img width = "197" height = "172" src = "https://github.com/Destaq/opening_analysis/raw/master/images/hover_Example.png">
  </p>
+
+## Click to Zoom
+<p align="center">
+  <img width = "700" height = "450" src = "https://github.com/Destaq/opening_analysis/raw/master/images/carlsen_Nf3_4.png">
+ </p>

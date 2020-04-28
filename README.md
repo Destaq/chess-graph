@@ -1,4 +1,5 @@
-# About
+# The Chess Opening Analyzer
+## About
 A program that will produce a graphical sunburst chart of chess openings from the PGN that is provided to it.
 
 You can upload your own PGN files and then create a multi-level piechart to your inputted depth that will show each move by its relative popularity.
@@ -27,3 +28,6 @@ You can install PyGal using PyPi, as long as you are an admin user on your devic
 <p align="center">
   <img width = "700" height = "450" src = "https://github.com/Destaq/opening_analysis/raw/master/images/carlsen_Nf3_4.png">
  </p>
+
+## Extra Info
+I based this project off of a post that I read on ebemunk's blog - you can find the link here: https://blog.ebemunk.com/a-visual-look-at-2-million-chess-games/. However, that project was written in Java and it didn't have everything that I wanted, such as showing all the games, zooming in, etc.

@@ -14,6 +14,7 @@ The pie chart sizes will be divided based on how frequent the move is compared t
 You can install PyGal using PyPi, as long as you are an admin user on your device. To do so, simply type `pip install pygal` into your terminal.
 
 # Examples
+*All examples were that of Magnus Carlsen's OTB tournament games*
 ## Simple Pie Chart
 <p align="center">
   <img width="700" height="450" src="https://github.com/Destaq/opening_analysis/raw/master/images/carlsen_5.png">

@@ -42,9 +42,9 @@ You can also download the file as: SVG, PDF, JPEG, PNG, and WebP. Just uncomment
   <img width="700" height="450" src="https://github.com/Destaq/opening_analysis/raw/master/images/carlsen_5.png">
 </p>
 
-### Hover Functionality
+### Hover Functionality | Show Percentage of Parent + Game Count
 <p align="center">
-  <img width = "197" height = "172" src = "https://github.com/Destaq/opening_analysis/raw/master/images/hover_Example.png">
+  <img width = "364" height = "82" src = "https://github.com/Destaq/opening_analysis/raw/master/images/hovering.png">
  </p>
 
 ### Click to Zoom

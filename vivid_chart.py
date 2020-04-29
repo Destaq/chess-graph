@@ -1,8 +1,16 @@
 # A Graphical Visualization of Chess Openings
 # April 2020
 
-# Provides a colorful multi-level pie chart which shows the popularity of openings after moves and so on
+# Provides a colorful multi-level pie chart which shows the popularity of openings after moves
 # For more info, go to www.github.com/Destaq/opening_analysis
+
+## TODO: shading
+## TODO: gambit or opening identification
+## TODO: custom branching e.g. ruy lopez
+## TODO: prune slices that are too small, based on PERCENTAGE not count
+
+## COMPLETE: percentages of parent
+## COMPLETE: pick player and their color - use chess.com database OR input player name as if statement in header
 
 import plotly.graph_objects as go
 import chess.pgn, time, random, collections
@@ -17,6 +25,8 @@ def form_values(depth):
     counter = 0
     holder = [firstx[i][0] for i in range(len(firstx))]
     holder = dict(Counter(holder))
+
+    percentage_holder = []
 
     while counter < depth:
         if counter == 0:
@@ -53,9 +63,33 @@ def form_values(depth):
     ids = true_ids
     values = [i[1] for i in firstmove] + [i[1] for move in exclude_first_moves for i in move]
 
+    game_count = 0
+
+    for i in range(len(values)):
+        if parents[i] == '':
+            game_count+=values[i]
+
+    for i in range(len(values)):#e.g e6 has 50, parent e4, with value 100
+        child_id = ids[i] #we are at value 50, id e4e6
+        if parents[i] != '': #each child has parent, this one is e4 so yes
+            parent_id = parents[i] #parent id = e4
+            aka = list(parent_id)
+            if len(aka)>=2:
+                aka = tuple(aka)
+            else:
+                aka = ''.join(aka)
+
+            parent_value = ids.index(aka)
+            parent_value = values[parent_value]
+            complete_value = round((values[i]/parent_value)*100, 2)
+            percentage_holder.append(complete_value)
+        else:
+            complete_value = round((values[i]/game_count)*100, 2)
+            percentage_holder.append(complete_value)
+
     # print(f'\n\nIDS: {ids}\n\nLABELS: {labels}\n\nPARENTS: {parents}\n\nVALUES: {values}')
 
-    return ids, labels, parents, values
+    return ids, labels, parents, values, percentage_holder
 
 
 def form(ids, labels, parents, values):
@@ -65,16 +99,25 @@ def form(ids, labels, parents, values):
         parents = parents,
         values = values,
         branchvalues = 'total', # if children exceed parent, graph will crash and not show
-        insidetextorientation = 'horizontal' # text displays PP
+        insidetextorientation = 'horizontal', # text displays PP
+        #marker=dict(
+        #    colorscale='RdBu',
+        #    cmid=8
+        #    )
+        hovertext = [str(percentage_everything[i])+'% of Parent<br>Game Count: '+str(values[i]) for i in range(len(percentage_everything))],
+
+        hovertemplate = "%{hovertext}<extra></extra>",
     ))
+
     return fig
 
 user_input_game_file = input('Which game file should be analyzed? Provide FULL path file. ')
 gammme = open(user_input_game_file)
 user_input_depth = int(input('To what ply depth should we visualize these games? '))
-lst = game_parser.parse_individual_games(gammme, user_input_depth) # ask for input here
 
-ids, labels, parents, values = form_values(user_input_depth)
+lst = game_parser.parse_individual_games(gammme, user_input_depth)
+
+ids, labels, parents, values, percentage_everything = form_values(user_input_depth)
 
 fig = form(ids, labels, parents, values)
 
@@ -90,5 +133,6 @@ fig.show()
 # to do so, unhash the below line and fill the file type with your desired file type
 # KEEP IN MIND THAT TO DOWNLOAD AN IMAGE, YOU NEED THE FOLLOWING IN YOUR TERMINAL: npm install -g electron@1.8.4 orca         pip install psutil requests      pip install psutil
 # only then can you download the image without failure
+#switch the.jpeg to your favourite format such as pdf or svg
 
 # fig.write_image("fig1.jpeg")

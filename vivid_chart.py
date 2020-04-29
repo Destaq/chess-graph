@@ -1,7 +1,7 @@
 # A Graphical Visualization of Chess Openings
 # April 2020
 
-# Provides a colorful multi-level pie chart which shows the popularity of openings after moves
+# Provides a colorful multi-level pie chart which shows the popularity of openings after moves and so on
 # For more info, go to www.github.com/Destaq/opening_analysis
 
 import plotly.graph_objects as go

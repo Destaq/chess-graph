@@ -11,7 +11,7 @@ pip install python-chess
 Once you have done so, you can run the code!
 
 
-NOTE: When you run the code, it will render in your browser and will be downloadable as a PNG. However, if you would like to download it to a higher graphical level or in a different format (JPEG, WebP, SVG, PDF, or Interactive HTML) follow the instructions below:
+PLEASE NOTE: When you run the code, it will render in your browser and will be downloadable as a PNG. However, if you would like to download it to a higher graphical level or in a different format (JPEG, WebP, SVG, PDF, or Interactive HTML) follow the instructions below:
 
 - Go to vivid_chart.py and scroll to the bottom. There you can uncomment the write_html line or the write_file line.
 - If you would like to write as HTML, you are done. No need to install anything else.
@@ -21,6 +21,6 @@ BUT if you would like to install as PDF/JPEG/WebP/SVG you need the following lib
 Installable with the following commands:
 - pip install psutil requests
 - pip install psutil
-- npm install -g electron@1.8.4 orca 
+- npm install -g electron@1.8.4 orca
 
 If you can't do so, go to this webpage where it is explained on how to do so on different systems:https://plotly.com/python/static-image-export/

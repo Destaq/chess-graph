@@ -1,3 +1,4 @@
+![Python application](https://github.com/Destaq/chess_opening_graph/workflows/Python%20application/badge.svg)
 # The Chess Opening Analyzer
 ## About
 A program that will produce a graphical sunburst chart of chess openings from the PGN that is provided to it.

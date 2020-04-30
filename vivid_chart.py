@@ -8,7 +8,7 @@
 # TODO: custom branching e.g. ruy lopez
 # TODO: prune slices that are too small, based on PERCENTAGE not count
 
-# COMPLETE: gambit and opening identification
+# COMPLETE: gambit and opening identifications
 # COMPLETE: percentages of parent
 # COMPLETE: pick player and their color - use chess.com database OR input player name as if statement in header
 

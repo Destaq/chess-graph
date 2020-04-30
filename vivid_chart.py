@@ -135,6 +135,9 @@ def form(ids, labels, parents, values):
             labels=labels,
             parents=parents,
             values=values,
+            leaf = {
+                    'opacity': 1.0
+                    },
             branchvalues="total",  # if children exceed parent, graph will crash and not show
             insidetextorientation="horizontal",  # text displays PP
             # marker=dict(

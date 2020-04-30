@@ -18,7 +18,7 @@ import game_parser
 import find_opening
 
 
-def form_values(depth):
+def form_values(depth, fragmentation_percentage):
     """Create parent, id, labels, and values """
     firstx = [
         lst[i][:depth] for i in range(len(lst))
@@ -111,7 +111,7 @@ def form_values(depth):
 
     del_list = []
     for i in range(len(percentage_holder)):
-        if percentage_holder[i] <= 5 and parents[i] != '':
+        if percentage_holder[i] <= fragmentation_percentage and parents[i] != '':
             del_list.append(i)
 
     for i in range(len(parents)): # loop through all parents
@@ -168,7 +168,7 @@ gammme = open(user_input_game_file)
 user_input_depth = int(input("To what ply depth should we visualize these games? "))
 
 lst = game_parser.parse_individual_games(gammme, user_input_depth)
-ids, labels, parents, values, percentage_everything = form_values(user_input_depth)
+ids, labels, parents, values, percentage_everything = form_values(user_input_depth, 3)
 
 eco_codes, eco_names, eco_positions = find_opening.create_openings()
 hovertip_openings = []

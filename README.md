@@ -1,5 +1,10 @@
 ![Python application](https://github.com/Destaq/chess_opening_graph/workflows/Python%20application/badge.svg)
 # The Chess Opening Analyzer
+
+<p align="center">
+  <img width = "500" height = "404" src = "https://github.com/Destaq/opening_analysis/raw/master/images/main_display.png">
+ </p>
+ 
 ## About
 A program that will produce a graphical sunburst chart of chess openings from the PGN that is provided to it.
 
@@ -8,6 +13,14 @@ You can upload your own PGN files and then create a multi-level piechart to your
 The vivid_burst python file will then create a vividly colored graphical chart using PyGal with each opening move (e.g. e4, d4, c4) having their own color. Their children will follow the same color.
 
 The pie chart sizes will be divided based on how frequent the move is compared to its parent. You can hover on the 'slice' of the piechart to see the exact number of games in which that position was reached.
+
+### Features
+- Make graph of games to **any depth**
+- Upload a **custom database** and see how *your* chart looks like
+- **Hover** to see metadata such as **game count and percentage of parent**
+- Easily **find openings** with simple hover tooltip identification
+- **Click to zoom** in on a slice and expand it, making it easy to magnify any slice of the pie chart
+- **Downloadable files**: you can download the chart as an interactive HTML, or as a static PNG/JPEG/SVG/WEBP image with just a few clicks
 
 ### How to Use
 1. Download the repo (make sure you have fulfilled the prerequisites)
@@ -45,7 +58,7 @@ You can also download the file as: SVG, PDF, JPEG, PNG, and WebP. Just uncomment
 
 ### Hover Functionality | Show Percentage of Parent + Game Count
 <p align="center">
-  <img width = "364" height = "82" src = "https://github.com/Destaq/opening_analysis/raw/master/images/hovering.png">
+  <img width = "458" height = "300" src = "https://github.com/Destaq/opening_analysis/raw/master/images/hovering.png">
  </p>
 
 ### Click to Zoom

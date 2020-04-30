@@ -5,15 +5,16 @@
 # For more info, go to www.github.com/Destaq/opening_analysis
 
 # TODO: shading
-# TODO: gambit or opening identification
 # TODO: custom branching e.g. ruy lopez
 # TODO: prune slices that are too small, based on PERCENTAGE not count
+# COMPLETE: gambit and opening identification
 # COMPLETE: percentages of parent
 # COMPLETE: pick player and their color - use chess.com database OR input player name as if statement in header
 
 import plotly.graph_objects as go
 from collections import Counter
 import game_parser
+import find_opening
 
 
 def form_values(depth):
@@ -128,6 +129,8 @@ def form(ids, labels, parents, values):
                 str(percentage_everything[i])
                 + "% of Parent<br>Game Count: "
                 + str(values[i])
+                + '<br>Opening: '
+                + hovertip_openings[i]
                 for i in range(len(percentage_everything))
             ],
             hovertemplate="%{hovertext}<extra></extra>",
@@ -144,12 +147,32 @@ gammme = open(user_input_game_file)
 user_input_depth = int(input("To what ply depth should we visualize these games? "))
 
 lst = game_parser.parse_individual_games(gammme, user_input_depth)
-
 ids, labels, parents, values, percentage_everything = form_values(user_input_depth)
+
+eco_codes, eco_names, eco_positions = find_opening.create_openings()
+hovertip_openings = []
+
+for i in range(len(ids)):
+    if ids[i] in eco_positions:
+        analyzed = eco_positions.index(ids[i])
+        hovertip_openings.append(eco_names[analyzed])
+    else:
+        hovertip_openings.append('Non-ECO Opening')
 
 fig = form(ids, labels, parents, values)
 
-fig.update_layout(margin=dict(t=0, l=0, r=0, b=0))
+fig.update_layout(
+    margin=dict(t=30, l=30, r=30, b=0),
+    title = {
+        'text': "The Chess Opening Graph",
+        'xanchor': 'center',
+        'y':0.995,
+        'x':0.5,
+        'yanchor': 'top',
+        'font': {
+            'size': 25
+                }
+        })
 
 fig.show()
 

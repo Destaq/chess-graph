@@ -108,6 +108,26 @@ def form_values(depth):
             complete_value = round((values[i] / game_count) * 100, 2)
             percentage_holder.append(complete_value)
 
+
+    del_list = []
+    for i in range(len(percentage_holder)):
+        if percentage_holder[i] <= 5 and parents[i] != '':
+            del_list.append(i)
+
+    for i in range(len(parents)): # loop through all parents
+        if i in del_list: # if that parent is in the bin
+            death = ids[i] # find that parent's ID so we can locate children
+            for x in range(len(parents)): # loop through parents again to find children
+                if parents[x] == death: # if child's parent is equal to death
+                    del_list.append(x) # mark child for death as well
+
+
+    percentage_holder = [percentage_holder[i] for i in range(len(percentage_holder)) if i not in del_list]
+    ids = [ids[i] for i in range(len(ids)) if i not in del_list]
+    labels = [labels[i] for i in range(len(labels)) if i not in del_list]
+    parents = [parents[i] for i in range(len(parents)) if i not in del_list]
+    values = [values[i] for i in range(len(values)) if i not in del_list]
+
     # print(f'\n\nIDS: {ids}\n\nLABELS: {labels}\n\nPARENTS: {parents}\n\nVALUES: {values}')
 
     return ids, labels, parents, values, percentage_holder

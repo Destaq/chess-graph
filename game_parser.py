@@ -3,7 +3,6 @@
 
 import chess.pgn
 
-
 def create_game_list(pgn, depth):
     """We have one massive pgn that we convert to a list of normal game pgns"""
     game_list = []
@@ -17,7 +16,7 @@ def create_game_list(pgn, depth):
     return game_list
 
 
-def parse_individual_games(pgn, depth):
+def parse_individual_games(pgn, depth, custom_branching):
     """Convert each game in the list to SAN format"""
     full_list = []
     game_list = create_game_list(pgn, depth)
@@ -33,5 +32,19 @@ def parse_individual_games(pgn, depth):
             else:
                 break
         full_list.append(small_list)
+    if custom_branching == True:
+        a = input('Custom Branching: ')
+        a = list(a.split())
+        del_list = []
+        for i in range(len(full_list)):
+            b = full_list[i][0:len(a)]
+            if a == b:
+                pass
+            else:
+                del_list.append(i)
+
+
+        full_list = [full_list[i] for i in range(len(full_list)) if i not in del_list]
+
 
     return full_list

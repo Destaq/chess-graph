@@ -165,8 +165,8 @@ user_input_game_file = input(
 gammme = open(user_input_game_file)
 user_input_depth = int(input("To what ply depth should we visualize these games? "))
 
-lst = game_parser.parse_individual_games(gammme, user_input_depth)
-ids, labels, parents, values, percentage_everything = form_values(user_input_depth, 0.0032, True) # a good value is about 10x the smallest value
+lst = game_parser.parse_individual_games(gammme, user_input_depth, True)
+ids, labels, parents, values, percentage_everything = form_values(user_input_depth, 0.0032, False) # a good value is about 10x the smallest value
 
 eco_codes, eco_names, eco_positions = find_opening.create_openings()
 hovertip_openings = []

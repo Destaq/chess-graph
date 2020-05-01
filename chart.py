@@ -18,7 +18,8 @@ import game_parser
 import find_opening
 
 
-def form_values(depth, fragmentation_percentage, should_defragment):
+def form_values(gammme, depth, fragmentation_percentage, should_defragment, custom_branching):
+    lst, ratios = game_parser.parse_individual_games(gammme, depth, custom_branching) #whether or not to implement custom branching
     """Create parent, id, labels, and values """
     firstx = [
         lst[i][:depth] for i in range(len(lst))
@@ -125,10 +126,10 @@ def form_values(depth, fragmentation_percentage, should_defragment):
         parents = [parents[i] for i in range(len(parents)) if i not in del_list]
         values = [values[i] for i in range(len(values)) if i not in del_list]
 
-    return ids, labels, parents, values, percentage_holder
+    return ids, labels, parents, values, percentage_holder, lst, ratios
 
 
-def form(ids, labels, parents, values, colors, ratios):
+def form(ids, labels, parents, values, colors, ratios, percentage_everything, hovertip_openings):
     fig = go.Figure(
         go.Sunburst(
             ids=ids,
@@ -153,7 +154,7 @@ def form(ids, labels, parents, values, colors, ratios):
                 + str(values[i])
                 + '<br>Opening: '
                 + hovertip_openings[i]
-                + '<br>W/B Win Ratio: '
+                + '<br>W/B Winning Percentage: ' # Note: this is wins+1/2draws/wins+losses+draws
                 + str(ratios[i])
                 for i in range(len(percentage_everything))
             ],
@@ -161,9 +162,22 @@ def form(ids, labels, parents, values, colors, ratios):
         )
     )
 
-    return fig
+    fig.update_layout(
+        margin=dict(t=30, l=30, r=30, b=0),
+        title = {
+            'text': "The Chess Opening Graph",
+            'xanchor': 'center',
+            'y':0.995,
+            'x':0.5,
+            'yanchor': 'top',
+            'font': {
+                'size': 25
+                    }
+            })
 
-def find_colors(ids, ratios):
+    return fig #nasty thing should be fixed by autopep8
+
+def find_colors(ids, ratios, lst):
     holder = []
     for i in range(len(ids)):
         if type(ids[i]) != str:
@@ -203,43 +217,33 @@ def find_colors(ids, ratios):
 
     return rgb_codes, full_ratios
 
-user_input_game_file = input(
-    "Which game file should be analyzed? Provide FULL path file. "
-)
-gammme = open(user_input_game_file)
-user_input_depth = int(input("To what ply depth should we visualize these games? "))
 
-lst, ratios = game_parser.parse_individual_games(gammme, user_input_depth, False) #whether or not to implement custom branching
-ids, labels, parents, values, percentage_everything = form_values(user_input_depth, 0.0032, False) # a good value is about 10x the smallest value
+def main(depth, fragmentation_percentage=0.0032, should_defragment=False, custom_branching=False): # need file path, depth,
+    user_input_game_file = input(
+        "Which game file should be analyzed? Provide FULL path file. "
+    )
+    gammme = open(user_input_game_file)
 
-rgb_codes, full_ratios = find_colors(ids, ratios)
+    ids, labels, parents, values, percentage_everything, lst, ratios = form_values(gammme, depth, fragmentation_percentage, should_defragment, custom_branching) # a good value is about 10x the smallest value
 
-eco_codes, eco_names, eco_positions = find_opening.create_openings()
-hovertip_openings = []
+    rgb_codes, full_ratios = find_colors(ids, ratios, lst)
 
-for i in range(len(ids)):
-    if ids[i] in eco_positions:
-        analyzed = eco_positions.index(ids[i])
-        hovertip_openings.append(eco_names[analyzed])
-    else:
-        hovertip_openings.append('Non-ECO Opening')
+    eco_codes, eco_names, eco_positions = find_opening.create_openings()
+    hovertip_openings = []
 
-fig = form(ids, labels, parents, values, rgb_codes, full_ratios)
+    for i in range(len(ids)):
+        if ids[i] in eco_positions:
+            analyzed = eco_positions.index(ids[i])
+            hovertip_openings.append(eco_names[analyzed])
+        else:
+            hovertip_openings.append('Non-ECO Opening')
 
-fig.update_layout(
-    margin=dict(t=30, l=30, r=30, b=0),
-    title = {
-        'text': "The Chess Opening Graph",
-        'xanchor': 'center',
-        'y':0.995,
-        'x':0.5,
-        'yanchor': 'top',
-        'font': {
-            'size': 25
-                }
-        })
+    fig = form(ids, labels, parents, values, rgb_codes, full_ratios, percentage_everything, hovertip_openings)
 
-fig.show()
+    fig.show()
+
+
+main(5)
 
 # download interactive HTML
 # fig.write_html("fig1.html")

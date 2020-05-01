@@ -218,13 +218,11 @@ def find_colors(ids, ratios, lst):
     return rgb_codes, full_ratios
 
 
-def main(depth, fragmentation_percentage=0.0032, should_defragment=False, custom_branching=False): # need file path, depth,
-    user_input_game_file = input(
-        "Which game file should be analyzed? Provide FULL path file. "
-    )
-    gammme = open(user_input_game_file)
+def main(database, depth=5, fragmentation_percentage=0.0032, should_defragment=False, custom_branching=False): # need file path, depth,
 
-    ids, labels, parents, values, percentage_everything, lst, ratios = form_values(gammme, depth, fragmentation_percentage, should_defragment, custom_branching) # a good value is about 10x the smallest value
+    database = open(database)
+
+    ids, labels, parents, values, percentage_everything, lst, ratios = form_values(database, depth, fragmentation_percentage, should_defragment, custom_branching) # a good value is about 10x the smallest value
 
     rgb_codes, full_ratios = find_colors(ids, ratios, lst)
 
@@ -243,7 +241,7 @@ def main(depth, fragmentation_percentage=0.0032, should_defragment=False, custom
     fig.show()
 
 
-main(5)
+main('pgns/mir_khan.pgn')
 
 # download interactive HTML
 # fig.write_html("fig1.html")

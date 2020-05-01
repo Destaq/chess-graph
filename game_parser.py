@@ -18,7 +18,7 @@ def create_game_list(pgn, depth):
 
 def parse_individual_games(pgn, depth, custom_branching):
     """Convert each game in the list to SAN format"""
-    full_list = []
+    full_list, full_rats = [], []
     game_list = create_game_list(pgn, depth)
     for game in game_list:
         small_list = []  # essentially only that game's list
@@ -32,6 +32,8 @@ def parse_individual_games(pgn, depth, custom_branching):
             else:
                 break
         full_list.append(small_list)
+        full_rats.append(game.headers['Result'])
+
     if custom_branching == True:
         a = input('Custom Branching: ')
         a = list(a.split())
@@ -47,4 +49,4 @@ def parse_individual_games(pgn, depth, custom_branching):
         full_list = [full_list[i] for i in range(len(full_list)) if i not in del_list]
 
 
-    return full_list
+    return full_list, full_rats

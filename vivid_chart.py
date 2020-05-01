@@ -128,13 +128,16 @@ def form_values(depth, fragmentation_percentage, should_defragment):
     return ids, labels, parents, values, percentage_holder
 
 
-def form(ids, labels, parents, values):
+def form(ids, labels, parents, values, colors, ratios):
     fig = go.Figure(
         go.Sunburst(
             ids=ids,
             labels=labels,
             parents=parents,
             values=values,
+            marker = dict(
+                    colors = colors
+                    ),
             leaf = {
                     'opacity': 1.0
                     },
@@ -150,6 +153,8 @@ def form(ids, labels, parents, values):
                 + str(values[i])
                 + '<br>Opening: '
                 + hovertip_openings[i]
+                + '<br>W/B Win Ratio: '
+                + str(ratios[i])
                 for i in range(len(percentage_everything))
             ],
             hovertemplate="%{hovertext}<extra></extra>",
@@ -158,6 +163,45 @@ def form(ids, labels, parents, values):
 
     return fig
 
+def find_colors(ids, ratios):
+    holder = []
+    for i in range(len(ids)):
+        if type(ids[i]) != str:
+            holder.append(list(ids[i]))
+        else:
+            holder.append(list(ids[i].split(' ')))
+
+    white_list = [0]*len(holder)
+    black_list = [0]*len(holder)
+    draw_list = [0]*len(holder)
+    for i in range(len(holder)):
+        a = len(holder[i])
+        for r in range(len(lst)):
+            if lst[r][:a] == holder[i]:
+                if ratios[r] == '1-0':
+                    white_list[i] += 1
+                elif ratios[r] == '0-1':
+                    black_list[i] += 1
+                else:
+                    draw_list[i] += 1
+
+    full_ratios = []
+    for i in range(len(white_list)):
+
+        result = round((white_list[i]+draw_list[i])/(black_list[i]+white_list[i]+draw_list[i]+draw_list[i]), 3)
+
+        full_ratios.append(result)
+
+
+    rgb_codes = []
+    max_rgb = 255
+    for i in range(len(full_ratios)):
+        rgb_codes.append((full_ratios[i])*max_rgb)
+
+    for i in range(len(rgb_codes)):
+        rgb_codes[i] = 'rgb('+str(int(rgb_codes[i])) + ',' + str(int(rgb_codes[i])) + ',' + str(int(rgb_codes[i])) + ')'
+
+    return rgb_codes, full_ratios
 
 user_input_game_file = input(
     "Which game file should be analyzed? Provide FULL path file. "
@@ -165,8 +209,10 @@ user_input_game_file = input(
 gammme = open(user_input_game_file)
 user_input_depth = int(input("To what ply depth should we visualize these games? "))
 
-lst = game_parser.parse_individual_games(gammme, user_input_depth, True)
+lst, ratios = game_parser.parse_individual_games(gammme, user_input_depth, False) #whether or not to implement custom branching
 ids, labels, parents, values, percentage_everything = form_values(user_input_depth, 0.0032, False) # a good value is about 10x the smallest value
+
+rgb_codes, full_ratios = find_colors(ids, ratios)
 
 eco_codes, eco_names, eco_positions = find_opening.create_openings()
 hovertip_openings = []
@@ -178,7 +224,7 @@ for i in range(len(ids)):
     else:
         hovertip_openings.append('Non-ECO Opening')
 
-fig = form(ids, labels, parents, values)
+fig = form(ids, labels, parents, values, rgb_codes, full_ratios)
 
 fig.update_layout(
     margin=dict(t=30, l=30, r=30, b=0),

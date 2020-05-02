@@ -218,7 +218,7 @@ def find_colors(ids, ratios, lst):
     return rgb_codes, full_ratios
 
 
-def main(database, depth=5, fragmentation_percentage=0.0032, should_defragment=False, custom_branching=False): # need file path, depth,
+def graph(database, depth=5, fragmentation_percentage=0.0032, should_defragment=False, custom_branching=False): # need file path, depth,
 
     database = open(database)
 
@@ -239,9 +239,6 @@ def main(database, depth=5, fragmentation_percentage=0.0032, should_defragment=F
     fig = form(ids, labels, parents, values, rgb_codes, full_ratios, percentage_everything, hovertip_openings)
 
     fig.show()
-
-
-main('pgns/mir_khan.pgn')
 
 # download interactive HTML
 # fig.write_html("fig1.html")

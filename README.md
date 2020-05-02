@@ -1,5 +1,6 @@
 ![Python application](https://github.com/Destaq/chess_opening_graph/workflows/Python%20application/badge.svg)
 # The Chess Opening Analyzer
+**Available on PyPI with `pip install chess-graph`!**
 
 <p align="center">
   <img width = "498" height = "383" src = "https://github.com/Destaq/opening_analysis/raw/master/images/main_image.png">
@@ -24,17 +25,30 @@ The pie chart sizes will be divided based on how frequent the move is compared t
 - **Win Ratio Shading** means that you will never be in doubt as to what next move is statistically best
 
 ### How to Use
+
+#### Using directly from the Github Repo
 1. Download the repo (make sure you have fulfilled the prerequisites)
 2. Download the PGN game you want to analyze (or use one of the examples). Make sure it is downloaded in the same folder as the repo.
-3. Run chart.py.
-- You will be asked for the path to the file. Do so by typing in the path to your pgn game relative to vivid_chart. E.g. if you downloaded your file and dragged it into the pgns subfolder, you would type `pgns/my_file.pgn`
-- You will then be asked to what *depth* the chart should be made. **This is ply depth!**. Keep in mind: ply depth of 5 takes 30 seconds for a database with a few thousand games, and it takes 2 minutes to go to a depth of 8 for a few thousand games as well.
+3. Import `chart.py`
+4. Run the function `chart.graph(*path to file*, depth = 5, fragmentation_percentage = 0.0032, should_defragment = False, custom_branching = False)`
+- Note that the path to the pgn file must be relative to the current directory python is running in. For example, if you have the pgn downloaded on your Desktop, you could easily solve this issue by navigating to Desktop within terminal (cd Desktop). From there, you can run *path to file* simply by typing in the filename (assuming it is in Desktop). If this is confusing, just type in the full path.
+- The arguments with an equal sign means that they are set to that as default, but you can change them by typing in e.g. depth = 7.
+
+#### Using via pip install
+1. `pip install chess-graph`
+2. Open terminal/interpreter.
+3. `from chess_graph import chart`
+4. `chart.graph(*path to file*, depth = 5, fragmentation_percentage = 0.0032, should_defragment = False, custom_branching = False)`
+  - Note that the path to the pgn file must be relative to the current directory python is running in. For example, if you have the pgn downloaded on your Desktop, you could easily solve this issue by navigating to Desktop within terminal (cd Desktop). From there, you can run *path to file* simply by typing in the filename (assuming it is in Desktop). If this is confusing, just type in the full path.
 
 ### Prerequisites
 - Runs in Python 3, must have Python 3 installed
 - Requires Plotly and Python-Chess
+- To run as PyPI module, have this projects PyPI package installed
 
 You can install Plotly and Python-Chess using PyPi, as long as you are an admin user on your device. To do so, simply type `pip install plotly` and `pip install python-chess` into your terminal.
+
+If you would like to simply run this code from Python IDE, then type `pip install chess-graph` (make sure you have the other modules installed as well).
 
 ### Downloading
 Downloading *is* an option, although to do so you will need to go to chart.py and scroll to the bottom of the fie. There, several lines will be commented out.

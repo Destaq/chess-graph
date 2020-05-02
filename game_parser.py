@@ -34,10 +34,13 @@ def parse_individual_games(pgn, depth, custom_branching):
         full_list.append(small_list)
         full_rats.append(game.headers['Result'])
 
+    kick_depth = 0
+
     if custom_branching == True:
         a = input('Custom Branching: ')
         a = list(a.split())
         del_list = []
+        kick_depth = len(a)
         for i in range(len(full_list)):
             b = full_list[i][0:len(a)]
             if a == b:
@@ -49,4 +52,4 @@ def parse_individual_games(pgn, depth, custom_branching):
         full_list = [full_list[i] for i in range(len(full_list)) if i not in del_list]
 
 
-    return full_list, full_rats
+    return full_list, full_rats, kick_depth

@@ -19,7 +19,7 @@ import find_opening
 
 
 def form_values(gammme, depth, fragmentation_percentage, should_defragment, custom_branching):
-    lst, ratios = game_parser.parse_individual_games(gammme, depth, custom_branching) #whether or not to implement custom branching
+    lst, ratios, kick_depth = game_parser.parse_individual_games(gammme, depth, custom_branching) #whether or not to implement custom branching
     """Create parent, id, labels, and values """
     firstx = [
         lst[i][:depth] for i in range(len(lst))
@@ -30,7 +30,7 @@ def form_values(gammme, depth, fragmentation_percentage, should_defragment, cust
     holder = [firstx[i][0] for i in range(len(firstx))]
     holder = dict(Counter(holder))
 
-    percentage_holder = []
+    percentage_holder, firstmove = [], []
 
     while counter < depth:
         if counter == 0:
@@ -250,4 +250,5 @@ def graph(database, depth=5, fragmentation_percentage=0.0032, should_defragment=
 # only then can you download the image without failure
 # switch the.jpeg to your favourite format such as pdf or svg
 
-# fig.write_image("fig1.jpeg")
+def download(fig, format):
+    fig.write_image("fig1."+format)

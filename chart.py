@@ -5,12 +5,11 @@
 # For more info, go to www.github.com/Destaq/opening_analysis
 
 
-# TODO: better custom branching visualization
-
 import plotly.graph_objects as go
 from collections import Counter
 import game_parser
 import find_opening
+
 
 
 def form_values(gammme, depth, fragmentation_percentage, should_defragment, custom_branching):
@@ -124,39 +123,68 @@ def form_values(gammme, depth, fragmentation_percentage, should_defragment, cust
     return ids, labels, parents, values, percentage_holder, lst, ratios
 
 
-def form(ids, labels, parents, values, colors, ratios, percentage_everything, hovertip_openings):
-    fig = go.Figure(
-        go.Sunburst(
-            ids=ids,
-            labels=labels,
-            parents=parents,
-            values=values,
-            marker = dict(
-                    colors = colors
-                    ),
-            leaf = {
-                    'opacity': 1.0
-                    },
-            branchvalues="total",  # if children exceed parent, graph will crash and not show
-            insidetextorientation="horizontal",  # text displays PP
-            # marker=dict(
-            #    colorscale='RdBu',
-            #    cmid=8
-            #    )
-            hovertext=[
-                str(percentage_everything[i])
-                + "% of Parent<br>Game Count: "
-                + str(values[i])
-                + '<br>Opening: '
-                + hovertip_openings[i]
-                + '<br>W/B Winning Percentage: ' # Note: this is wins+1/2draws/wins+losses+draws
-                + str(ratios[i])
-                for i in range(len(percentage_everything))
-            ],
-            hovertemplate="%{hovertext}<extra></extra>",
+def form(ids, labels, parents, values, colors, ratios, percentage_everything, hovertip_openings, shade):
+    if shade:
+        fig = go.Figure(
+            go.Sunburst(
+                ids=ids,
+                labels=labels,
+                parents=parents,
+                values=values,
+                marker = dict(
+                        colors = colors,
+                        ),
+                leaf = {
+                        'opacity': 1.0
+                        },
+                branchvalues="total",  # if children exceed parent, graph will crash and not show
+                insidetextorientation="horizontal",  # text displays PP
+                # marker=dict(
+                #    colorscale='RdBu',
+                #    cmid=8
+                #    )
+                hovertext=[
+                    str(percentage_everything[i])
+                    + "% of Parent<br>Game Count: "
+                    + str(values[i])
+                    + '<br>Opening: '
+                    + hovertip_openings[i]
+                    + '<br>W/B Winning Percentage: ' # Note: this is wins+1/2draws/wins+losses+draws
+                    + str(ratios[i])
+                    for i in range(len(percentage_everything))
+                ],
+                hovertemplate="%{hovertext}<extra></extra>",
+            )
         )
-    )
-
+    else:
+        fig = go.Figure(
+            go.Sunburst(
+                ids=ids,
+                labels=labels,
+                parents=parents,
+                values=values,
+                leaf = {
+                        'opacity': 1.0
+                        },
+                branchvalues="total",  # if children exceed parent, graph will crash and not show
+                insidetextorientation="horizontal",  # text displays PP
+                # marker=dict(
+                #    colorscale='RdBu',
+                #    cmid=8
+                #    )
+                hovertext=[
+                    str(percentage_everything[i])
+                    + "% of Parent<br>Game Count: "
+                    + str(values[i])
+                    + '<br>Opening: '
+                    + hovertip_openings[i]
+                    + '<br>W/B Winning Percentage: ' # Note: this is wins+1/2draws/wins+losses+draws
+                    + str(ratios[i])
+                    for i in range(len(percentage_everything))
+                ],
+                hovertemplate="%{hovertext}<extra></extra>",
+            )
+        )
     fig.update_layout(
         margin=dict(t=30, l=30, r=30, b=0),
         title = {
@@ -213,7 +241,7 @@ def find_colors(ids, ratios, lst):
     return rgb_codes, full_ratios
 
 
-def graph(database, depth=5, fragmentation_percentage=0.0032, should_defragment=False, custom_branching=False): # need file path, depth,
+def graph(database, depth=5, shade = True, fragmentation_percentage=0.0032, should_defragment=False, custom_branching=False, should_download = False, download_format = 'png', download_name = 'fig1'): # need file path, depth,
 
     database = open(database)
 
@@ -231,9 +259,15 @@ def graph(database, depth=5, fragmentation_percentage=0.0032, should_defragment=
         else:
             hovertip_openings.append('Non-ECO Opening')
 
-    fig = form(ids, labels, parents, values, rgb_codes, full_ratios, percentage_everything, hovertip_openings)
+    fig = form(ids, labels, parents, values, rgb_codes, full_ratios, percentage_everything, hovertip_openings, shade)
 
     fig.show()
+
+    def download(format, name = 'fig1'):
+        fig.write_image(name+'.'+format)
+
+    if should_download == True:
+        download(download_format, download_name)
 
 # download interactive HTML
 # fig.write_html("fig1.html")
@@ -244,6 +278,3 @@ def graph(database, depth=5, fragmentation_percentage=0.0032, should_defragment=
 # KEEP IN MIND THAT TO DOWNLOAD AN IMAGE, YOU NEED THE FOLLOWING IN YOUR TERMINAL: npm install -g electron@1.8.4 orca         pip install psutil requests      pip install psutil
 # only then can you download the image without failure
 # switch the.jpeg to your favourite format such as pdf or svg
-
-def download(fig, format):
-    fig.write_image("fig1."+format)

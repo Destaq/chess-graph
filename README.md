@@ -34,16 +34,6 @@ The pie chart sizes will be divided based on how frequent the move is compared t
 4. Run the following command: `chart.graph(*relative/absolute path to file*, depth (default 5), fragmentation_percentage (default 0.0032), should_defragment (default False), custom_branching (default false))`
 - Example: Sample pgns are included in the repo, under the pgns/folder. Navigate to this overall github repo folder and then type python3. Then type import chart. Remember that one of the sample pgns is named mir_khan.pgn. Then type chart.graph('pgns/mir_khan.pgn', depth = 6) to get a chart of Mir Khan's games to a depth of 6. Remember the filename must be a string.
 
-### Using via pip install
-1. `pip install chess-graph`
-2. Open terminal/interpreter.
-3. Type `import chess_graph` into your terminal/interpreter
-4. Type `chess_graph.graph(*path to file*, depth = 5, fragmentation_percentage = 0.0032, should_defragment = False, custom_branching = False)`
-
-Note that the path to the pgn file must be relative to the current directory python is running in. For example, if you have the pgn downloaded on your Desktop, you could easily solve this issue by navigating to Desktop within terminal (cd Desktop). From there, you can run path to file simply by typing in the filename (assuming it is in Desktop). If this is confusing, just type in the full path.
-
-To see which directory you are in, you can also type `import os` and then `os.getcwdb()`.
-
 ### How to Use
 
 #### Using directly from the Github Repo
@@ -60,7 +50,6 @@ To see which directory you are in, you can also type `import os` and then `os.ge
 3. `from chess_graph import chart`
 4. `chart.graph(*path to file*, depth = 5, fragmentation_percentage = 0.0032, should_defragment = False, custom_branching = False)`
   - Note that the path to the pgn file must be relative to the current directory python is running in. For example, if you have the pgn downloaded on your Desktop, you could easily solve this issue by navigating to Desktop within terminal (cd Desktop). From there, you can run *path to file* simply by typing in the filename (assuming it is in Desktop). If this is confusing, just type in the full path.
->>>>>>> 4bb715a687784406210544a68e8be0143cb67149
 
 ### Prerequisites
 - Runs in Python 3, must have Python 3 installed

@@ -1,4 +1,4 @@
-![Python application](https://github.com/Destaq/chess_opening_graph/workflows/Python%20application/badge.svg)
+![Python application](https://github.com/Destaq/chess_graph/workflows/Python%20application/badge.svg)
 # The Chess Opening Analyzer
 **Available on PyPI with `pip install chess-graph`!**
 

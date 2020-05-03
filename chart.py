@@ -7,7 +7,7 @@
 
 import plotly.graph_objects as go
 from collections import Counter
-import game_parser, random
+import game_parser
 import find_opening
 
 
@@ -266,5 +266,3 @@ def graph(database, depth=5, shade = True, fragmentation_percentage=0.0032, shou
 
     if should_download == True:
         download(download_format, download_name)
-
-graph('pgns/mir_khan.pgn')

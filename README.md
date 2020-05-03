@@ -43,7 +43,7 @@ The pie chart sizes will be divided based on how frequent the move is compared t
 Note that the path to the pgn file must be relative to the current directory python is running in. For example, if you have the pgn downloaded on your Desktop, you could easily solve this issue by navigating to Desktop within terminal (cd Desktop). From there, you can run path to file simply by typing in the filename (assuming it is in Desktop). If this is confusing, just type in the full path.
 
 To see which directory you are in, you can also type `import os` and then `os.getcwdb()`.
-=======
+
 ### How to Use
 
 #### Using directly from the Github Repo

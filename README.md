@@ -26,7 +26,6 @@ The pie chart sizes will be divided based on how frequent the move is compared t
 - **Run easily** with the PyPI module, `chess-graph`
 - **Hide small slices** and prevent them from showing up in the graph!
 
-<<<<<<< HEAD
 ### How to Use Github Repo
 1. Download the repo (make sure you have fulfilled the prerequisites)
 2. Download the PGN game you want to analyze (or use one of the examples). Make sure it is downloaded in the same folder as the repo.

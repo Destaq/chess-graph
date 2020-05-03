@@ -3,7 +3,7 @@
 **Available on PyPI with `pip install chess-graph`!**
 
 <p align="center">
-  <img width = "610" height = "400" src = "https://github.com/Destaq/opening_analysis/raw/master/images/main_image.png">
+  <img width = "574" height = "400" src = "https://github.com/Destaq/opening_analysis/raw/master/images/main_image.png">
  </p>
 
 ## About
@@ -11,7 +11,7 @@ A program that will produce a graphical sunburst chart of chess openings from th
 
 You can upload your own PGN files and then create a multi-level piechart to your inputted depth that will show each move by its relative popularity.
 
-The `chart` python file will then create a vividly colored graphical chart using Plot.ly with each segment shaded based on how often white/black win.
+The `chart.py` python file will then create a vividly colored graphical chart using Plot.ly with each segment shaded based on how often white/black win.
 
 The pie chart sizes will be divided based on how frequent the move is compared to its parent. You can hover on the 'slice' of the piechart to see the exact number of games in which that position was reached; clicking is also possible to expand that segment to 100%.
 

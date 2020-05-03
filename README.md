@@ -61,11 +61,13 @@ You can install Plotly and Python-Chess using PyPi, as long as you are an admin 
 If you would like to simply run this code from Python IDE, then type `pip install chess-graph` (make sure you have the other modules installed as well).
 
 ### Downloading
-Downloading *is* an option, although to do so you will need to go to chart.py and scroll to the bottom of the fie. There, several lines will be commented out.
+Downloading *is* an option, although to download in some formats you need to install extra libraries.
 
-Currently, you can uncomment the download interactive HTML file without anything else to download. If you do so, an HTML file of the graph will be saved to your device, which you can open with your browser.
+Currently, you can download as an interactive HTML file without any extra dependencies. If you do so, an HTML file of the graph will be saved to your device, which you can open with your browser.
 
-You can also download the file as: SVG, PDF, JPEG, PNG, and WebP. Just uncomment those lines in the file as well, instructions are there. However, if you want to download in *these* formats you need the following installed.
+You can also download the file as: SVG, PDF, JPEG, PNG, and WebP.
+
+However, if you want to download in *these* formats you need the following installed.
 
 `npm install -g electron@1.8.4 orca`
 

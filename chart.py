@@ -7,7 +7,7 @@
 
 import plotly.graph_objects as go
 from collections import Counter
-import game_parser
+import game_parser, random
 import find_opening
 
 
@@ -127,6 +127,14 @@ def form(ids, labels, parents, values, colors, ratios, percentage_everything, ho
                 values=values,
                 marker = dict(
                         colors = colors,
+                        colorscale = 'Greys_r',
+                        colorbar = dict(
+                                    thickness = 20,
+                                    title = dict(
+                                            text = 'White/Black Winning Percentage',
+                                            side = 'right'
+                                            )
+                                    )
                         ),
                 leaf = {
                         'opacity': 1.0
@@ -146,6 +154,18 @@ def form(ids, labels, parents, values, colors, ratios, percentage_everything, ho
                 hovertemplate="%{hovertext}<extra></extra>",
             )
         )
+        fig.update_layout(
+            margin=dict(t=30, l=30, r=30, b=0),
+            title = {
+                'text': "The Chess Opening Graph",
+                'xanchor': 'center',
+                'y':0.995,
+                'x':0.4715,
+                'yanchor': 'top',
+                'font': {
+                    'size': 25
+                        }
+                })
     else:
         fig = go.Figure(
             go.Sunburst(
@@ -171,18 +191,18 @@ def form(ids, labels, parents, values, colors, ratios, percentage_everything, ho
                 hovertemplate="%{hovertext}<extra></extra>",
             )
         )
-    fig.update_layout(
-        margin=dict(t=30, l=30, r=30, b=0),
-        title = {
-            'text': "The Chess Opening Graph",
-            'xanchor': 'center',
-            'y':0.995,
-            'x':0.5,
-            'yanchor': 'top',
-            'font': {
-                'size': 25
-                    }
-            })
+        fig.update_layout(
+            margin=dict(t=30, l=30, r=30, b=0),
+            title = {
+                'text': "The Chess Opening Graph",
+                'xanchor': 'center',
+                'y':0.995,
+                'x':0.50,
+                'yanchor': 'top',
+                'font': {
+                    'size': 25
+                        }
+                })
 
     return fig #nasty thing should be fixed by autopep8
 
@@ -216,16 +236,7 @@ def find_colors(ids, ratios, lst, kick_depth):
 
         full_ratios.append(result)
 
-
-    rgb_codes = []
-    max_rgb = 255
-    for i in range(len(full_ratios)):
-        rgb_codes.append((full_ratios[i])*max_rgb)
-
-    for i in range(len(rgb_codes)):
-        rgb_codes[i] = 'rgb('+str(int(rgb_codes[i])) + ',' + str(int(rgb_codes[i])) + ',' + str(int(rgb_codes[i])) + ')'
-
-    return rgb_codes, full_ratios
+    return full_ratios
 
 
 def graph(database, depth=5, shade = True, fragmentation_percentage=0.0032, should_defragment=False, custom_branching=False, should_download = False, download_format = 'png', download_name = 'fig1'): # need file path, depth,
@@ -234,7 +245,7 @@ def graph(database, depth=5, shade = True, fragmentation_percentage=0.0032, shou
 
     ids, labels, parents, values, percentage_everything, lst, ratios, kick_depth = form_values(database, depth, fragmentation_percentage, should_defragment, custom_branching) # a good value is about 10x the smallest value
 
-    rgb_codes, full_ratios = find_colors(ids, ratios, lst, kick_depth)
+    full_ratios = find_colors(ids, ratios, lst, kick_depth)
 
     eco_codes, eco_names, eco_positions = find_opening.create_openings()
     hovertip_openings = []
@@ -246,7 +257,7 @@ def graph(database, depth=5, shade = True, fragmentation_percentage=0.0032, shou
         else:
             hovertip_openings.append('Non-ECO Opening')
 
-    fig = form(ids, labels, parents, values, rgb_codes, full_ratios, percentage_everything, hovertip_openings, shade)
+    fig = form(ids, labels, parents, values, full_ratios, full_ratios, percentage_everything, hovertip_openings, shade)
 
     fig.show()
 
@@ -255,3 +266,5 @@ def graph(database, depth=5, shade = True, fragmentation_percentage=0.0032, shou
 
     if should_download == True:
         download(download_format, download_name)
+
+graph('pgns/mir_khan.pgn')

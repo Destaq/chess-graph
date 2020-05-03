@@ -268,13 +268,3 @@ def graph(database, depth=5, shade = True, fragmentation_percentage=0.0032, shou
 
     if should_download == True:
         download(download_format, download_name)
-
-# download interactive HTML
-# fig.write_html("fig1.html")
-
-# Note: You can also download the image! You can do so in the following formats:
-# SVG, PNG, JPEG, PDF, and WebP
-# to do so, unhash the below line and fill the file type with your desired file type
-# KEEP IN MIND THAT TO DOWNLOAD AN IMAGE, YOU NEED THE FOLLOWING IN YOUR TERMINAL: npm install -g electron@1.8.4 orca         pip install psutil requests      pip install psutil
-# only then can you download the image without failure
-# switch the.jpeg to your favourite format such as pdf or svg

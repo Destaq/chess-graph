@@ -1,5 +1,6 @@
 ![Python application](https://github.com/Destaq/chess_opening_graph/workflows/Python%20application/badge.svg)
 # The Chess Opening Analyzer
+**Available on PyPI with `pip install chess-graph`!**
 
 <p align="center">
   <img width = "498" height = "383" src = "https://github.com/Destaq/opening_analysis/raw/master/images/main_image.png">
@@ -22,13 +23,26 @@ The pie chart sizes will be divided based on how frequent the move is compared t
 - **Click to zoom** in on a slice and expand it, making it easy to magnify any slice of the pie chart
 - **Downloadable files**: you can download the chart as an interactive HTML, or as a static PNG/JPEG/SVG/WEBP image with just a few clicks
 - **Win Ratio Shading** means that you will never be in doubt as to what next move is statistically best
+- **Run easily** with the PyPI module, `chess-graph`
+- **Hide small slices** and prevent them from showing up in the graph!
 
-### How to Use
+### How to Use Github Repo
 1. Download the repo (make sure you have fulfilled the prerequisites)
 2. Download the PGN game you want to analyze (or use one of the examples). Make sure it is downloaded in the same folder as the repo.
-3. Run chart.py.
-- You will be asked for the path to the file. Do so by typing in the path to your pgn game relative to vivid_chart. E.g. if you downloaded your file and dragged it into the pgns subfolder, you would type `pgns/my_file.pgn`
-- You will then be asked to what *depth* the chart should be made. **This is ply depth!**. Keep in mind: ply depth of 5 takes 30 seconds for a database with a few thousand games, and it takes 2 minutes to go to a depth of 8 for a few thousand games as well.
+3. Open a python terminal and type `import chart`; this is the file that will allow you to form the graph
+- Note: you can also simply scroll down to the bottom of the `chart.py` file for the next step instead
+4. Run the following command: `chart.graph(*relative/absolute path to file*, depth (default 5), fragmentation_percentage (default 0.0032), should_defragment (default False), custom_branching (default false))`
+- Example: Sample pgns are included in the repo, under the pgns/folder. Navigate to this overall github repo folder and then type python3. Then type import chart. Remember that one of the sample pgns is named mir_khan.pgn. Then type chart.graph(pgns/mir_khan.pgn, depth = 6) to get a chart of Mir Khan's games to a depth of 6.
+
+### Using via pip install
+1. `pip install chess-graph`
+2. Open terminal/interpreter.
+3. Type `import chess_graph` into your terminal/interpreter
+4. Type `chess_graph.graph(*path to file*, depth = 5, fragmentation_percentage = 0.0032, should_defragment = False, custom_branching = False)`
+
+Note that the path to the pgn file must be relative to the current directory python is running in. For example, if you have the pgn downloaded on your Desktop, you could easily solve this issue by navigating to Desktop within terminal (cd Desktop). From there, you can run path to file simply by typing in the filename (assuming it is in Desktop). If this is confusing, just type in the full path.
+
+To see which directory you are in, you can also type `import os` and then `os.getcwdb()`.
 
 ### Prerequisites
 - Runs in Python 3, must have Python 3 installed

@@ -4,13 +4,8 @@
 # Provides a colorful multi-level pie chart which shows the popularity of openings after moves
 # For more info, go to www.github.com/Destaq/opening_analysis
 
-# TODO: shading
-# TODO: custom branching e.g. ruy lopez
-# TODO: prune slices that are too small, based on PERCENTAGE not count
 
-# COMPLETE: gambit and opening identifications
-# COMPLETE: percentages of parent
-# COMPLETE: pick player and their color - use chess.com database OR input player name as if statement in header
+# TODO: better custom branching visualization
 
 import plotly.graph_objects as go
 from collections import Counter

@@ -26,6 +26,7 @@ The pie chart sizes will be divided based on how frequent the move is compared t
 - **Run easily** with the PyPI module, `chess-graph`
 - **Hide small slices** and prevent them from showing up in the graph!
 
+<<<<<<< HEAD
 ### How to Use Github Repo
 1. Download the repo (make sure you have fulfilled the prerequisites)
 2. Download the PGN game you want to analyze (or use one of the examples). Make sure it is downloaded in the same folder as the repo.
@@ -43,12 +44,33 @@ The pie chart sizes will be divided based on how frequent the move is compared t
 Note that the path to the pgn file must be relative to the current directory python is running in. For example, if you have the pgn downloaded on your Desktop, you could easily solve this issue by navigating to Desktop within terminal (cd Desktop). From there, you can run path to file simply by typing in the filename (assuming it is in Desktop). If this is confusing, just type in the full path.
 
 To see which directory you are in, you can also type `import os` and then `os.getcwdb()`.
+=======
+### How to Use
+
+#### Using directly from the Github Repo
+1. Download the repo (make sure you have fulfilled the prerequisites)
+2. Download the PGN game you want to analyze (or use one of the examples). Make sure it is downloaded in the same folder as the repo.
+3. Import `chart.py`
+4. Run the function `chart.graph(*path to file*, depth = 5, fragmentation_percentage = 0.0032, should_defragment = False, custom_branching = False)`
+- Note that the path to the pgn file must be relative to the current directory python is running in. For example, if you have the pgn downloaded on your Desktop, you could easily solve this issue by navigating to Desktop within terminal (cd Desktop). From there, you can run *path to file* simply by typing in the filename (assuming it is in Desktop). If this is confusing, just type in the full path.
+- The arguments with an equal sign means that they are set to that as default, but you can change them by typing in e.g. depth = 7.
+
+#### Using via pip install
+1. `pip install chess-graph`
+2. Open terminal/interpreter.
+3. `from chess_graph import chart`
+4. `chart.graph(*path to file*, depth = 5, fragmentation_percentage = 0.0032, should_defragment = False, custom_branching = False)`
+  - Note that the path to the pgn file must be relative to the current directory python is running in. For example, if you have the pgn downloaded on your Desktop, you could easily solve this issue by navigating to Desktop within terminal (cd Desktop). From there, you can run *path to file* simply by typing in the filename (assuming it is in Desktop). If this is confusing, just type in the full path.
+>>>>>>> 4bb715a687784406210544a68e8be0143cb67149
 
 ### Prerequisites
 - Runs in Python 3, must have Python 3 installed
 - Requires Plotly and Python-Chess
+- To run as PyPI module, have this projects PyPI package installed
 
 You can install Plotly and Python-Chess using PyPi, as long as you are an admin user on your device. To do so, simply type `pip install plotly` and `pip install python-chess` into your terminal.
+
+If you would like to simply run this code from Python IDE, then type `pip install chess-graph` (make sure you have the other modules installed as well).
 
 ### Downloading
 Downloading *is* an option, although to do so you will need to go to chart.py and scroll to the bottom of the fie. There, several lines will be commented out.

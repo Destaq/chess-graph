@@ -264,5 +264,13 @@ def graph(database, depth=5, shade = True, fragmentation_percentage=0.0032, shou
     def download(format, name = 'fig1'):
         fig.write_image(name+'.'+format)
 
+    def download_html(name = 'fig1'):
+        fig.write_html(name+'.html')
+
+    static_download_formats = ['png', 'jpeg', 'svg', 'pdf', 'jpg', 'webp']
+
     if should_download == True:
-        download(download_format, download_name)
+        if download_format in static_download_formats:
+            download(download_format, download_name)
+        else:
+            download_html(download_name)

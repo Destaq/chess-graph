@@ -20,39 +20,27 @@ def form_values(gammme, depth, fragmentation_percentage, should_defragment, cust
     ]  # probably unneeded but for safety's sake...
 
     all_level_moves, exclude_first_moves = [], []  # for parent/labels later
-    counter = 0
+    counter = kick_depth
     holder = [firstx[i][0] for i in range(len(firstx))]
     holder = dict(Counter(holder))
 
     percentage_holder, firstmove = [], []
 
     while counter < depth:
-        if counter == 0:
-            firstmove = list(
-                Counter([tuple(firstx[i][:1]) for i in range(len(lst))]).items()
-            )  #  list of first ply moves based on popularity
-            all_level_moves.append(firstmove)
-            counter += 1
-
-        else:
-            counter += 1
-            othermove = list(
-                Counter([tuple(firstx[i][:counter]) for i in range(len(lst))]).items()
-            )
-            all_level_moves.append(othermove)
-            exclude_first_moves.append(
-                othermove
-            )  # obviously excluding first moves (for parent creation)
-
+        counter += 1
+        othermove = list(
+            Counter([tuple(firstx[i][kick_depth:counter]) for i in range(len(lst))]).items()
+        )
+        all_level_moves.append(othermove)
+        exclude_first_moves.append(
+            othermove
+        )  # obviously excluding first moves (for parent creation)
     pz = []
     true_ids = []  # the ids, that is
     parents = []
     labels = []
 
     for i in range(len(all_level_moves)):
-        labels += [
-            all_level_moves[i][f][0][i] for f in range(len(all_level_moves[i]))
-        ]  # similar to hackerrank diagonal
 
         if i == 0:
             true_ids = [
@@ -61,8 +49,14 @@ def form_values(gammme, depth, fragmentation_percentage, should_defragment, cust
             true_ids = [
                 item for sublist in true_ids for item in sublist
             ]  # functions perfectly
+            labels += [
+                all_level_moves[i][f][0][0] for f in range(len(all_level_moves[i]))
+            ]  # similar to hackerrank diagonal
             firstcount = len(labels)
         else:
+            labels += [
+                all_level_moves[i][f][0][i] for f in range(len(all_level_moves[i]))
+            ]  # similar to hackerrank diagonal
             true_ids += [
                 all_level_moves[i][r][0] for r in range(len(all_level_moves[i]))
             ]
@@ -120,7 +114,7 @@ def form_values(gammme, depth, fragmentation_percentage, should_defragment, cust
         parents = [parents[i] for i in range(len(parents)) if i not in del_list]
         values = [values[i] for i in range(len(values)) if i not in del_list]
 
-    return ids, labels, parents, values, percentage_holder, lst, ratios
+    return ids, labels, parents, values, percentage_holder, lst, ratios, kick_depth
 
 
 def form(ids, labels, parents, values, colors, ratios, percentage_everything, hovertip_openings, shade):
@@ -139,10 +133,6 @@ def form(ids, labels, parents, values, colors, ratios, percentage_everything, ho
                         },
                 branchvalues="total",  # if children exceed parent, graph will crash and not show
                 insidetextorientation="horizontal",  # text displays PP
-                # marker=dict(
-                #    colorscale='RdBu',
-                #    cmid=8
-                #    )
                 hovertext=[
                     str(percentage_everything[i])
                     + "% of Parent<br>Game Count: "
@@ -168,10 +158,6 @@ def form(ids, labels, parents, values, colors, ratios, percentage_everything, ho
                         },
                 branchvalues="total",  # if children exceed parent, graph will crash and not show
                 insidetextorientation="horizontal",  # text displays PP
-                # marker=dict(
-                #    colorscale='RdBu',
-                #    cmid=8
-                #    )
                 hovertext=[
                     str(percentage_everything[i])
                     + "% of Parent<br>Game Count: "
@@ -200,7 +186,7 @@ def form(ids, labels, parents, values, colors, ratios, percentage_everything, ho
 
     return fig #nasty thing should be fixed by autopep8
 
-def find_colors(ids, ratios, lst):
+def find_colors(ids, ratios, lst, kick_depth):
     holder = []
     for i in range(len(ids)):
         if type(ids[i]) != str:
@@ -208,6 +194,7 @@ def find_colors(ids, ratios, lst):
         else:
             holder.append(list(ids[i].split(' ')))
 
+    lst = [lst[i][kick_depth:] for i in range(len(lst))]
     white_list = [0]*len(holder)
     black_list = [0]*len(holder)
     draw_list = [0]*len(holder)
@@ -245,9 +232,9 @@ def graph(database, depth=5, shade = True, fragmentation_percentage=0.0032, shou
 
     database = open(database)
 
-    ids, labels, parents, values, percentage_everything, lst, ratios = form_values(database, depth, fragmentation_percentage, should_defragment, custom_branching) # a good value is about 10x the smallest value
+    ids, labels, parents, values, percentage_everything, lst, ratios, kick_depth = form_values(database, depth, fragmentation_percentage, should_defragment, custom_branching) # a good value is about 10x the smallest value
 
-    rgb_codes, full_ratios = find_colors(ids, ratios, lst)
+    rgb_codes, full_ratios = find_colors(ids, ratios, lst, kick_depth)
 
     eco_codes, eco_names, eco_positions = find_opening.create_openings()
     hovertip_openings = []

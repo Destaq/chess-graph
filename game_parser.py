@@ -50,6 +50,7 @@ def parse_individual_games(pgn, depth, custom_branching):
 
 
         full_list = [full_list[i] for i in range(len(full_list)) if i not in del_list]
+        full_rats = [full_rats[i] for i in range(len(full_rats)) if i not in del_list]
 
 
     return full_list, full_rats, kick_depth

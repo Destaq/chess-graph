@@ -3,7 +3,7 @@
 **Available on PyPI with `pip install chess-graph`!**
 
 <p align="center">
-  <img width = "574" height = "400" src = "https://github.com/Destaq/opening_analysis/raw/master/images/main_image.png">
+  <img width = "630" height = "400" src = "https://github.com/Destaq/opening_analysis/raw/master/images/main_image.png">
  </p>
 
 ## About

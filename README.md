@@ -26,14 +26,6 @@ The pie chart sizes will be divided based on how frequent the move is compared t
 - **Run easily** with the PyPI module, `chess-graph`
 - **Hide small slices** and prevent them from showing up in the graph!
 
-### How to Use Github Repo
-1. Download the repo (make sure you have fulfilled the prerequisites)
-2. Download the PGN game you want to analyze (or use one of the examples). Make sure it is downloaded in the same folder as the repo.
-3. Open a python terminal and type `import chart`; this is the file that will allow you to form the graph
-- Note: you can also simply scroll down to the bottom of the `chart.py` file for the next step instead
-4. Run the following command: `chart.graph(*relative/absolute path to file*, depth (default 5), fragmentation_percentage (default 0.0032), should_defragment (default False), custom_branching (default false))`
-- Example: Sample pgns are included in the repo, under the pgns/folder. Navigate to this overall github repo folder and then type python3. Then type import chart. Remember that one of the sample pgns is named mir_khan.pgn. Then type chart.graph('pgns/mir_khan.pgn', depth = 6) to get a chart of Mir Khan's games to a depth of 6. Remember the filename must be a string.
-
 ### How to Use
 
 #### Using directly from the Github Repo

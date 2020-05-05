@@ -27,6 +27,15 @@ The pie chart sizes will be divided based on how frequent the move is compared t
 - **Run easily** with the PyPI module, `chess-graph`
 - **Hide small slices** and prevent them from showing up in the graph!
 
+### Prerequisites
+- Runs in Python 3, must have Python 3 installed
+- Requires Plotly and pgnparser
+- To run as PyPI module, have this projects PyPI package installed
+
+You can install Plotly and pgnparser using PyPi, as long as you are an admin user on your device. To do so, simply type `pip install plotly` and `pip install pgnparser` into your terminal.
+
+If you would like to simply run this code from Python IDE, then type `pip install chess-graph` (make sure you have the other modules installed as well).
+
 ### How to Use
 
 #### Using directly from the Github Repo
@@ -70,15 +79,6 @@ The pie chart sizes will be divided based on how frequent the move is compared t
   - The `download_format` argument. Set to the string 'png' by default. Change it to the string of the file type you want the download to be in. `chess_graph.graph(..., download_format = 'jpeg')`
 
   - The `download_name` argument. The name of the figure that will be downloaded. Set to be fig1 by default, meaning that files downloaded will be downloaded as fig1.png. See above.
-
-### Prerequisites
-- Runs in Python 3, must have Python 3 installed
-- Requires Plotly and Python-Chess
-- To run as PyPI module, have this projects PyPI package installed
-
-You can install Plotly and Python-Chess using PyPi, as long as you are an admin user on your device. To do so, simply type `pip install plotly` and `pip install python-chess` into your terminal.
-
-If you would like to simply run this code from Python IDE, then type `pip install chess-graph` (make sure you have the other modules installed as well).
 
 ### Downloading
 Downloading *is* an option, although to download in some formats you need to install extra libraries.

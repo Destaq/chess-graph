@@ -7,13 +7,13 @@
 
 import plotly.graph_objects as go
 from collections import Counter
-import game_parser
+import new_parser
 import find_opening
 
 
 
 def form_values(gammme, depth, fragmentation_percentage, should_defragment, custom_branching):
-    lst, ratios, kick_depth = game_parser.parse_individual_games(gammme, depth, custom_branching) #whether or not to implement custom branching
+    lst, ratios, kick_depth = new_parser.parse_games(gammme, depth, custom_branching) #whether or not to implement custom branching
     """Create parent, id, labels, and values """
     firstx = [
         lst[i][:depth] for i in range(len(lst))
@@ -240,8 +240,6 @@ def find_colors(ids, ratios, lst, kick_depth):
 
 
 def graph(database, depth=5, shade = True, fragmentation_percentage=0.0032, should_defragment=False, custom_branching=False, should_download = False, download_format = 'png', download_name = 'fig1'): # need file path, depth,
-
-    database = open(database)
 
     ids, labels, parents, values, percentage_everything, lst, ratios, kick_depth = form_values(database, depth, fragmentation_percentage, should_defragment, custom_branching) # a good value is about 10x the smallest value
 

@@ -13,10 +13,10 @@ import find_opening
 
 
 def form_values(gammme, depth, fragmentation_percentage, should_defragment, custom_branching):
-    lst, ratios, kick_depth = new_parser.parse_games(gammme, depth, custom_branching) #whether or not to implement custom branching
     """Create parent, id, labels, and values """
+    lst, ratios, kick_depth = new_parser.parse_games(gammme, depth, custom_branching) #whether or not to implement custom branching
     firstx = [
-        lst[i][:depth] for i in range(len(lst))
+        lst[i][:depth+kick_depth] for i in range(len(lst))
     ]  # probably unneeded but for safety's sake...
 
     all_level_moves, exclude_first_moves = [], []  # for parent/labels later
@@ -26,7 +26,7 @@ def form_values(gammme, depth, fragmentation_percentage, should_defragment, cust
 
     percentage_holder, firstmove = [], []
 
-    while counter < depth:
+    while counter < depth + kick_depth:
         counter += 1
         othermove = list(
             Counter([tuple(firstx[i][kick_depth:counter]) for i in range(len(lst))]).items()

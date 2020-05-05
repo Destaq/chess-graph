@@ -1,5 +1,4 @@
 import pgn
-import sys
 
 
 def parse_games(database, depth, custom_branching):

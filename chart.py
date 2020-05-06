@@ -2,7 +2,7 @@
 # April 2020
 
 # Provides a colorful multi-level pie chart which shows the popularity of openings after moves
-# For more info, go to www.github.com/Destaq/opening_analysis
+# For more info, go to www.github.com/Destaq/chess_graph
 
 
 import plotly.graph_objects as go

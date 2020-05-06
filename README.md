@@ -26,6 +26,7 @@ The pie chart sizes will be divided based on how frequent the move is compared t
 - **Win Ratio Shading** means that you will never be in doubt as to what next move is statistically best
 - **Run easily** with the PyPI module, `chess-graph`
 - **Hide small slices** and prevent them from showing up in the graph!
+- **Custom player and color** by choosing games from a certain player where they played as a certain color
 
 ### Prerequisites
 - Runs in Python 3, must have Python 3 installed
@@ -79,6 +80,12 @@ If you would like to simply run this code from Python IDE, then type `pip instal
   - The `download_format` argument. Set to the string 'png' by default. Change it to the string of the file type you want the download to be in. `chess_graph.graph(..., download_format = 'jpeg')`
 
   - The `download_name` argument. The name of the figure that will be downloaded. Set to be fig1 by default, meaning that files downloaded will be downloaded as fig1.png. See above.
+
+  - The `color` argument. This is set to both by default. Valid inputs are 'both', 'white', 'w', 'black' and 'b'. If you change the `color` argument from both, then the program will only read games that are from the `color` you chose. Note that you need to also change the player name with the name argument if you do so. See below.
+
+  - The `name` argument. This argument will allow the program to pick games from the file it is given, but only games from a certain player. There is an example below: Set the color to 'black' or 'white' to pick only games where the player (the name) played as black or white. (i.e. chess_graph.graph('pgns/Carlsen.pgn', color = 'white', name = 'Magnus Carlsen') will pick all the games where Carlsen played as white.)
+
+**Remember to include all variations and parts of a player's name! For example, the player Viktor Korchnoi has his last name spelled as Kortschnoj as well. In that case, for the 'name' field, type: Viktor Korchnoi Kortschnoj**
 
 ### Downloading
 Downloading *is* an option, although to download in some formats you need to install extra libraries.

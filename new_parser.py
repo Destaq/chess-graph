@@ -15,6 +15,7 @@ def parse_games(database, depth, custom_branching, color, name):
     kick_depth = 0
 
     name = name.split(' ')
+    #od
     if len(name) >= 2:
         for i in range(len(name)):
             name.append(name[i][0])
@@ -41,8 +42,25 @@ def parse_games(database, depth, custom_branching, color, name):
                     all_games.append(game.moves)
 
         else:
-            if len(game.moves) >= depth+2:
-                all_games.append(game.moves)
+            if name == '':
+                if len(game.moves) >= depth+2:
+                    all_games.append(game.moves)
+
+            else:
+                other_name = str(game.white)
+                other_name = other_name.replace(',', ' ')
+                other_name = other_name.replace('  ', ' ')
+                other_name = other_name.split(' ')
+
+                other_name2 = str(game.black)
+                other_name2 = other_name2.replace(',', ' ')
+                other_name2 = other_name2.replace('  ', ' ')
+                other_name2 = other_name2.split(' ')
+
+                if set(other_name).issubset(set(name)) or set(other_name2).issubset(set(name)):
+                    if len(game.moves) >= depth+2:
+                        all_games.append(game.moves)
+
 
     for i in range(len(all_games)):
         all_games[i].pop(-2)

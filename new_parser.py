@@ -19,8 +19,6 @@ def parse_games(database, depth, custom_branching, color, name):
         for i in range(len(name)):
             name.append(name[i][0])
 
-    print(name)
-
     for game in games:
         if color == 'white' or color == 'w':
             other_name = str(game.white)

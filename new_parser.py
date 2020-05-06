@@ -42,7 +42,7 @@ def parse_games(database, depth, custom_branching, color, name):
                     all_games.append(game.moves)
 
         else:
-            if name == '':
+            if name == ['']:
                 if len(game.moves) >= depth+2:
                     all_games.append(game.moves)
 

@@ -1,10 +1,12 @@
 import pgn
 
 
-def parse_games(database, depth, custom_branching):
+def parse_games(database, depth, custom_branching, color, name):
     database = open(database)
     pgn_text = database.read()
     database.close()
+
+    color = color.lower()
 
     games = pgn.loads(pgn_text)
 
@@ -12,9 +14,34 @@ def parse_games(database, depth, custom_branching):
     all_ratios = []
     kick_depth = 0
 
+    name = name.split(' ')
+    for i in range(len(name)):
+        name.append(name[i][0])
+
     for game in games:
-        if len(game.moves) >= depth+2:
-            all_games.append(game.moves)
+        if color == 'white' or color == 'w':
+            other_name = str(game.white)
+            other_name = other_name.replace(',', ' ')
+            other_name = other_name.replace('  ', ' ')
+            other_name = other_name.split(' ')
+
+            if set(other_name).issubset(set(name)):
+                if len(game.moves) >= depth+2:
+                    all_games.append(game.moves)
+
+        elif color == 'black' or color == 'b':
+            other_name = str(game.black)
+            other_name = other_name.replace(',', ' ')
+            other_name = other_name.replace('  ', ' ')
+            other_name = other_name.split(' ')
+
+            if set(other_name).issubset(set(name)):
+                if len(game.moves) >= depth+2:
+                    all_games.append(game.moves)
+
+        else:
+            if len(game.moves) >= depth+2:
+                all_games.append(game.moves)
 
     for i in range(len(all_games)):
         all_games[i].pop(-2)

@@ -1,0 +1,2728 @@
+ECO,name,moves
+B00,King's Pawn Opening; B00,e4
+A40,Queen's Pawn Opening; A40,d4
+A00,Anderssen's Opening,a3
+A00,"Polish Gambit, Anderssen's Opening",a3 a5 b4
+A00,Creepy Crawly Formation,a3 e5 h3 d5
+A00,Andersspike,a3 g6 g4
+A00,Ware; Meadow Hay; Crab,a4
+A00,"Wing Gambit, Ware Opening",a4 b5
+A00,"Cologne Gambit, Ware Opening",a4 b6 d4 d5 Nc3 Nd7
+A00,Ware Gambit,a4 e5 a5 d5 e3 f5 a6
+A01,Larsen; Queen's Fianchetto; Nimzo-Larsen Attack A01,b3
+A01,"Symmetrical Variation, Larsen",b3 b6
+A01,"English Variation, Larsen",b3 c5
+A01,"Classical Variation, Larsen",b3 d5
+A01,"Modern Variation, Larsen",b3 e5
+A01,"Ringelbach Gambit, Larsen",b3 e5 Bb2 f5 e4
+A01,"Paschmann Gambit, Larsen",b3 e5 Bb2 Nc6 f4
+A01,"Dutch Variation, Larsen",b3 f5
+A01,"Indian Variation, Larsen",b3 Nf6
+A01,"Spike Variation, Larsen",b3 Nf6 Bb2 g6 g4
+A00,Polish; Orangutan; Sokolsky; Hunt,b4
+A00,"Birmingham Gambit, Polish",b4 c5
+A00,"Outflank Variation, Polish",b4 c6
+A00,"Schuhler Gambit, Polish",b4 c6 Bb2 a5 b5 cxb5 e4
+A00,"Myers Variation, Polish",b4 d5 Bb2 c6 a4
+A00,"Bugayev Attack, Polish",b4 e5 a3
+A00,"Wolferts Gambit, Polish",b4 e5 Bb2 c5
+A00,Schiffler-Sokolsky; Tartakower Gambit,b4 e5 Bb2 f6 e4 Bxb4
+A00,"Brinckmann Variation, Polish",b4 e5 Bb2 f6 e4 Bxb4 Bc4 Nc6 f4 Qe7 f5 g6
+A00,"Bucker Defense, Polish",b4 Na6
+A00,"Grigorian Variation, Polish",b4 Nc6
+A00,Polish Spike,b4 Nf6 Bb2 g6 g4
+A00,"Karniewski; Tubingen Variation, Polish",b4 Nh6
+A00,Saragossa; Hempel's Opening,c3
+A00,Hanham; Hayward,c3 e5 Qc2
+A10,English Opening; A10,c4
+A10,"Halibut Gambit, English",c4 b5
+A40,"Hartlaub Gambit, English",c4 b6 d4 Bb7 Nc3 e6 e4 f5 exf5 Nf6
+A30,"Symmetrical Defense, English; A30",c4 c5
+A30,"Wing Variation, English",c4 c5 b4
+A34,"Normal Variation, Symmetrical English; A34",c4 c5 Nc3
+A35,"Two Knights Variation, Symmetrical English; A35",c4 c5 Nc3 Nc6
+A36,"Fianchetto Variation, Symmetrical English; A36",c4 c5 Nc3 Nc6 g3
+A36,"Symmetrical Variation, Symmetrical English",c4 c5 Nc3 Nc6 g3 g6 Bg2 Bg7
+A36,"Botvinnik System Reversed, Symmetrical English",c4 c5 Nc3 Nc6 g3 g6 Bg2 Bg7 e3 e5
+A36,"Botvinnik Variation, Symmetrical English",c4 c5 Nc3 Nc6 g3 g6 Bg2 Bg7 e4
+A37,"Two Knights Line, Symmetrical English; A37",c4 c5 Nc3 Nc6 g3 g6 Bg2 Bg7 Nf3
+A38,"Full Symmetry Line, Symmetrical English; A38",c4 c5 Nc3 Nc6 g3 g6 Bg2 Bg7 Nf3 Nf6
+A38,"Double Fianchetto, Symmetrical English",c4 c5 Nc3 Nc6 g3 g6 Bg2 Bg7 Nf3 Nf6 O-O O-O b3
+A38,"Duchamp Variation, Symmetrical English",c4 c5 Nc3 Nc6 g3 g6 Bg2 Bg7 Nf3 Nf6 O-O O-O d3
+A39,"Mecking Variation, Symmetrical English; A39",c4 c5 Nc3 Nc6 g3 g6 Bg2 Bg7 Nf3 Nf6 O-O O-O d4
+A34,"Fianchetto Variation, Symmetrical English",c4 c5 Nc3 Nf6 g3
+A34,"Rubinstein Variation, Symmetrical English",c4 c5 Nc3 Nf6 g3 d5 cxd5 Nxd5 Bg2 Nc7
+A34,"Asymmetrical Variation, English",c4 c5 Nc3 Nf6 Nf3 d5 cxd5 Nxd5
+A34,"Keres-Parma System, English",c4 c5 Nc3 Nf6 Nf3 e6 g3 Nc6
+A34,"Four Knights Variation, Symmetrical English",c4 c5 Nc3 Nf6 Nf3 Nf6
+A30,"Napolitano Gambit, Symmetrical English",c4 c5 Nf3 Nf6 b4
+A31,"Anti-Benoni Variation, Symmetrical English; A31",c4 c5 Nf3 Nf6 d4
+A31,"Two Knights Variation, English",c4 c5 Nf3 Nf6 d4 cxd4 Nxd4
+A32,"Spielmann Defense, Symmetrical English; A32",c4 c5 Nf3 Nf6 d4 cxd4 Nxd4 e6
+A33,A33,c4 c5 Nf3 Nf6 d4 cxd4 Nxd4 e6 Nc3 Nc6
+A33,"Geller Variation, Symmetrical English",c4 c5 Nf3 Nf6 d4 cxd4 Nxd4 e6 Nc3 Nc6 g3 Qb6
+A30,"Hedgehog Variation, Symmetrical English",c4 c5 Nf3 Nf6 g3 b6 Bg2 Bb7 O-O e6 Nc3 Be7
+A30,"Double Fianchetto Defense, English",c4 c5 Nf3 Nf6 g3 b6 Bg2 Bb7 O-O g6
+A11,"Anglo-Slav, English; A11",c4 c6
+A12,A12,c4 c6 Nf3 d5 b3
+A12,"Bled Variation, English",c4 c6 Nf3 d5 b3 Nf6 g3 g6
+A10,"Anglo Scandanavian Defense, English",c4 d5
+A10,"Loehn Gambit, English",c4 d5 cxd5 e6
+A10,"Schulz Gambit, English",c4 d5 cxd5 Nf6
+A10,"Malvinas Variation, English",c4 d5 cxd5 Qxd5 Nc3 Qa5
+A20,King's English; A20,c4 e5
+A20,"Kahiko-Hula Gambit, English",c4 e5 e3 Nf6 f4 exf4 Nf3
+A20,"Double Whammy, English",c4 e5 f4
+A20,"Drill Variation, English",c4 e5 g3 h5
+A21,"Reversed Sicilian, English; A21",c4 e5 Nc3
+A21,"Kramnik-Shirov Variation, English",c4 e5 Nc3 Bb4
+A21,"Troger Variation, English",c4 e5 Nc3 d6 g3 Be6 Bg2 Nc6
+A21,"Keres Defense, English",c4 e5 Nc3 d6 g3 c6
+A21,"General Variation, King's English",c4 e5 Nc3 d6 Nf3
+A21,"Smyslov Variation, English",c4 e5 Nc3 d6 Nf3 Bg4
+A21,Anglo-Dutch,c4 e5 Nc3 f5
+A25,"Reversed Closed Sicilian, English; A25",c4 e5 Nc3 Nc6
+A25,"Troger Variation, English",c4 e5 Nc3 Nc6 g3 g6 Bg2 Be6
+A25,"Taimanov Variation, English",c4 e5 Nc3 Nc6 g3 g6 Bg2 Bg7
+A25,"Hungarian Attack, English",c4 e5 Nc3 Nc6 g3 g6 Bg2 Bg7 Rb1
+A26,"Closed System, King's English; A26",c4 e5 Nc3 Nc6 g3 g6 Bg2 Bg7 d3
+A25,"Closed System, Full Symmetry, King's English",c4 e5 Nc3 Nc6 g3 g6 Bg2 Bg7 d3 d6
+A25,"Botvinnik System, King's English",c4 e5 Nc3 Nc6 g3 g6 Bg2 Bg7 d3 d6 e4
+A25,"Bremen-Hort Variation, English",c4 e5 Nc3 Nc6 g3 g6 Bg2 Bg7 e3 d6 Nge2 Be6
+A25,"Botvinnik Variation, English",c4 e5 Nc3 Nc6 g3 g6 Bg2 Bg7 e4
+A27,"Three Knights System, English; A27",c4 e5 Nc3 Nc6 Nf3
+A28,"Four Knights Variation, English; A28",c4 e5 Nc3 Nc6 Nf3 Nf6
+A28,"Korchnoi Line, English",c4 e5 Nc3 Nc6 Nf3 Nf6 a3
+A28,"Flexible Line, English",c4 e5 Nc3 Nc6 Nf3 Nf6 d3
+A28,"Bradley Beach Variation, English",c4 e5 Nc3 Nc6 Nf3 Nf6 d4 e4
+A28,"Four Knights Variation, English",c4 e5 Nc3 Nc6 Nf3 Nf6 d4 exd4 Nxd4Bb4 Bg5 h6 Bh4 Bxc3+ bxc3 Ne5
+A28,"Quiet Line, English",c4 e5 Nc3 Nc6 Nf3 Nf6 e3
+A28,"Romanishin Variation, English",c4 e5 Nc3 Nc6 Nf3 Nf6 e3 Bb4 Qc2 Bxc3
+A28,"Keene; Stean Variation, English",c4 e5 Nc3 Nc6 Nf3 Nf6 e3 Bb4 Qc2 O-O Nd5 Re8 Qf5
+A28,"Botvinnik Line, English",c4 e5 Nc3 Nc6 Nf3 Nf6 e4
+A29,"Fianchetto Line, Four Knights English; A29",c4 e5 Nc3 Nc6 Nf3 Nf6 g3
+A22,"Two Knights Variation, English; A22",c4 e5 Nc3 Nf6
+A22,"Mazedonisch Variation, English",c4 e5 Nc3 Nf6 f4
+A22,"Bremen; Carls Variation, English",c4 e5 Nc3 Nf6 g3
+A22,"Kapengut; Smyslov; Modern V, English",c4 e5 Nc3 Nf6 g3 Bb4
+A23,"Keres Variation, English; A23",c4 e5 Nc3 Nf6 g3 c6
+A23,"Reversed Dragon, English",c4 e5 Nc3 Nf6 g3 d5
+A24,"Fianchetto Lines, Two Knights Variation, English; A24",c4 e5 Nc3 Nf6 g3 g6
+A24,"Prickly Pawn Pass System, English",c4 e5 Nc3 Nf6 g3 g6 Bg2 Bg7 d3 d6 e4 O-O Nge2 c6 O-O a6
+A22,"Bellon Gambit, English",c4 e5 Nc3 Nf6 Nf3 e4 Ng5 b5
+A22,"Erbenheimer Gambit, English",c4 e5 Nc3 Nf6 Nf3 e4 Ng5 Ng4
+A20,"Nimzovich Variation, English",c4 e5 Nf3
+A20,"Nimzovich-Flohr Variation, English",c4 e5 Nf3 e4
+A20,English Queen,c4 e5 Qa4
+A13,"Agincourt; Kurajica Defense, English; A13",c4 e6
+A13,English Defense,c4 e6 d4 b6
+A13,"King's Knight Variation, English",c4 e6 Nf3 d5
+A13,"Wimpy System, English",c4 e6 Nf3 d5 b3 Nf6 Bb2 c5 e3
+A13,"Afincourt Variation, English",c4 e6 Nf3 d5 g3
+A13,"Kurajica Defense, English",c4 e6 Nf3 d5 g3 c6
+A13,"Neo Catalan, English",c4 e6 Nf3 d5 g3 Nf6
+A14,A14,c4 e6 Nf3 d5 g3 Nf6 Bg2 Be7
+A14,"Neo Catalan Declined, English",c4 e6 Nf3 d5 g3 Nf6 Bg2 Be7 O-O
+A14,"Keres Defense, English",c4 e6 Nf3 d5 g3 Nf6 Bg2 Be7 O-O c5 cxd5 Nxd5 Nc3 Nc6
+A13,"Neo Catalan Accepted, English",c4 e6 Nf3 d5 g3 Nf6 Bg2 dxc4
+A13,"Romanishin Gambit, English",c4 e6 Nf3 Nf6 g3 a6 Bg2 b5
+A10,Anglo-Dutch Defense,c4 f5
+A10,Anglo-Polish Dutch,c4 f5 b4
+A10,"Hickmann Gambit, English",c4 f5 e4
+A10,"Hickmann Gambit, English",c4 f5 e4 fxe4 d3
+A10,"Porcupine Variation, English",c4 f5 e4 fxe4 Nc3 Nf6 g4
+A10,"Wade Gambit, English",c4 f5 g4
+A10,English Spike,c4 f5 g4
+A10,"Chabanon Gambit, English",c4 f5 Nf3 d6 e4
+A10,"Myers Defense, English",c4 g5 d4 Bg7
+A10,"Zilbermints Gambit, English",c4 g5 d4 e5
+A10,"Great Snake, English",c4 g6
+A10,"Adorjan System, English",c4 g6 e4 e5
+A10,Beefeater,c4 g6 Nc3 Bg7 d4 c5 d5 Bxc3 bxc3 f5
+A10,"Anglo-Lithuanian Variation, English",c4 Nc6
+A15,"Anglo System, English; A15",c4 Nf6
+A15,"Mikenas-Carls Variation, English",c4 Nf6
+A15,English Orangutan,c4 Nf6 b4
+A15,Shirazi Shove,c4 Nf6 g3 h5
+A16,A16,c4 Nf6 Nc3
+A16,"Golombek Defense, English; Anti English",c4 Nf6 Nc3 d5
+A16,"Czech Variation, English",c4 Nf6 Nc3 d5 cxd5 Nxd5 g3 g6 Bg2 Nb6
+A17,"Smyslov Defense, English",c4 Nf6 Nc3 d5 cxd5 Nxd5 g3 g6 Bg2 Nxc3
+A16,"Korchnoi's Variation, English",c4 Nf6 Nc3 d5 cxd5 Nxd5 Nf3 g6 g3 Bg7 Bg2 e5
+A16,"Stein Attack, English",c4 Nf6 Nc3 d5 cxd5 Nxd5 Nf3 g6 Qa4+
+A17,"Hegehog System, Anglo-Indian English; A17",c4 Nf6 Nc3 e6
+A18,"Flohr-Mikenas-Carls Variation, English; A18",c4 Nf6 Nc3 e6 e4
+A19,"Floh-Mikenas-Carls Variation, English; A19",c4 Nf6 Nc3 e6 e4 c5
+A19,"Nei Gambit, English",c4 Nf6 Nc3 e6 e4 c5 e5 Ng8
+A18,"Kevitz Defense, English",c4 Nf6 Nc3 e6 e4 Nc6
+A18,"Queen's Indian Formation, English",c4 Nf6 Nc3 e6 Nf3 b6
+A17,Nimzo-English Opening,c4 Nf6 Nc3 e6 Nf3 Bb4
+A17,"Zviagintsev-Krasenkov Attack, English",c4 Nf6 Nc3 e6 Nf3 Bb4 g4
+A16,Anti-anti-grunfeld,c4 Nf6 Nc3 g6 Nf3 Bg7 e4
+A15,"King's Knight Variation, English",c4 Nf6 Nf3
+A15,"Romanishin Variation, English",c4 Nf6 Nf3 e6 g3 a6
+A00,Mieses; Valencia; Venezuelan Opening,d3
+A00,Venezolana,d3 c5 Nc3 Nc6 g3
+A00,Reversed Rat,d3 e5
+A00,Spike Deferred; Myers Spike Attack,d3 g6 g4
+A40,Queen Pawn Opening; A40,d4
+A40,St George's Gambit,d4 a6 c4 b5 e4 e6 cxb5 axb5
+A40,Polish Defense,d4 b5
+A40,"Spassky Gambit, Polish Defense",d4 b5 e4 Bb7 Bxb5
+A40,"Queen Fianchetto, Queen Pawn Game",d4 b6
+A40,Eastbourne Gambit,d4 b6 c4 Bb7 Bxb5
+A43,Staunton Defense; Benoni C-G; A43,d4 c5
+A43,"Zilbermints Gambit; Nakamura Gambit, Benoni",d4 c5 b4 cxb4
+A43,Old Benoni,d4 c5 d5 d6
+A43,"Schmid Variation, Benoni",d4 c5 d5 d6 Nc3 g6
+A44,"Pawn Thrust, Benoni; A44",d4 c5 d5 e5
+A44,Blockade Variation; Semi-Benoni; Russian Variation,d4 c5 d5 e5 e4 d6
+A43,Franco-Benoni; Franco-Sicilian,d4 c5 d5 e6 e4
+A43,"Clarendon Court Variation, Benoni",d4 c5 d5 f5
+A43,Benoni-Staunton Gambit,d4 c5 d5 f5 e4
+A43,"Snail Variation, Benoni",d4 c5 d5 Na6
+A43,Benoni-Indian Defense,d4 c5 d5 Nf6
+A56,"Vulture Defense, Benoni",d4 c5 d5 Nf6 c4 Ne4
+A43,"Woozle Defense, Benoni",d4 c5 d5 Nf6 Nc3 Qa5
+A43,"Kingside move order, Benoni",d4 c5 d5 Nf6 Nf3
+A43,"Habichd; Hawk Variation, Benoni",d4 c5 d5 Nf6 Nf3 c4
+A43,"Hawk Variation, Benoni",d4 c5 d5 Nf6 Nf3 e4
+A43,Benoni Gambit Accepted,d4 c5 dxc5
+A43,"Cormorant Gambit, Benoni",d4 c5 dxc5 b6
+A43,"Schlenker Defense, Benoni",d4 c5 dxc5 Na6
+A43,Zilbermints-Benoni Gambit,d4 c5 Nf3 cxd4 b4
+A43,"Tamarkin Countergambit, Benoni",d4 c5 Nf3 cxd4 b4 e5
+A41,Anglo-Slav Opening,d4 c6 c4 d6
+D00,Queen Pawn Game; Close Opening; D00,d4 d5
+D00,Sarratt Attack,d4 d5 Bf4
+D00,"Steinitz Countergambit, Queen Pawn Game",d4 d5 Bf4 c5
+D00,Morris Gambit,d4 d5 Bf4 c5 e4
+D00,Morris Counter-Gambit,d4 d5 Bf4 c5 e4 dxe4
+D00,"Bishop Attack; Levitsky Attack, Queen Pawn Game",d4 d5 Bg5
+D00,Zot,d4 d5 Bg5
+D00,"Welling Variation, Queen Pawn Game",d4 d5 Bg5 Bg4
+D00,"Euwe Variation, Queen Pawn Game",d4 d5 Bg5 h6 Bh4 c6 Nf3 Qb6
+D06,Queen's Gambit; Aleppo Gambit; D06,d4 d5 c4
+D06,"Zilbermints Gambit, QGD",d4 d5 c4 b5
+D06,"Brieger Defense; Sahovic Defense, QGD; Baltic Defense",d4 d5 c4 Bf5
+D31,"Baltic Defense, QGD",d4 d5 c4 Bf5 cxd5 Bxb1 Qa4+ c6 dxc6 Nxc6
+D31,"Argentinian Gambit, QGD",d4 d5 c4 Bf5 cxd5 Bxb1 Qa4+ c6 dxc6 Nxc6 Rxb1 Qxd4
+D06,"Pseudo-Slav, QGD",d4 d5 c4 Bf5 Nc3 e6 Nf3 c6
+D06,"Pseudo-Chigorin, QGD",d4 d5 c4 Bf5 Nc3 e6 Nf3 Nc6
+D06,"Queen Attack, Baltic Defens, QGD",d4 d5 c4 Bf5 Nc3 e6 Qb3
+D06,"Austrian Defense; Summetrical Defense, QGD",d4 d5 c4 c5
+D06,"Gusev Countergambit, QGD",d4 d5 c4 c5 cxd5 Nf6
+D06,"Haberditz Variation, QGD",d4 d5 c4 c5 cxd5 Nf6 e4 Nxe4 dxc5 Qa5+
+D06,"Salvio Countergambit, QGD",d4 d5 c4 c5 dxc5 d4
+D10,"Slav Defense; Czech Defense, QGD; D10",d4 d5 c4 c6
+D10,"Exchange Variation, Slav",d4 d5 c4 c6 cxd5
+D10,Slav Pawn Game,d4 d5 c4 c6 e3
+D10,"Diemer Gambit, Slav",d4 d5 c4 c6 e4
+D10,"Alekhine Attack, Slav",d4 d5 c4 c6 Nc3 dxc4 e4
+D10,"Winawer Counter Gambit, Slav",d4 d5 c4 c6 Nc3 e5
+D10,"Anti-Winawer Gambit, Slav",d4 d5 c4 c6 Nc3 e5 e4
+D11,"Modern Line, Slav; D11",d4 d5 c4 c6 Nf3
+D11,Slav Bishop's Game,d4 d5 c4 c6 Nf3 Bf5
+D11,"Bonet Gambit, Slav",d4 d5 c4 c6 Nf3 Nf6 Bg5
+D13,"Exchange Variation, Slav; D13",d4 d5 c4 c6 Nf3 Nf6 cxd5
+D14,"Symmetrical Line, Slav; D14",d4 d5 c4 c6 Nf3 Nf6 cxd5 cxd5 Nc3 Nc6 Bf4 Bf5
+D14,"Trifunovic Variation, Slav",d4 d5 c4 c6 Nf3 Nf6 cxd5 cxd5 Nc3 Nc6 Bf4 Bf5 e3 e6 Qb3 Bb4
+D11,"Quiet Variation, Slav",d4 d5 c4 c6 Nf3 Nf6 e3
+D12,"Schallopp Defense, Slav; D12",d4 d5 c4 c6 Nf3 Nf6 e3 Bf5
+D12,"Amsterdam Variation, Slav",d4 d5 c4 c6 Nf3 Nf6 e3 Bf5 cxd5 cxd5 Nc3
+D12,"Rotterdam Variation, Slav",d4 d5 c4 c6 Nf3 Nf6 e3 Bf5 cxd5 cxd5 Qb3
+D12,"Landau Variation, Slav",d4 d5 c4 c6 Nf3 Nf6 e3 Bf5 cxd5 cxd5 Qb3 Qc8 Bd2 e6 Na3
+D12,"Pin Defense, Slav",d4 d5 c4 c6 Nf3 Nf6 e3 Bg4
+D11,"Breyer Variation, Slav",d4 d5 c4 c6 Nf3 Nf6 Nbd2
+D15,"Three Knights Variation, Slav; D15",d4 d5 c4 c6 Nf3 Nf6 Nc3
+D15,"Chameleon Variation, Slav",d4 d5 c4 c6 Nf3 Nf6 Nc3 a6
+D15,"Advance System, Slav",d4 d5 c4 c6 Nf3 Nf6 Nc3 c5
+D15,"Two Knights Attack, Slav",d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4
+D16,"Alapin Variation, Slav; D16",d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 a4
+D17,Czech Defense; Open Slav Defense; D17,d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 a4 Bf5
+D18,"Dutch Variation, Slav; D18",d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 a4 Bf5 e3
+D19,"Main Line, Czech Variation, Slav; D19",d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 a4 Bf5 e3 e6 Bxc4 Bb4 O-O O-O Qe2
+D18,"Mareschall Variation, Slav; Lasker Variation",d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 a4 Bf5 e3 Na6
+D17,"Krause Attack, Slav",d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 a4 Bf5 Ne5
+D17,"Wiesbaden Variation, Slav",d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 a4 Bf5 Ne5 e6
+D17,"Sharp Line, Wiesbaden Variation, Slav",d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 a4 Bf5 Ne5 e6 f3 Bb4 e4
+D17,"Fazekas Gambit, Slav",d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 a4 Bf5 Ne5 Na6 e4
+D17,"Carlsbad Variation, Slav",d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 a4 Bf5 Ne5 Nbd7 Nxc4 Qc7 g3 e5
+D17,"Baarn Variation, Slav; Bled Attack",d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 a4 Bf5 Nh4
+D16,"Steiner Variation, Slav",d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 a4 Bg4
+D16,"Soultanbeieff Variation, Slav",d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 a4 e6
+D16,"Smyslov Variation, Slav",d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 a4 Na6
+D15,"Alekhine Variation, Slav",d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 e3
+D15,"Alekhine Variation, Slav",d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 e3 b5 a4 b4
+D15,"Geller Variation; Geller-Tolush Var, Slav",d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4 e4
+D15,"Schlechter Variation, Slav",d4 d5 c4 c6 Nf3 Nf6 Nc3 g6
+D15,"Suchting Variation, Slav",d4 d5 c4 c6 Nf3 Nf6 Nc3 Qb6
+D20,Queen's Gambit Accepted; D20,d4 d5 c4 dxc4
+D20,"Old Variation, QGA",d4 d5 c4 dxc4 e3
+D20,"Korchnoi Gambit, QGA",d4 d5 c4 dxc4 e3 e5 Bc4 exd4 Qb3 Qe7 Kf1
+D20,"Novikov Gambit, QGA",d4 d5 c4 dxc4 e3 e5 Bc4 exd4 Qb3 Qe7 Nd2
+D20,"Christensen Gambit, QGA",d4 d5 c4 dxc4 e3 e5 Bc4 exd4 Qb3 Qe7 Nf3
+D20,"Saduleto Variation, QGA; Central Variation, QGA",d4 d5 c4 dxc4 e4
+D20,"Greco Variation, QGA",d4 d5 c4 dxc4 e4 b5
+D20,"Rubinstein Variation, QGA",d4 d5 c4 dxc4 e4 c5
+D20,"Yefimov Gambit, QGA",d4 d5 c4 dxc4 e4 c5 d5 b5
+D20,"Linares Variation, QGA",d4 d5 c4 dxc4 e4 c5 d5 Nf6 Nc3 b5
+D20,"McDonnell Defense, QGA",d4 d5 c4 dxc4 e4 e5
+D20,"Somov Gambit, QGA",d4 d5 c4 dxc4 e4 e5 Bxc4
+D01,Betbeder; Veresov; Levitzky; Parisian,d4 d5 c4 dxc4 e4 f5
+D20,"Versov; Betbeder; Schwartz Defense, QGA",d4 d5 c4 dxc4 e4 f5
+D20,"Modern Defense, QGA",d4 d5 c4 dxc4 e4 Nc6
+D20,"Alekhine System, QGA",d4 d5 c4 dxc4 e4 Nf6
+D20,"Gunsberg Defense; Prianishenmo Gambit, QGA",d4 d5 c4 dxc4 Nc3 c5 d5 Nf6 Nc3 e6 e4 exd5 e5
+D21,"Blackburne's Move, QGA; Normal Variation, QGA; D21",d4 d5 c4 dxc4 Nf3
+D21,"Alekhine Variation, QGA",d4 d5 c4 dxc4 Nf3 a6
+D22,D22,d4 d5 c4 dxc4 Nf3 a6 e3
+D22,"Haberditz Variation, QGA",d4 d5 c4 dxc4 Nf3 a6 e3 b5
+D22,"Alekhine Variation, QGA",d4 d5 c4 dxc4 Nf3 a6 e3 Bg4
+D22,"Borisenko-Furman Variation, QGA",d4 d5 c4 dxc4 Nf3 a6 e4
+D21,"Slav Gambit, QGA",d4 d5 c4 dxc4 Nf3 b5
+D21,"Gunsberg Defense, QGA",d4 d5 c4 dxc4 Nf3 c5
+D21,"Prianishenmo Gambit, QGA",d4 d5 c4 dxc4 Nf3 c5 d5 Nf6 Nc3 e6 e4 exd5 e5
+D21,"Rosenthal Variation, QGA",d4 d5 c4 dxc4 Nf3 e6
+D21,"Godes Variation, QGA",d4 d5 c4 dxc4 Nf3 Nd7
+D23,D23,d4 d5 c4 dxc4 Nf3 Nf6
+D25,D25,d4 d5 c4 dxc4 Nf3 Nf6 e3
+D25,"Flohr; Winawer Variation, QGA",d4 d5 c4 dxc4 Nf3 Nf6 e3 Be6
+D25,"Larsen; Janowski; Modern Variation, QGA",d4 d5 c4 dxc4 Nf3 Nf6 e3 Bg4
+D26,Traditional System QGA; D26,d4 d5 c4 dxc4 Nf3 Nf6 e3 e6
+D26,"Classical Defense, QGA",d4 d5 c4 dxc4 Nf3 Nf6 e3 e6 Bxc4 c5
+D27,"Rubinstein Variation, QGA; D27",d4 d5 c4 dxc4 Nf3 Nf6 e3 e6 Bxc4 c5 O-O a6
+D27,"Furman Variation, QGA",d4 d5 c4 dxc4 Nf3 Nf6 e3 e6 Bxc4 c5 O-O a6 dxc5 Bxc5
+D27,"Russian Gambit, QGA",d4 d5 c4 dxc4 Nf3 Nf6 e3 e6 Bxc4 c5 O-O a6 e4
+D28,"Alekhine System, Classical Defense, QGA; D28",d4 d5 c4 dxc4 Nf3 Nf6 e3 e6 Bxc4 c5 O-O a6 Qe2
+D28,"Accelerated Fianchetto, QGA",d4 d5 c4 dxc4 Nf3 Nf6 e3 e6 Bxc4 c5 O-O a6 Qe2 b5
+D29,D29,d4 d5 c4 dxc4 Nf3 Nf6 e3 e6 Bxc4 c5 O-O a6 Qe2 b5 Bb3 Bb7
+D29,"Smyslov Variation, Classical Defense, QGA",d4 d5 c4 dxc4 Nf3 Nf6 e3 e6 Bxc4 c5 O-O a6 Qe2 b5 Bb3 Bb7 Rd1 Nbd7 Nc3 Bd6
+D28,"Counter Fianchetto Variation, QGA",d4 d5 c4 dxc4 Nf3 Nf6 e3 e6 Bxc4 c5 O-O a6 Qe2 Nc6 dxc5
+D28,"Four Knights Variation, QGA",d4 d5 c4 dxc4 Nf3 Nf6 e3 e6 Bxc4 c5 O-O a6 Qe2 Nc6 Nc3
+D26,"Steinitz Variation, QGA",d4 d5 c4 dxc4 Nf3 Nf6 e3 e6 Bxc4 c5 O-O cxd4
+D26,"Development Variation, QGA",d4 d5 c4 dxc4 Nf3 Nf6 e3 e6 Bxc4 c5 O-O Nc6
+D25,"Smyslov Variation, QGA",d4 d5 c4 dxc4 Nf3 Nf6 e3 g6
+D24,"Showalter Variation, QGA; D24",d4 d5 c4 dxc4 Nf3 Nf6 Nc3
+D24,"Bogoljubow Defense, QGA",d4 d5 c4 dxc4 Nf3 Nf6 Nc3 a6 e4
+D23,"Mannheim Variation, QGA",d4 d5 c4 dxc4 Nf3 Nf6 Qa4+
+D08,"Albin Countergambit; Cavalotti Var, QGD; D08",d4 d5 c4 e5
+D08,"Lasker Trap, QGD",d4 d5 c4 e5 dxe5 d4 e3 Bb4+ Bd2 dxe3
+D08,"Normal Line, Albin Countergambit, QGD",d4 d5 c4 e5 dxe5 d4 Nf3
+D08,"Tartakower Defense, QGD",d4 d5 c4 e5 dxe5 d4 Nf3 c5
+D09,"Fianchetto Variation, Albin Countergambit; D09",d4 d5 c4 e5 dxe5 d4 Nf3 Nc6 g3
+D08,"Alapin Variation, QGD",d4 d5 c4 e5 dxe5 d4 Nf3 Nc6 Nbd2
+D30,D30,d4 d5 c4 e6
+D31,"Queen's Knight Variation, QGD; D31",d4 d5 c4 e6 Nc3
+D31,"Janowski Variation, QGD",d4 d5 c4 e6 Nc3 a6
+D31,"Alapin Variation, QGD",d4 d5 c4 e6 Nc3 b6
+D31,"Alatortsev; Petrosian, Charousek Var, QGD",d4 d5 c4 e6 Nc3 Be7
+D31,"Miladinovic Gambit, QGD",d4 d5 c4 e6 Nc3 Be7 e4 dxe4 f3
+D32,"Tarrasch Defense, QGD; D32",d4 d5 c4 e6 Nc3 c5
+D32,"Schara-Hennig; Duisburg Gambit, QGD",d4 d5 c4 e6 Nc3 c5 cxd5 cxd4
+D32,"Von Hennig Gambit, QGD",d4 d5 c4 e6 Nc3 c5 cxd5 cxd4 Qxd4 Nc6 Qd1 exd5 Qxd5 Be6
+D32,"Tarrasch Gambit, QGD",d4 d5 c4 e6 Nc3 c5 cxd5 exd5 dxc5 d4 Na4 b5
+D32,"Marshall Gambit, Tarrasch",d4 d5 c4 e6 Nc3 c5 cxd5 exd5 e4
+D32,"Two Knights Variation, Tarrasch",d4 d5 c4 e6 Nc3 c5 cxd5 exd5 Nf3
+D32,"Grunfeld Gambit, Tarrasch",d4 d5 c4 e6 Nc3 c5 cxd5 exd5 Nf3 Nc6 dxc5 d4 Na4 b5
+D33,"Lodz; Schlecter; Rubinstein Var, QGD; D33",d4 d5 c4 e6 Nc3 c5 cxd5 exd5 Nf3 Nc6 g3
+D33,"Folkestone; Swedish Var, QGD",d4 d5 c4 e6 Nc3 c5 cxd5 exd5 Nf3 Nc6 g3 c4
+D33,"Prague Variation, QGD",d4 d5 c4 e6 Nc3 c5 cxd5 exd5 Nf3 Nc6 g3 Nf6
+D34,D34,d4 d5 c4 e6 Nc3 c5 cxd5 exd5 Nf3 Nc6 g3 Nf6 Bg2 Be7
+D34,"Rubinstein; Normal Position, QGD",d4 d5 c4 e6 Nc3 c5 cxd5 exd5 Nf3 Nc6 g3 Nf6 Bg2 Be7 O-O O-O
+D34,"Carlsbad Variation, Tarrasch",d4 d5 c4 e6 Nc3 c5 cxd5 exd5 Nf3 Nc6 g3 Nf6 Bg2 Be7 O-O O-O Bg5
+D34,"Endgame Variation, Tarrasch",d4 d5 c4 e6 Nc3 c5 cxd5 exd5 Nf3 Nc6 g3 Nf6 Bg2 Be7 O-O O-O Bg5 Be6
+D34,"Bogoljubow Variation, Tarrasch",d4 d5 c4 e6 Nc3 c5 cxd5 exd5 Nf3 Nc6 g3 Nf6 Bg2 Be7 O-O O-O Bg5 Be6 Rc1 c4
+D34,"Advance Variation, Tarrasch",d4 d5 c4 e6 Nc3 c5 cxd5 exd5 Nf3 Nc6 g3 Nf6 Bg2 Be7 O-O O-O Bg5 c4
+D34,"Spassky Variation, Tarrasch",d4 d5 c4 e6 Nc3 c5 cxd5 exd5 Nf3 Nc6 g3 Nf6 Bg2 Be7 O-O O-O Bg5 cxd4 Nxd4
+D34,"Reti Variation, QGD",d4 d5 c4 e6 Nc3 c5 cxd5 exd5 Nf3 Nc6 g3 Nf6 Bg2 Be7 O-O O-O dxc5 Bxc5 Na4
+D34,Classical Tarrasch Gambit,d4 d5 c4 e6 Nc3 c5 cxd5 exd5 Nf3 Nc6 g3 Nf6 Bg2 Be7 O-O O-O dxc5 d4
+D33,"Wagner Variation, Tarrasch",d4 d5 c4 e6 Nc3 c5 cxd5 exd5 Nf3 Nc6 g3 Nf6 Bg2 Bg4
+D32,"Symmetrical Variation, Tarrasch",d4 d5 c4 e6 Nc3 c5 e3 Nf6 Nf3 Nc6
+D31,Semi-Slav Defense,d4 d5 c4 e6 Nc3 c6
+A84,"Slav Stonewall, Dutch",d4 d5 c4 e6 Nc3 c6 e3 f5
+D31,"Portisch Gambit, Semi-Slav",d4 d5 c4 e6 Nc3 c6 e3 f5 g4
+D31,"Marshall Gambit, Semi-Slav",d4 d5 c4 e6 Nc3 c6 e4
+D31,"Gunderam Gambit, Semi-Slav",d4 d5 c4 e6 Nc3 c6 e4 dxe4 f3
+D31,"Tolush Variation, Semi-Slav",d4 d5 c4 e6 Nc3 c6 e4 dxe4 Nxe4 Bb4+ Bd2 Qxd4 Bxb4 Qxe4+Be2 c5 Bxc5 Qxg2
+D31,"Noteboom Variation, Semi-Slav",d4 d5 c4 e6 Nc3 c6 Nf3 dxc4
+D31,"Abrahams; Noteboom; Klaus Junge Var, QGD",d4 d5 c4 e6 Nc3 c6 Nf3 dxc4 a4 Bb4 e3 b5 Bd2 a5
+D31,"Anti-Noteboom Variation, Semi-Slav",d4 d5 c4 e6 Nc3 c6 Nf3 dxc4 Bg5
+D31,"Beliavsky Line, Semi-Slav",d4 d5 c4 e6 Nc3 c6 Nf3 dxc4 Bg5 f6
+D35,D35,d4 d5 c4 e6 Nc3 Nf6
+D35,"Harrwitz; Rubinstein Var, QGD",d4 d5 c4 e6 Nc3 Nf6 Bf4
+D50,"Modern Variation, QGD; D50",d4 d5 c4 e6 Nc3 Nf6 Bg5
+D53,D53,d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7
+D53,"Heral Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 Bxf6
+D53,"Lasker Defense, QGD",d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 Ne4
+D55,D55,d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3
+D55,"Pillsbury Attack, QGD",d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 b6 Bd3 Bb7 cxd5 exd5 Ne5
+D55,"Neo Orthodox Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 h6
+D56,D56,d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 h6 Bh4
+D58,"Tartakower Variation, QGD; D58",d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 h6 Bh4 b6
+D59,"Exchange Variation, Tartakower Defense, QGD; D59",d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 h6 Bh4 b6 cxd5 Nxd5
+D56,"Lasker Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 h6 Bh4 Ne4 Bxe7 Qxe7
+D57,D57,d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 h6 Bh4 Ne4 Bxe7 Qxe7 cxd5
+D57,"Bernstein Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 h6 Bh4 Ne4 Bxe7 Qxe7 cxd5 Nxc3 bxc3
+D56,"Teichmann Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 h6 Bh4 Ne4 Bxe7 Qxe7 Qc2
+D55,"Anti-Tartakower Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 h6 Bxf6
+D55,"Petrosian Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 h6 Bxf6 Bxf6 Rc1 c6 Bd3 Nd7 O-O dxc4
+D60,"Orthodox Variation, QGD; D60",d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7
+D60,"Botvinnik Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Bd3
+D60,"Rauzer Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Qb3
+D61,"Rubinstein Variation, Orthodox Defense, QGD; D61",d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Qc2
+D62,D62,d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Qc2 c5 cxd5
+D63,D63,d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Rc1
+D63,"Henneberger; Swiss Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Rc1 a6
+D63,"Capablanca Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Rc1 b6 cxd5 exd5 Bb5
+D63,"Pillsbury Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Rc1 b6 cxd5 exd5 Bd3
+D63,"Rubinstein Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Rc1 c6
+D66,D66,d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Rc1 c6 Bd3
+D66,"Fianchetto Variation, Orthodox Defense, QGD",d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Rc1 c6 Bd3 dxc4 Bxc4 b5
+D67,"Capablanca Freeing Maneuver, QGD; D67",d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Rc1 c6 Bd3 dxc4 Bxc4 Nd5
+D67,"Alekhine Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Rc1 c6 Bd3 dxc4 Bxc4 Nd5 Bxe7 Qxe7 Ne4
+D67,"Classical Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Rc1 c6 Bd3 dxc4 Bxc4 Nd5 Bxe7 Qxe7 O-O Nxc3 1Rxc3
+D68,D68,d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Rc1 c6 Bd3 dxc4 Bxc4 Nd5 Bxe7 Qxe7 O-O Nxc3 1Rxc3 e5
+D69,D69,d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Rc1 c6 Bd3 dxc4 Bxc4 Nd5 Bxe7 Qxe7 O-O Nxc3 1Rxc3 e5 1dxe5
+D64,"Janowski Variation, Orthodox Defense, QGD",d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Rc1 c6 Bd3 dxc4 Bxc4 Nd5 h4
+D64,"Rubinstein Attack, Orthodox Defense, QGD;  D64",d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Rc1 c6 Qc2
+D65,D65,d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Nf3 Nbd7 Rc1 c6 Qc2 a6 cxd5
+D54,"Neo-Orthodox Variation, QGD; D54",d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 e3 O-O Rc1
+D50,"Uhlmann Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7 Nf3 h6 Bh4 O-O Rc1 dxc4
+D50,Been & Koomen; Dutch & Peruvian,d4 d5 c4 e6 Nc3 Nf6 Bg5 c5
+D50,"Pseudo-Tarrasch Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Bg5 c5 cxd5
+D50,"Canal; Venice Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Bg5 c5 cxd5 Qb6
+D50,"Primitive Pillsbury Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Bg5 c5 Nf3 cxd4 Qxd4
+D51,"Knight Defense, QGD; D51",d4 d5 c4 e6 Nc3 Nf6 Bg5 Nbd7
+D51,"Manhattan; Westphalia Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Bg5 Nbd7 e3 Bb4
+D51,"Westphalian Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Bg5 Nbd7 e3 Bb4 Nf3 c5
+D52,D52,d4 d5 c4 e6 Nc3 Nf6 Bg5 Nbd7 e3 c6 Nf3
+D52,"Cambridge Springs; Pillsbury Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Bg5 Nbd7 e3 c6 Nf3 Qa5
+D52,"Bogoljubov Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Bg5 Nbd7 e3 c6 Nf3 Qa5 Nd2 Bb4 Qc2
+D52,"Argentine Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Bg5 Nbd7 e3 c6 Nf3 Qa5 Nd2 Bb4 Qc2 O-O Bh4
+D51,"Alekhine Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Bg5 Nbd7 Nf3 c6 e4
+D51,"Alekhine Gambit, QGD",d4 d5 c4 e6 Nc3 Nf6 Bg5 Nbd7 Nf3 h6 Bh4 dxc4
+D35,"Exchange Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 cxd5
+D35,"Positional Variation, Exchange Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 cxd5 exd5 Bg5
+D36,"Reshevsky Variation, QGD; D36",d4 d5 c4 e6 Nc3 Nf6 cxd5 exd5 Bg5 c6 Qc2
+D35,"Saemisch Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 cxd5 exd5 Nf3 Nbd7 Bf4
+D37,"Three Knights Variation, QGD; D37",d4 d5 c4 e6 Nc3 Nf6 Nf3
+D38,"Ragozin Variation, QGD; D38",d4 d5 c4 e6 Nc3 Nf6 Nf3 Bb4
+D39,"Vienna Variation, QGD; D39",d4 d5 c4 e6 Nc3 Nf6 Nf3 Bb4 Bg5 dxc4
+D38,"Alekhine Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Nf3 Bb4 Qa4
+D37,"Harrwitz Attack, QGD",d4 d5 c4 e6 Nc3 Nf6 Nf3 Be7 Bf4
+D40,"Semi-Tarrasch Variation, QGD; D40",d4 d5 c4 e6 Nc3 Nf6 Nf3 c5
+D40,"Pillsbury Variation, Semi-Tarrasch",d4 d5 c4 e6 Nc3 Nf6 Nf3 c5 Bg5
+D41,D41,d4 d5 c4 e6 Nc3 Nf6 Nf3 c5 cxd5
+D42,D42,d4 d5 c4 e6 Nc3 Nf6 Nf3 c5 cxd5 Nxd5 e3 Nc6 Bd3
+D41,"San Sebastian Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Nf3 c5 cxd5 Nxd5 e4 Nxc3 bxc3 cxd4 cxd4 Bb4+ Bd2 Bxd2+
+D43,D43,d4 d5 c4 e6 Nc3 Nf6 Nf3 c6
+D43,"Anti-Meran Gambit, QGD",d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 Bg5
+D44,Semi-Slav Defense Accepted; D44,d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 Bg5 dxc4
+D44,"Botvinnik Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 Bg5 dxc4 e4 b5
+D44,"Ekstrom Variation, Semi-Slav",d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 Bg5 dxc4 e4 b5 e5 h6 Bh4 g5 exf6 gxh4 Ne5
+D44,"Lilienthal Variation, Semi-Slav",d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 Bg5 dxc4 e4 b5 e5 h6 Bh4 g5 Nxg5 hxg5 Bxg5 Nbd7
+D44,"Alatortsev System, Semi-Slav",d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 Bg5 dxc4 e4 b5 e5 h6 Bh4 g5 Nxg5 Nd5
+D44,Anti-Moscow Gambit,d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 Bg5 h6 Bh4
+D45,D45,d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 e3
+D45,"Acclerated Meran, QGD",d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 e3 a6
+D45,"Normal Variation, Semi-Slav",d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 e3 Nbd7
+D46,D46,d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 e3 Nbd7 Bd3
+D46,"Romi Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 e3 Nbd7 Bd3 Bb4
+D46,"Chigorin Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 e3 Nbd7 Bd3 Bd6
+D46,"Bogoljubow Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 e3 Nbd7 Bd3 Be7
+D47,"Meran Variation, QGD; D47",d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 e3 Nbd7 Bd3 dxc4 Bxc4
+D48,"Reynolds Variation, QGD; D48",d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 e3 Nbd7 Bd3 dxc4 Bxc4 b5 Bd3 a6
+D48,"Pirc Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 e3 Nbd7 Bd3 dxc4 Bxc4 b5 Bd3 a6 e4 b4
+D48,"Old Variation, Semi-Slav",d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 e3 Nbd7 Bd3 dxc4 Bxc4 b5 Bd3 a6 e4 c5 e5
+D49,"Blumenfeld Variation, QGD; D49",d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 e3 Nbd7 Bd3 dxc4 Bxc4 b5 Bd3 a6 e4 c5 e5 cxd4 Nxb5
+D49,"Sozin Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 e3 Nbd7 Bd3 dxc4 Bxc4 b5 Bd3 a6 e4 c5 e5 cxd4 Nxb5 Nxe5
+D49,"Stahlberg Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 e3 Nbd7 Bd3 dxc4 Bxc4 b5 Bd3 a6 e4 c5 e5 cxd4 Nxb5 Nxe5 1Nxe5 axb5
+D48,"Reynolds Variation, Semi-Slav",d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 e3 Nbd7 Bd3 dxc4 Bxc4 b5 Bd3 a6 e4 d5
+D48,"Old Meran Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 e3 Nbd7 Bd3 dxc4 Bxc4 b5 Bd3 a6 O-O
+D47,Lundin; Neo-Meran,d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 e3 Nbd7 Bd3 dxc4 Bxc4 b5 Bd3 b4
+D47,"Wade Variation, QGD",d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 e3 Nbd7 Bd3 dxc4 Bxc4 b5 Bd3 Bb7
+D47,"Larsen Variation, Semi-Slav",d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 e3 Nbd7 Bd3 dxc4 Bxc4 b5 Bd3 Bb7 e4 b4 Na4 c5
+D45,Rubinstein; anti-Meran,d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 e3 Nbd7 Ne5
+D45,"Stoltz Variation, Semi-Slav",d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 e3 Nbd7 Qc2
+D45,"Center Variation, Semi-Slav",d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 e3 Nbd7 Qc2 Bd6 e4
+D45,"Mikhalchishin Line, Semi-Slav",d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 e3 Nbd7 Qc2 Bd6 e4 dxe4 Nxe4 Nxe4 Qxe4 e5 dxe5
+D45,"Shabalov Attack, Semi-Slav",d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 e3 Nbd7 Qc2 Bd6 g4
+D44,"Stonewall Defense, Semi-Slav",d4 d5 c4 e6 Nc3 Nf6 Nf3 c6 e3 Ne4 Bd3 f5
+D44,"Vienna Variation, Semi-Slav",d4 d5 c4 e6 Nc3 Nf6 Nf3 dxc4
+D30,"Pseudo-Tarrasch, QGD",d4 d5 c4 e6 Nf3 c5
+D30,"Bishop Attack, Tarrasch",d4 d5 c4 e6 Nf3 c5 cxd5 exd5 Bg5
+D30,"Anti-Noteboom Gambit, Semi-Slav",d4 d5 c4 e6 Nf3 c6 Nc3 dxc4 g3
+D30,"Traditional Variation, QGD",d4 d5 c4 e6 Nf3 Nf6 Bg5
+D30,"Vienna Variation, QGD",d4 d5 c4 e6 Nf3 Nf6 Bg5 Bb4+
+D30,"Duras Variation, QGD; Capablanca Variation",d4 d5 c4 e6 Nf3 Nf6 Bg5 h6
+D30,"Hastings Variation, QGD",d4 d5 c4 e6 Nf3 Nf6 Bg5 h6 Bxf6 Qxf6 Nc3 c6 Qb3
+D30,"Capablanca Variation, QGD",d4 d5 c4 e6 Nf3 Nf6 Bg5 Nbd7 e3 c6 Nbd2
+D30,"Pseudo-Meran; Semi-Slav, QGD",d4 d5 c4 e6 Nf3 Nf6 e3 c6
+D30,"Quiet Variation, Semi-Slav",d4 d5 c4 e6 Nf3 Nf6 e3 c6 Nbd2
+D30,"Semmering Variation, Semi-Slav",d4 d5 c4 e6 Nf3 Nf6 e3 c6 Nbd2 Nbd7 Bd3 c5
+D06,"Alekhine Defense, QGD",d4 d5 c4 g6
+D07,"Chigorin Defense, QGD; D07",d4 d5 c4 Nc6
+D07,"Exchange Variation, Chigorin Defense",d4 d5 c4 Nc6 cxd5 Qxd5
+D07,Costa's Line,d4 d5 c4 Nc6 cxd5 Qxd5 e3 e5 Nc3 Bb4 Bd2 Bxc3 Bxc3 exd4 Ne2
+D07,"Janowski Variation, QGD",d4 d5 c4 Nc6 Nc3 dxc4 Nf3
+D06,"Tartakower Gambit, QGD",d4 d5 c4 Nc6 Nc3 e5
+D06,"Modern Gambit, Chigorin Defense",d4 d5 c4 Nc6 Nc3 Nf6 Nf3 dxc4
+D06,"Alekhine Variation, Chigorin Defense",d4 d5 c4 Nc6 Nf3 Bg4 Qa4
+D06,"Lazard Gambit, Chigorin Defense",d4 d5 c4 Nc6 Nf3 e5
+D06,"Marshall Defense; Knight Defense, QGD",d4 d5 c4 Nf6
+D06,"Cocquio Counter Gambit, QGD; Tan Gambit",d4 d5 c4 Nf6 cxd5 c6
+D00,"Stonewall Attack, Queen Pawn Game",d4 d5 e3 Nf6 Bd3
+D00,Stonewall Attack,d4 d5 e3 Nf6 Bd3 c5 c3
+D00,Blackmar-Diemer Gambit,d4 d5 e4
+D00,"Fritz Gambit, BDG",d4 d5 e4 dxe4 Bc4
+D00,"Diemer-Rosenberg Attack, BDG",d4 d5 e4 dxe4 Be3
+D00,Blackmar Gambit; Gedult Gambit,d4 d5 e4 dxe4 f3
+D00,"Pohlmann Variation, BDG",d4 d5 e4 dxe4 f3 f5
+D00,"Mieses; Nimzovich Var, BDG",d4 d5 e4 dxe4 f3 Nc6
+D00,"Polish Gambit, BDG",d4 d5 e4 dxe4 Nc3
+D00,"Grosshans Defense, BDG",d4 d5 e4 dxe4 Nc3 Bd7
+D00,"Zeller Defesne, BDG",d4 d5 e4 dxe4 Nc3 Bf5
+D00,"Zeller Defesne, BDG",d4 d5 e4 dxe4 Nc3 Bf5 f3 exf3 Qxf3 Bc8
+D00,"Soller Attack, BDG",d4 d5 e4 dxe4 Nc3 Bf5 f3 Nf6 Bc4
+D00,"Dries Counter-Attack, BDG",d4 d5 e4 dxe4 Nc3 c5
+D00,"Lemberger Counter-Gambit, BDG",d4 d5 e4 dxe4 Nc3 e5
+D00,"Soller; Lemberger Var, BDG; Diemer Attack",d4 d5 e4 dxe4 Nc3 e5 Be3
+D00,"Endgame Variation, BDG",d4 d5 e4 dxe4 Nc3 e5 dxe5
+D00,"Rasmussen Attack, BDG",d4 d5 e4 dxe4 Nc3 e5 Nge2
+D00,Lange Gambit; Alfred Lange Gambit; Simple Variation,d4 d5 e4 dxe4 Nc3 e5 Nxe4
+D00,"Sneiders Attack, BDG",d4 d5 e4 dxe4 Nc3 e5 Qh5
+D00,"Rasa-Studier Variation, BDG",d4 d5 e4 dxe4 Nc3 e6 Be3
+D00,"Giertz-Peters Gambit, BDG",d4 d5 e4 dxe4 Nc3 e6 f3
+D00,"Polish Attack, BDG",d4 d5 e4 dxe4 Nc3 e6 f3 Bf5 Bg5
+D00,"Netherlands Variation, BDG",d4 d5 e4 dxe4 Nc3 f5
+D00,"Mieses; Nimzovich Var, BDG",d4 d5 e4 dxe4 Nc3 Nc6
+D00,"Vienna Variation, BDG",d4 d5 e4 dxe4 Nc3 Nf6
+D00,"Studier-Rasa Gambit, BDG",d4 d5 e4 dxe4 Nc3 Nf6 Be3
+D00,Von Popiel Gambit,d4 d5 e4 dxe4 Nc3 Nf6 Bg5
+D00,"Zilbermints Variation, BDG",d4 d5 e4 dxe4 Nc3 Nf6 Bg5 Bf5 Bxf6 exf6 g4 Bg6 Qe2 Bb4 Qb5+
+D00,Blackmar-Diemer Gambit,d4 d5 e4 dxe4 Nc3 Nf6 f3
+D00,"Wiesengren Defense, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 Bc5
+D00,Hans Mullers; Vienna V,d4 d5 e4 dxe4 Nc3 Nf6 f3 Bf5
+D00,"Soller; Vienna Var, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 Bf5 Bc4
+D00,"Tejler Attack, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 Bf5 Bf4
+D00,"Sperling Attack, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 Bf5 d5
+D00,"Diemer Gambit, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 Bf5 fxe4
+D00,"Kampars Gambit, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 Bf5 g4 Bg6 g5 Nd5 fxe4
+D00,"Gunderam Attack, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 Bf5 g4 Bg6 h4
+D00,"Brombacher; Daberitz Var, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 c5
+D00,"O'Kelly Variation, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 c6
+D00,"Langeheinecke Variation, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 e3
+D00,"Elbert Counter-Gambit, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 e5
+D00,"Weinsbach Declination, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 e6
+D00,"Pfrang Gambit, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 e6 fxe4 Bb4 Bd3 Bxc3+ bxc3 Nxe4 Be3
+D00,"Ritter Defense, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 exf3 Nxf3 b6
+D00,"Gunderam; Tartakower Var, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 exf3 Nxf3 Bf5
+D00,"Teichmann Variation, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 exf3 Nxf3 Bg4
+D00,"Kaulich Variation, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 exf3 Nxf3 c5
+D00,"Ziegler; Gunderam's 2nd Defense, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 exf3 Nxf3 c6
+D00,"Euwe Variation, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 exf3 Nxf3 e6
+D00,"Zilbermints Gambit, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 exf3 Nxf3 e6  Bg5 Be7 Bd3 Nc6 O-O Nxd4 Kh1
+D00,"Duthilleuk Gambit, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 exf3 Nxf3 e6 Bd3 Nc6 Bg5 Be7 Ne4
+D00,"Bogoljubow Variation, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 exf3 Nxf3 g6
+D00,"Mad Dog Attack, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 exf3 Nxf3 g6 Bc4 Bg7 h4
+D00,"Nimzovich Attack, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 exf3 Nxf3 g6 Bc4 Bg7 Ne5
+D00,"Kloss Attack, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 exf3 Nxf3 g6 Bc4 Bg7 O-O O-O Kh1
+D00,"Studier Attack, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 exf3 Nxf3 g6 Bc4 Bg7 O-O O-O Qe1
+D00,"Diemer Attack, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 exf3 Nxf3 g6 Bf4
+D00,"Peters Attack, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 exf3 Nxf3 g6 Ne5
+D00,"Gunderam Defense, BDG; Rook Pawn Defense",d4 d5 e4 dxe4 Nc3 Nf6 f3 exf3 Nxf3 h5
+D00,"Schuttler Defense, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 exf3 Nxf3 Nbd7
+D00,"Pietrowsky Variation, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 exf3 Nxf3 Nc6
+D00,"Ryder Variation, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 exf3 Qxf3
+D00,"Tautvaisis Defense, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 exf3 Qxf3 Nc6
+D00,"Tejler Gambit, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 exf3 Qxf3 Qxd4 Be3 Qg4 Qf2 Ne4 Nxe4 Qxe4 O-O-O Nc6 Bd3
+D00,"Albrecht; Karlshruhle Defense, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 g6
+D00,"Lamb Defense, BDG",d4 d5 e4 dxe4 Nc3 Nf6 f3 Nc6
+D00,"Mason Attack, Queen Pawn Game",d4 d5 f4
+D00,Zurich Gambit,d4 d5 g4
+D00,Chigorin; Ponziani; Veresov,d4 d5 Nc3
+D00,"Alburt Defense, QP",d4 d5 Nc3 Bf5
+D00,Anti-Veresov,d4 d5 Nc3 Bg4
+D00,"Irish Gambit, QP",d4 d5 Nc3 c5
+D00,"Shaviliuk Gambit, QP",d4 d5 Nc3 e5
+D00,"Dutch System, QP",d4 d5 Nc3 f5
+D00,"Fianchetto Defense, QP",d4 d5 Nc3 g6 Nf3 Bg7
+D00,Shropshire Defense,d4 d5 Nc3 h5
+D01,Richter-Veresov Opening; D01,d4 d5 Nc3 Nf6 Bg5
+D01,"Veresov Variation, QP",d4 d5 Nc3 Nf6 Bg5 Bf5 Bxf6
+D01,"Richter Variation, Veresov",d4 d5 Nc3 Nf6 Bg5 Bf5 f3
+D01,"Classical Defense, Veresov",d4 d5 Nc3 Nf6 Bg5 e6 Nf3
+D01,"Two Knights System, Veresov",d4 d5 Nc3 Nf6 Bg5 Nbd7 Nf3
+D01,"Grunfeld Defense, Veresov",d4 d5 Nc3 Nf6 Bg5 Nbd7 Nf3 g6
+D01,"Boyce Defense, Veresov",d4 d5 Nc3 Nf6 Bg5 Ne4
+D00,Hubsch Gambit,d4 d5 Nc3 Nf6 e4 Nxe4
+D02,"Zukertort Variation, QP; D02",d4 d5 Nf3
+D02,"Anti-Torre, QP",d4 d5 Nf3 Bg4
+D02,Anti-Torre,d4 d5 Nf3 Bg4 Ne5 Bf5 g4
+D02,Queen's Gambit Reversed; Krause Variation,d4 d5 Nf3 c5
+D02,"Chandler Gambit, QP",d4 d5 Nf3 c5 g3 cxd4 Bg2
+D02,"Chigorin Variation, QP",d4 d5 Nf3 Nc6
+D02,"Symmetrical Variation, QP",d4 d5 Nf3 Nf6
+D02,London System; Queen's Bishop Opening,d4 d5 Nf3 Nf6 Bf4
+D02,"Poisoned Pawn Variation, QP",d4 d5 Nf3 Nf6 Bf4 c5 e3 Qb6 Nc3
+D03,"Torre Attack, QP; D03",d4 d5 Nf3 Nf6 Bg5
+D03,"Breyer Variation, QP",d4 d5 Nf3 Nf6 Bg5 e6 e3 c5 c3 Qb6
+D03,"Grunfeld Variation, QP",d4 d5 Nf3 Nf6 Bg5 g6
+D03,"Gossip Variation, QP",d4 d5 Nf3 Nf6 Bg5 Ne4
+D02,"Zilbermints Variation, QP",d4 d5 Nf3 Nf6 c4 b5
+D25,Queen's Gambit Accepted Deferred,d4 d5 Nf3 Nf6 c4 dxc4
+D04,Colle System; D04,d4 d5 Nf3 Nf6 e3
+D04,"Bishop Defense, QP; Anti-Colle",d4 d5 Nf3 Nf6 e3 Bf5
+D05,"Classical Defense, Colle System; D05",d4 d5 Nf3 Nf6 e3 e6
+D05,"Zukertort Variation, QP",d4 d5 Nf3 Nf6 e3 e6 Bd3
+D05,"Rubinstein Attack, Colle",d4 d5 Nf3 Nf6 e3 e6 Bd3 c5 b3
+D02,Pseudo-Catalan,d4 d5 Nf3 Nf6 g3
+D00,Amazon Attack,d4 d5 Qd3
+D00,Siberian Attack,d4 d5 Qd3 Nc6 Nc3
+A41,Pillsbury Defense; A41; Rat Defense,d4 d6
+A42,A42,d4 d6 c4
+A42,English Rat,d4 d6 c4 e5
+A42,Lisbon Gambit,d4 d6 c4 e5 dxe5 Nc6
+A41,Wade Defense,d4 d6 Nf3 Bg4
+A40,Charlick Gambit; Englund Gambit,d4 e5
+A40,Englund Gambit Declined,d4 e5 d5
+A40,Diemer Counterattack,d4 e5 d5 Bc5 e4 Qh4
+A40,Thuring Gambit; Hartlaub-Charlick Gambit,d4 e5 dxe5 d6
+A40,Soller; Purchas Gambit,d4 e5 dxe5 f6
+A40,Englund; Behting Gambit,d4 e5 dxe5 Nc6
+A40,Felbecker Gambit,d4 e5 dxe5 Nc6 Nf3 Bc5
+A40,Soller Gambit Deferred,d4 e5 dxe5 Nc6 Nf3 f6
+A40,"Zilbermints Gambit II, Englund Gambit",d4 e5 dxe5 Nc6 Nf3 h6
+A40,"Zilbermints Gambit, Englund Gambit",d4 e5 dxe5 Nc6 Nf3 Nge7
+A40,Englund Gambit,d4 e5 dxe5 Nc6 Nf3 Qe7
+A40,"Stockhom Variation, Englund Gambit",d4 e5 dxe5 Nc6 Nf3 Qe7 Qd5
+A40,"Mosquito Gambit, Englund",d4 e5 dxe5 Qh4
+A40,Horwitz Defense,d4 e6
+A40,Franco-Indian Defense,d4 e6
+A40,"Seneschaud Variation, Dutch",d4 e6 Bf4 f5 g4
+A40,English Defense,d4 e6 c4 b6
+A40,Perrin Variation,d4 e6 c4 b6 e4 Bb7 Bd3 Nc6
+A40,Poli Gambit,d4 e6 c4 b6 e4 Bb7 f3 f5 exf5 Nh6
+A40,Hartlaub Gambit Declined,d4 e6 c4 b6 Nc3 Bb7 e4 f5 d5
+A40,Hartlaub Gambit Accepted,d4 e6 c4 b6 Nc3 Bb7 e4 f5 exf5 Nf6
+A40,"Keres Defense, Indian; Kangaroo Defense",d4 e6 c4 Bb4+
+A40,"Transpositional Variation, Keres Defense",d4 e6 c4 Bb4+ Nc3
+C00,Franco-Sicilian Defense,d4 e6 c4 c5
+A43,Franco-Sicilian Hybrid,d4 e6 c4 c5 d5 exd5 cxd5 d6 Nc3 g6 e4 Bg7 Nf3 Ne7
+A40,Zilbermints Gambit,d4 e6 c4 e5
+A84,Bellon Gambit,d4 e6 c4 f5 e4
+A80,Dutch Defense; A80,d4 f5
+A80,"Seneschaud Gambit, Dutch",d4 f5 Bf4 e6 g4
+A80,"Hopton Attack, Dutch",d4 f5 Bg5
+A84,A84,d4 f5 c4
+A84,"Classical Variation, Dutch",d4 f5 c4 e6
+A84,"Bellon Gambit, Dutch",d4 f5 c4 e6 e4
+A84,"Rubinstein Variation, Dutch",d4 f5 c4 e6 Nc3
+A84,"Stonewall Variation, Dutch",d4 f5 c4 e6 Nc3 Nf6 g3 c6 Bg2 d5 O-O Bd6
+A85,,d4 f5 c4 g6 Nc3
+A85,"Bladel Variation, Dutch",d4 f5 c4 g6 Nc3 Nh6
+A85,"Normal Variation, Dutch",d4 f5 c4 Nf6
+A86,"Fianchetto Variation, Dutch; A86",d4 f5 c4 Nf6 g3
+A90,A90,d4 f5 c4 Nf6 g3 e6
+A90,"Classical Variation, Dutch",d4 f5 c4 Nf6 g3 e6 Bg2
+A90,Nimzo-Dutch Variation,d4 f5 c4 Nf6 g3 e6 Bg2 Bb4+
+A91,A91,d4 f5 c4 Nf6 g3 e6 Bg2 Be7
+A91,"Botvinnik-Bronstein Variation, Dutch",d4 f5 c4 Nf6 g3 e6 Bg2 Be7 Nc3 O-O e3
+A92,A92,d4 f5 c4 Nf6 g3 e6 Bg2 Be7 Nf3
+A93,"Botvinnik Variation, Dutch; A93",d4 f5 c4 Nf6 g3 e6 Bg2 Be7 Nf3 O-O O-O d5 b3
+A94,A94,d4 f5 c4 Nf6 g3 e6 Bg2 Be7 Nf3 O-O O-O d5 b3 c6
+A95,A95,d4 f5 c4 Nf6 g3 e6 Bg2 Be7 Nf3 O-O O-O d5 Nc3
+A96,A96,d4 f5 c4 Nf6 g3 e6 Bg2 Be7 Nf3 O-O O-O d6
+A97,"Ilyin-Zhenevsky Variation, Dutch; A97",d4 f5 c4 Nf6 g3 e6 Bg2 Be7 Nf3 O-O O-O d6 Nc3 Qe8
+A99,A99,d4 f5 c4 Nf6 g3 e6 Bg2 Be7 Nf3 O-O O-O d6 Nc3 Qe8 b3
+A98,A98,d4 f5 c4 Nf6 g3 e6 Bg2 Be7 Nf3 O-O O-O d6 Nc3 Qe8 Qc2
+A92,"Alekhine Variation, Dutch",d4 f5 c4 Nf6 g3 e6 Bg2 Be7 Nf3 O-O O-O Ne4
+A91,"Blackburne Attack, Dutch",d4 f5 c4 Nf6 g3 e6 Bg2 Bg7 Nh3
+A86,"Leningrad Variation, Dutch",d4 f5 c4 Nf6 g3 g6
+A87,A87,d4 f5 c4 Nf6 g3 g6 Bg2 Bg7 Nf3
+A87,"Fluid Formation, Dutch",d4 f5 c4 Nf6 g3 g6 Bg2 Bg7 Nf3 O-O O-O d6
+A88,"Warsaw Variation, Dutch; A88",d4 f5 c4 Nf6 g3 g6 Bg2 Bg7 Nf3 O-O O-O d6 Nc3 c6
+A89,"Matulovic Variation, Dutch; A89",d4 f5 c4 Nf6 g3 g6 Bg2 Bg7 Nf3 O-O O-O d6 Nc3 Nc6
+A84,"Queen's Knight Variation, Dutch",d4 f5 c4 Nf6 Nc3
+A84,"Krause Variation, Dutch",d4 f5 c4 Nf6 Nc3 d6 Nf3 Nc6
+A85,"Ozol Variation, Dutch",d4 f5 c4 Nf6 Nc3 g6 Nf3 Bg7 Bg5
+A82,"Staunton Gambit, Dutch; A82",d4 f5 e4
+A82,"Balogh Defense, Dutch",d4 f5 e4 d6
+A82,"Staunton Gambit Accepted, Dutch",d4 f5 e4 fxe4
+A83,"General Variation, Staunton Gambit, Dutch; A83",d4 f5 e4 fxe4 Nc3 Nf6 Bg5
+A83,"Nimzovich Variation, Dutch",d4 f5 e4 fxe4 Nc3 Nf6 Bg5 b6
+A83,"Chigorin Variation, Dutch",d4 f5 e4 fxe4 Nc3 Nf6 Bg5 c6
+A83,"Lasker Variation, Dutch",d4 f5 e4 fxe4 Nc3 Nf6 Bg5 g6 f3
+A80,"Blackmar's Second Gambit, Dutch",d4 f5 e4 fxe4 Nc3 Nf6 f3
+A82,"Tartakower Variation, Dutch",d4 f5 e4 fxe4 Nc3 Nf6 g4
+A82,"American Gambit, Dutch",d4 f5 e4 fxe4 Nd2
+A81,"Dutch Indian; Leningrad Variation, Dutch; A81",d4 f5 g3
+A81,"Basman Variation, Dutch",d4 f5 g3 g6 Bg2 Bg7 Nf3 c6 O-O Nh6
+A81,"Carlsbad Variation, Dutch",d4 f5 g3 g6 Bg2 Bg7 Nh3
+A81,"Antoshin-Hort Variation, Dutch",d4 f5 g3 Nf6 Bg2 d6
+A81,"Ilyin-Genevsky Variation, Dutch",d4 f5 g3 Nf6 Bg2 e6 Nf3 Be7 O-O O-O c4 d6
+A81,"Blackburne Variation, Dutch",d4 f5 g3 Nf6 Bg2 e6 Nh3
+A81,"Semi-Leningrad Variation, Dutch",d4 f5 g3 Nf6 Bg2 g6
+A80,"Lisbon Gambit, Dutch; Krejcik Gambit",d4 f5 g4
+A80,"Hevendehl Gambit, Dutch",d4 f5 g4 e5
+A80,"Tate Gambit, Dutch",d4 f5 g4 fxg4 e4 d5 Nc3
+A80,"Korchnoi's Variation, Dutch",d4 f5 h3
+A80,"Janzen-Korchnoi Gambit, Dutch",d4 f5 h3 Nf6 g4
+A80,"Raphael Variation, Dutch",d4 f5 Nc3
+A80,"Kingfisher Gambit, Dutch",d4 f5 Nc3 d5 e4
+A80,"Spielmann Gambit, Dutch",d4 f5 Nc3 Nf6 g4
+A80,"Barcza Variation, Dutch",d4 f5 Nf3 Nf6 c3
+A80,"Alapin; Ulvestad; Manhattan; Kmoch Variation, Dutch",d4 f5 Qd3
+A80,"Anti-Stonewall, Dutch",d4 f5 Qd3 d5 g4
+A80,"Anti-Modern, Dutch",d4 f5 Qd3 d6 g4
+A80,"Anti-Classical Line, Dutch",d4 f5 Qd3 e6 g4
+A80,"Anti-Leningrad Variation, Dutch",d4 f5 Qd3 g6 g4
+A80,"Manhattan Gambit, Dutch",d4 f5 Qd3 Nf6 g4
+A80,"Pretzel Gambit, Dutch",d4 f5 Qd3 Nf6 g4
+A40,Borg Gambit,d4 g5
+A40,Queen Pawn Fianchetto,d4 g6
+A40,Kotov-Robatsch Defense,d4 g6 c4 Bg7
+A40,Pseudo-Saemisch,d4 g6 c4 Bg7 e4 d6 Be3 Nf6 f3
+A40,Rossolimo Variation,d4 g6 c4 Bg7 e4 d6 Nf3 Bg4
+A40,Neo-Modern Defense,d4 g6 c4 Bg7 e4 e5
+A40,Beefeater Variation,d4 g6 c4 Bg7 Nc3 c5 d5 Bxc3+ bxc3 f5
+A40,Modern Defense,d4 g6 c4 Bg7 Nc3 d6
+A41,"Averbakh Variation, Modern",d4 g6 c4 Bg7 Nc3 d6 e4
+A41,"Pterodactyl Variation, Modern",d4 g6 c4 Bg7 Nc3 d6 e4 c5 Nf3 Qa5
+A42,Randspringer Variation,d4 g6 c4 Bg7 Nc3 d6 e4 f5
+A40,"Kotov Variation, Modern",d4 g6 c4 Bg7 Nc3 d6 e4 Nc6
+A40,Lizard Defense; Pirc-Diemer Gambit,d4 g6 h4 Nf6 h5
+A40,Bogoljubov; Mikenas-Van Geet Defense,d4 Nc6
+A40,Lundin Defense,d4 Nc6
+A40,"Lithuanian Variation, Mikenas",d4 Nc6 c4 e5 d5 Nce7
+A40,"Cannstatter Variation, Mikenas",d4 Nc6 c4 e5 d5 Nd4
+A40,Pozarek Gambit,d4 Nc6 c4 e5 dxe5 Nxe5 Nc3 Nxc4
+A40,Montevideo Defense,d4 Nc6 d5 Nb8
+A40,Zaire Defense,d4 Nc6 d5 Nb8 e4 Nf6 e5 Ng8
+A45,Indian Defense; A45,d4 Nf6
+A45,Basque Opening,d4 Nf6 b3
+A45,Trompowsky; Opocensky; Ruth Opening,d4 Nf6 Bg5
+A45,"Poisoned Pawn Variation, Trompowsky",d4 Nf6 Bg5 c5 d5 Qb6 Nc3
+A45,Chepukaitis Gambit,d4 Nf6 Bg5 c5 d5 Qb6 Nc3 Qxb2 Bd2 Qb6
+A45,"Borg Variation, Trompowsky",d4 Nf6 Bg5 Ne4 Bf4 g5
+A45,"Edge Variation, Trompowsky",d4 Nf6 Bg5 Ne4 Bh4
+A45,"Hergert Gambit #2, Trompowsky",d4 Nf6 Bg5 Ne4 Bh4 c6 Nd2 Qa5 c3 Nxd2 Qxd2 d5 e4
+A45,"Hergert Gambit #1, Trompowsky",d4 Nf6 Bg5 Ne4 Bh4 d5 f3 Nf6 Nc3 Bf5 e4
+A45,"Raptor Variation, Trompowsky",d4 Nf6 Bg5 Ne4 h4
+A45,"Hergert Gambit, Trompowsky",d4 Nf6 Bg5 Ne4 h4 Nxg5 hxg5 e5
+A50,"Normal Variation, Indian Game; A50",d4 Nf6 c4
+A50,Pyrenees Gambit,d4 Nf6 c4 b5
+A50,Queen's Indian Defense; Saemisch-Indian,d4 Nf6 c4 b6
+A56,Hromadka Defense; Loose Gambit: A56,d4 Nf6 c4 c5
+A57,Benko Gambit; Volga; Opocensky; Vaitonis; A57,d4 Nf6 c4 c5 d5 b5
+A57,"Sosonko Variation, Benko Gambit",d4 Nf6 c4 c5 d5 b5 a4
+A57,"Bishop Attack, Benko Gambit",d4 Nf6 c4 c5 d5 b5 Bg5
+A57,Benko Gambit Accepted,d4 Nf6 c4 c5 d5 b5 cxb5
+A57,"Pawn Return Variation, Benko Gambit",d4 Nf6 c4 c5 d5 b5 cxb5 a6 b6
+A58,"Fully Accepted Variation, Benko Gambit; A58",d4 Nf6 c4 c5 d5 b5 cxb5 a6 bxa6
+A59,A59,d4 Nf6 c4 c5 d5 b5 cxb5 a6 bxa6 Bxa6 Nc3 d6 e4
+A59,"King Walk Variation, Benko Gambit",d4 Nf6 c4 c5 d5 b5 cxb5 a6 bxa6 Bxa6 Nc3 d6 e4 Bxf1 Kxf1 g6 g3 Bg7 Kg2 O-O
+A57,"Central Storming Variation, Benko Gambit",d4 Nf6 c4 c5 d5 b5 cxb5 a6 bxa6 Bxa6 Nc3 d6 f4
+A58,"Fianchetto Variation, Benko Gambit",d4 Nf6 c4 c5 d5 b5 cxb5 a6 bxa6 Bxa6 Nc3 g6 Nf3 d6 g3 Bg7 Bg2
+A57,"Modern Variation, Benko Gambit",d4 Nf6 c4 c5 d5 b5 cxb5 a6 e3
+A57,"Dlugy Variation, Benko Gambit",d4 Nf6 c4 c5 d5 b5 cxb5 a6 f3
+A57,"Zaitsev System, Benko Gambit",d4 Nf6 c4 c5 d5 b5 cxb5 a6 Nc3
+A57,"Nescafe Frappe Attack, Benko Gambit",d4 Nf6 c4 c5 d5 b5 cxb5 a6 Nc3 axb5 e4 b4 Nb5
+A57,"Zaitsev Variation, Benko Gambit",d4 Nf6 c4 c5 d5 b5 cxb5 a6 Nc3 axb5 e4 b4 Nb5 d6 Nf3 g6 Bc4
+A57,Benko Gambit Declined; Hjoerring Countergambit,d4 Nf6 c4 c5 d5 b5 e4
+A57,"Pseudo-Saemisch, Benko Gambit",d4 Nf6 c4 c5 d5 b5 f3
+A57,"Mutkin Countergambit, Benko Gambit",d4 Nf6 c4 c5 d5 b5 g4
+A57,"Quiet Line, Benko Gambit",d4 Nf6 c4 c5 d5 b5 Nd2
+A57,"Main Line, Benko Gambit Declined",d4 Nf6 c4 c5 d5 b5 Nf3
+A56,"Hromadka System, Benoni",d4 Nf6 c4 c5 d5 d6
+A56,Lundin; Bronstein Counter-Gambit,d4 Nf6 c4 c5 d5 d6 Nc3 g6 e4 b5
+A56,Petrosian System; Czech Benoni Defense,d4 Nf6 c4 c5 d5 e5
+A56,"Czech Variation, Benoni",d4 Nf6 c4 c5 d5 e5 Nc3 d6 e4 Be7
+A56,"King's Indian System, Benoni",d4 Nf6 c4 c5 d5 e5 Nc3 d6 e4 g6
+A60,"Tal Variation, Modern Variation, Benoni; A60",d4 Nf6 c4 c5 d5 e6
+A61,A61,d4 Nf6 c4 c5 d5 e6 Nc3
+A61,"Snake Variation, Benoni",d4 Nf6 c4 c5 d5 e6 Nc3 exd5 cxd5 Bd6
+A60,Modern Benoni,d4 Nf6 c4 c5 d5 e6 Nc3 exd5 cxd5 d6
+A65,"King Pawn lines, Benoni; A65",d4 Nf6 c4 c5 d5 e6 Nc3 exd5 cxd5 d6 e4
+A66,"Pawn Storm Variation, Benoni; A66",d4 Nf6 c4 c5 d5 e6 Nc3 exd5 cxd5 d6 e4 g6 f4
+A67,"Taimanov Variation, Benoni; A67",d4 Nf6 c4 c5 d5 e6 Nc3 exd5 cxd5 d6 e4 g6 f4 Bg7 Bb5
+A66,"Mikenas V, Benoni",d4 Nf6 c4 c5 d5 e6 Nc3 exd5 cxd5 d6 e4 g6 f4 Bg7 e5
+A68,A68,d4 Nf6 c4 c5 d5 e6 Nc3 exd5 cxd5 d6 e4 g6 f4 Bg7 Nf3
+A68,"Four Pawns Attack, Benoni",d4 Nf6 c4 c5 d5 e6 Nc3 exd5 cxd5 d6 e4 g6 f4 Bg7 Nf3 O-O
+A69,A69,d4 Nf6 c4 c5 d5 e6 Nc3 exd5 cxd5 d6 e4 g6 f4 Bg7 Nf3 O-O Be2 Re8
+A70,"Classical Variation, Benoni; A70",d4 Nf6 c4 c5 d5 e6 Nc3 exd5 cxd5 d6 e4 g6 Nf3
+A72,A72,d4 Nf6 c4 c5 d5 e6 Nc3 exd5 cxd5 d6 e4 g6 Nf3 Bg7 Be2
+A73,A73,d4 Nf6 c4 c5 d5 e6 Nc3 exd5 cxd5 d6 e4 g6 Nf3 Bg7 Be2 O-O O-O
+A74,A74,d4 Nf6 c4 c5 d5 e6 Nc3 exd5 cxd5 d6 e4 g6 Nf3 Bg7 Be2 O-O O-O a6
+A75,"Argentine Attack, Benoni; A75",d4 Nf6 c4 c5 d5 e6 Nc3 exd5 cxd5 d6 e4 g6 Nf3 Bg7 Be2 O-O O-O a6 a4 Bg4
+A76,"Czerniak Defesne, Benoni; A76",d4 Nf6 c4 c5 d5 e6 Nc3 exd5 cxd5 d6 e4 g6 Nf3 Bg7 Be2 O-O O-O Re8
+A77,A77,d4 Nf6 c4 c5 d5 e6 Nc3 exd5 cxd5 d6 e4 g6 Nf3 Bg7 Be2 O-O O-O Re8 Nd2
+A78,A78,d4 Nf6 c4 c5 d5 e6 Nc3 exd5 cxd5 d6 e4 g6 Nf3 Bg7 Be2 O-O O-O Re8 Nd2 Na6
+A79,A79,d4 Nf6 c4 c5 d5 e6 Nc3 exd5 cxd5 d6 e4 g6 Nf3 Bg7 Be2 O-O O-O Re8 Nd2 Na6 f3
+A71,A71,d4 Nf6 c4 c5 d5 e6 Nc3 exd5 cxd5 d6 e4 g6 Nf3 Bg7 Bg5
+A61,"Penrose Variation, Benoni",d4 Nf6 c4 c5 d5 e6 Nc3 exd5 cxd5 d6 Nf3 g6 Bd3
+A61,"Uhlmann Variation, Benoni",d4 Nf6 c4 c5 d5 e6 Nc3 exd5 cxd5 d6 Nf3 g6 Bg5
+A62,A62,d4 Nf6 c4 c5 d5 e6 Nc3 exd5 cxd5 d6 Nf3 g6 g3
+A62,"Fianchetto Variation, Benoni",d4 Nf6 c4 c5 d5 e6 Nc3 exd5 cxd5 d6 Nf3 g6 g3 Bg7 Bg2
+A63,A63,d4 Nf6 c4 c5 d5 e6 Nc3 exd5 cxd5 d6 Nf3 g6 g3 Bg7 Bg2 O-O O-O a6
+A64,A64,d4 Nf6 c4 c5 d5 e6 Nc3 exd5 cxd5 d6 Nf3 g6 g3 Bg7 Bg2 O-O O-O a6 a4 Nbd7 Nd2
+A62,"Hastings Defense, Benoni",d4 Nf6 c4 c5 d5 e6 Nc3 exd5 cxd5 d6 Nf3 g6 g3 Bg7 Bg2 O-O O-O Nbd7
+A61,"Nimzovich Variation, Knight's Tour Variation, Benoni",d4 Nf6 c4 c5 d5 e6 Nc3 exd5 cxd5 d6 Nf3 g6 Nd2
+A56,Vulture Variation; Der Geier,d4 Nf6 c4 c5 d5 Ne4
+A56,"Weenink Variation, Benoni",d4 Nf6 c4 c5 dxc5 e6
+A53,Old Indian Defense; Chigorin Indian Defense; A53,d4 Nf6 c4 d6
+A53,Aged Gibbon Gambit,d4 Nf6 c4 d6 g4
+A53,"Janowski Variation, Old Indian",d4 Nf6 c4 d6 Nc3 Bf5
+A53,"Grinberg Gambit, Old Indian",d4 Nf6 c4 d6 Nc3 Bf5 e4
+A53,Ukranian Variation,d4 Nf6 c4 d6 Nc3 e5
+A54,"Two Knights Variation, Old Indian; A54",d4 Nf6 c4 d6 Nc3 e5 Nf3
+A55,"Normal Variation, Old Indian; A55",d4 Nf6 c4 d6 Nc3 e5 Nf3 Nbd7 e4
+A53,Duz-Khotimirsky Variation,d4 Nf6 c4 d6 Nc3 Nbd7 e3 e5 Bd3
+A53,Tartakower-Indian,d4 Nf6 c4 d6 Nf3 Bg4
+A51,Budapest Defense; A51,d4 Nf6 c4 e5
+A51,"Fajarowicz Variation, Budapest",d4 Nf6 c4 e5 dxe5 Ne4
+A51,"Bonsdorf Variation, Budapest",d4 Nf6 c4 e5 dxe5 Ne4 a3 b6
+A51,"Steiner Variation, Budapest",d4 Nf6 c4 e5 dxe5 Ne4 Qc2
+A52,"Normal Variation, Budapest; A52",d4 Nf6 c4 e5 dxe5 Ng4
+A52,"Rubinstein Variation, Budapest",d4 Nf6 c4 e5 dxe5 Ng4 Bf4
+A52,"Kornl Richter Gambit, Budapest",d4 Nf6 c4 e5 dxe5 Ng4 Bf4 Nc6 Nf3 Bb4+ Nc3 Bxc3+
+A52,"Center Play Variation, Budapest; Alekhine Variation",d4 Nf6 c4 e5 dxe5 Ng4 e4
+A52,"Balogh; Tartakower C-G, Budapest",d4 Nf6 c4 e5 dxe5 Ng4 e4 d6
+A52,"Barmina Gambit, Budapest",d4 Nf6 c4 e5 dxe5 Ng4 e4 Nxe5 f4 Bc5
+A52,"Wikstrom Gambit, Budapest",d4 Nf6 c4 e5 dxe5 Ng4 e4 Nxe5 f4 Nbc6
+A52,"Abonyi Variation, Budapest",d4 Nf6 c4 e5 dxe5 Ng4 e4 Nxe5 f4 Nec6
+A52,"Adler Variation, Budapest",d4 Nf6 c4 e5 dxe5 Ng4 Nf3
+E00,East Indian Defense; E00,d4 Nf6 c4 e6
+E00,Seirawan Attack,d4 Nf6 c4 e6 Bg5
+E00,Catalan Opening,d4 Nf6 c4 e6 g3
+E01,E01,d4 Nf6 c4 e6 g3 d5
+E06,"Closed Variation, Catalan",d4 Nf6 c4 e6 g3 d5 Bg2
+E06,E06,d4 Nf6 c4 e6 g3 d5 Bg2 Be7
+E07,E07,d4 Nf6 c4 e6 g3 d5 Bg2 Be7 Nf3 O-O O-O Nbd7
+E07,"Botvinnik Variation, Catalan",d4 Nf6 c4 e6 g3 d5 Bg2 Be7 Nf3 O-O O-O Nbd7 Nc3 c6 Qd3
+E08,E08,d4 Nf6 c4 e6 g3 d5 Bg2 Be7 Nf3 O-O O-O Nbd7 Qc2
+E09,E09,d4 Nf6 c4 e6 g3 d5 Bg2 Be7 Nf3 O-O O-O Nbd7 Qc2 c6 Nbd2
+E09,"Sokolsky Variation, Catalan",d4 Nf6 c4 e6 g3 d5 Bg2 Be7 Nf3 O-O O-O Nbd7 Qc2 c6 Nbd2 b6 Nbd2 b6 b3 a5 Bb2 Ba6
+E08,"Zagoriansky Variation, Catalan",d4 Nf6 c4 e6 g3 d5 Bg2 Be7 Nf3 O-O O-O Nbd7 Qc2 c6 Rd1 b6 a4
+E06,"Tarrasch Defense, Catalan",d4 Nf6 c4 e6 g3 d5 Bg2 c5 Nf3 Nc6
+E02,E02,d4 Nf6 c4 e6 g3 d5 Bg2 dxc4
+E04,"Open Defense, Catalan; E04",d4 Nf6 c4 e6 g3 d5 Bg2 dxc4 Nf3
+E05,"Classical Line, Catalan; E05",d4 Nf6 c4 e6 g3 d5 Bg2 dxc4 Nf3 Be7
+E05,"Modern Sharp Variation, Catalan",d4 Nf6 c4 e6 g3 d5 Bg2 dxc4 Nf3 Nc6 Qa4 Bb4+
+E03,E03,d4 Nf6 c4 e6 g3 d5 Bg2 dxc4 Qa4+ Nbd7 Qxc4
+E03,"Alekhine Variation, Catalan",d4 Nf6 c4 e6 g3 d5 Bg2 dxc4 Qa4+ Nbd7 Qxc4 a6 Qc2
+E00,"Hungarian Gambit, Catalan",d4 Nf6 c4 e6 g3 e5
+E00,"Devin Gambit, Catalan",d4 Nf6 c4 e6 g4
+E20,E20,d4 Nf6 c4 e6 Nc3
+E20,Nimzo-Indian Defense,d4 Nf6 c4 e6 Nc3 Bb4
+E24,"Saemisch Variation, Nimzo-Indian; E24",d4 Nf6 c4 e6 Nc3 Bb4 a3
+E24,"Accelerated Saemisch Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 a3 Bxc3+ bxc3
+E26,"Saemisch Variation, Nimzo-Indian; E26",d4 Nf6 c4 e6 Nc3 Bb4 a3 Bxc3+ bxc3 c5 e3
+E26,"O'Kelly Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 a3 Bxc3+ bxc3 c5 e3 b6
+E26,"Capablanca Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 a3 Bxc3+ bxc3 c5 e3 Nc6 Bd3 O-O Ne2 b6 e4 Ne8
+E25,E25,d4 Nf6 c4 e6 Nc3 Bb4 a3 Bxc3+ bxc3 c5 f3 d5 cxd5
+E25,"Keres Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 a3 Bxc3+ bxc3 c5 f3 d5 cxd5 Nxd5 dxc5
+E25,"Romanovsky Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 a3 Bxc3+ bxc3 c5 f3 d5 cxd5 Nxd5 dxc5 f5
+E24,"Botvinnik Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 a3 Bxc3+ bxc3 c5 f3 d5 e3 O-O cxd5 Nxd5
+E27,E27,d4 Nf6 c4 e6 Nc3 Bb4 a3 Bxc3+ bxc3 O-O
+E28,E28,d4 Nf6 c4 e6 Nc3 Bb4 a3 Bxc3+ bxc3 O-O e3
+E29,E29,d4 Nf6 c4 e6 Nc3 Bb4 a3 Bxc3+ bxc3 O-O e3 c5 Bd3 Nc6
+E29,"Capablanca Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 a3 Bxc3+ bxc3 O-O e3 c5 Bd3 Nc6 Ne2 b6 e4 Ne8
+E30,"Leningrad Variation, Nimzo-Indian; E30",d4 Nf6 c4 e6 Nc3 Bb4 Bg5
+E30,"Averbakh Gambit, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 Bg5 h6 Bh4 c5 d5 b5
+E31,"Benoni Defense, Nimzo-Indian; E31",d4 Nf6 c4 e6 Nc3 Bb4 Bg5 h6 Bh4 c5 d5 d6
+E40,"Rubinstein Variation, Nimzo-Indian; E40",d4 Nf6 c4 e6 Nc3 Bb4 e3
+E43,"St. Petersburg Variation, Nimzo-Indian; E43",d4 Nf6 c4 e6 Nc3 Bb4 e3 b6
+E44,"Fischer Variation, Nimzo-Indian; E44",d4 Nf6 c4 e6 Nc3 Bb4 e3 b6 Ne2
+E45,"Bronstein Variation, Nimzo-Indian; E45; Byrne Variation",d4 Nf6 c4 e6 Nc3 Bb4 e3 b6 Ne2 Ba6
+E41,"Huebner Variation, Nimzo-Indian; E41",d4 Nf6 c4 e6 Nc3 Bb4 e3 c5
+E41,"Huebner Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 e3 c5 Bd3 Nc6 Nf3 Bxc3
+E42,"Rubinstein Variation, Nimzo-Indian; E42",d4 Nf6 c4 e6 Nc3 Bb4 e3 c5 Ne2
+E42,"Sherbakov Attack, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 e3 c5 Ne2 cxd4 exd4 O-O c5
+E41,"Panov Attack, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 e3 c5 Nf3 cxd4 exd4 d5
+E40,"Keres Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 e3 d5 a3 Bxc3+ bxc3 c5 cxd5 exd5 Bd3 O-O Ne2 b6
+E40,"Taimanov Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 e3 Nc6
+E40,"Ragozin Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 e3 Nc6 Nf3 O-O Bd3 d5 O-O dxc4
+E46,"Normal Variation, Nimzo-Indian; E46",d4 Nf6 c4 e6 Nc3 Bb4 e3 O-O
+E47,"Bishop Attack, Nimzo-Indian; E47",d4 Nf6 c4 e6 Nc3 Bb4 e3 O-O Bd3
+E48,"Classical Defense, Nimzo-Indian; E48",d4 Nf6 c4 e6 Nc3 Bb4 e3 O-O Bd3 d5
+E49,"Botvinnik System, Nimzo-Indian; E49",d4 Nf6 c4 e6 Nc3 Bb4 e3 O-O Bd3 d5 a3 Bxc3+ bxc3
+E48,"Olafsson Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 e3 O-O Bd3 d5 Nf3 c5 O-O dxc4 Bxc4 b6 Qe2 Bb7 Rd1 Qc8
+E48,"Bronstein Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 e3 O-O Bd3 d5 Nf3 c5 O-O dxc4 Bxc4 Bd7
+E48,"Bronstein Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 e3 O-O Bd3 d5 Nf3 c5 O-O dxc4 Bxc4 Nbd7 Ne2
+E48,"Smyslov Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 e3 O-O Bd3 d5 Nf3 c5 O-O dxc4 Bxc4 Qe7
+E46,"Reshevsky Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 e3 O-O Ne2
+E46,"Simagin Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 e3 O-O Ne2 d5 a3 Bd6
+E50,E50,d4 Nf6 c4 e6 Nc3 Bb4 e3 O-O Nf3
+E50,"Huebner Deferred, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 e3 O-O Nf3 c5
+E51,"Ragozin Variation, Nimzo-Indian; E51",d4 Nf6 c4 e6 Nc3 Bb4 e3 O-O Nf3 d5
+E51,"Saemisch Deferred, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 e3 O-O Nf3 d5 a3
+E52,"Schlechter Defense, Nimzo-Indian; E52",d4 Nf6 c4 e6 Nc3 Bb4 e3 O-O Nf3 d5 Bd3 b6
+E53,Bernstein Defense; Gligoric System; E53,d4 Nf6 c4 e6 Nc3 Bb4 e3 O-O Nf3 d5 Bd3 c5
+E53,"Keres Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 e3 O-O Nf3 d5 Bd3 c5 O-O b6
+E54,E54,d4 Nf6 c4 e6 Nc3 Bb4 e3 O-O Nf3 d5 Bd3 c5 O-O dxc4 Bxc4
+E55,"Bronstein Variation, Nimzo-Indian; E55",d4 Nf6 c4 e6 Nc3 Bb4 e3 O-O Nf3 d5 Bd3 c5 O-O dxc4 Bxc4 Nbd7
+E55,"Smyslov Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 e3 O-O Nf3 d5 Bd3 c5 O-O dxc4 Bxc4 Qe7
+E56,"Bernstein Variation, Nimzo-Indian; E56",d4 Nf6 c4 e6 Nc3 Bb4 e3 O-O Nf3 d5 Bd3 c5 O-O Nc6
+E58,E58,d4 Nf6 c4 e6 Nc3 Bb4 e3 O-O Nf3 d5 Bd3 c5 O-O Nc6 a3 Bxc3 bxc3
+E59,E59,d4 Nf6 c4 e6 Nc3 Bb4 e3 O-O Nf3 d5 Bd3 c5 O-O Nc6 a3 Bxc3 bxc3 dxc4 Bxc4
+E57,E57,d4 Nf6 c4 e6 Nc3 Bb4 e3 O-O Nf3 d5 Bd3 c5 O-O Nc6 a3 dxc4 Bxc4 cxd4
+E46,"Reshevsky Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 e3 O-O Nge2
+E46,"Simagin Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 e3 O-O Nge2 d5 a3 Bd6
+E20,"Kmoch Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 f3
+E20,"Steiner Variation, Nimzo-Indian; Romanishin Variation",d4 Nf6 c4 e6 Nc3 Bb4 g3
+E21,"Three Knights Variation, Nimzo-Indian; E21",d4 Nf6 c4 e6 Nc3 Bb4 Nf3
+E21,"Korchnoi Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 Nf3 c5 d5
+E21,"Shocron Gambit, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 Nf3 c5 d5 b5
+E21,"Euwe Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 Nf3 c5 d5 Ne4
+E20,"Romanishin Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 Nf3 c5 g3 O-O Bg2
+E20,"English Hybrid, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 Nf3 c5 g3 O-O Bg2 cxd4 Nxd4 d5 cxd5 Nxd5
+E20,"Ragozin Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 Nf3 d5
+E22,"Spielmann Variation, Nimzo-Indian; E22",d4 Nf6 c4 e6 Nc3 Bb4 Qb3
+E23,"Romanovsky Gambit, Nimzo-Indian; E23",d4 Nf6 c4 e6 Nc3 Bb4 Qb3 c5 dxc5 Nc6
+E23,"San Remo Variation, Nimzo-Indian; Stahlberg Variation",d4 Nf6 c4 e6 Nc3 Bb4 Qb3 c5 dxc5 Nc6 Nf3 Ne4 Bd2 Nxc5
+E23,"Stahlberg Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 Qb3 c5 dxc5 Nc6 Nf3 Ne4 Bd2 Nxc5 Qc2 f5 g3
+E23,"Carlsbad Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 Qb3 c5 dxc5 Nc6 Nf3 Ne4 Bd2 Nxd2
+E23,"Stahlberg Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 Qb3 c5 dxc5 Nc6 Nf3 Ne4 Bd2 Nxd2 Nxd2 O-O O-O-O
+E32,"Classical Variation, Nimzo-Indian; E32",d4 Nf6 c4 e6 Nc3 Bb4 Qc2
+E38,"Berlin Variation, Nimzo-Indian; E38",d4 Nf6 c4 e6 Nc3 Bb4 Qc2 c5
+E38,"Steiner Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 Qc2 c5 dxc5 Bxc3+
+E39,"Pirc Variation, Nimzo-Indian; E39",d4 Nf6 c4 e6 Nc3 Bb4 Qc2 c5 dxc5 O-O
+E34,"Noa Variation, Nimzo-Indian; E34",d4 Nf6 c4 e6 Nc3 Bb4 Qc2 d5
+E36,E36,d4 Nf6 c4 e6 Nc3 Bb4 Qc2 d5 a3
+E36,"Botvinnik Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 Qc2 d5 a3 Bxc3+ Qxc3 Nc6
+E37,E37,d4 Nf6 c4 e6 Nc3 Bb4 Qc2 d5 a3 Bxc3+ Qxc3 Ne4
+E37,"San Remo Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 Qc2 d5 a3 Bxc3+ Qxc3 Ne4 Qc2 Nc6 e3 e5
+E35,E35,d4 Nf6 c4 e6 Nc3 Bb4 Qc2 d5 cxd5 exd5
+E35,"Romanishin Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 Qc2 d5 cxd5 exd5 Nf3 Qf5
+E35,"Beliavsky Gambit, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 Qc2 d5 cxd5 exd5 Nf3 Qf5 Qd1 e5
+E33,"Milner-Barry, Zurich Variation, Nimzo-Indian; E33",d4 Nf6 c4 e6 Nc3 Bb4 Qc2 Nc6
+E33,"Milner-Barry Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 Qc2 Nc6 Nf3 d6
+E33,"Old Zurich Variation, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 Qc2 Nc6 Nf3 d6 a3
+E33,"Vitolinsh-Adorjan Gambit, Nimzo Indian",d4 Nf6 c4 e6 Nc3 Bb4 Qc2 O-O a3 Bxc3+ Qxc3 b5
+E33,"Keres Defense, Nimzo-Indian",d4 Nf6 c4 e6 Nc3 Bb4 Qc2 O-O a3 Bxc3+ Qxc3 b6
+E10,Anti-Nimzo-Indian; E10,d4 Nf6 c4 e6 Nf3
+E10,Dzindzi-Indian Defense,d4 Nf6 c4 e6 Nf3 a6
+E12,Queen's Indian Defense; E12,d4 Nf6 c4 e6 Nf3 b6
+E12,"Petrosian Variation, QID",d4 Nf6 c4 e6 Nf3 b6 a3
+E12,"Farago Defense, QID",d4 Nf6 c4 e6 Nf3 b6 a3 Ba6 Qc2 Bb7
+E12,"Murey Variation, QID",d4 Nf6 c4 e6 Nf3 b6 a3 Bb7 Nc3 d5 cxd5 Nxd5 Qc2 c5 e4 Nxc3 bxc3 Nc6 Bb2 cxd4 cxd4 Rc8 1Rd1 Bd6
+E12,"Miles Variation, QID",d4 Nf6 c4 e6 Nf3 b6 Bf4
+E14,"Spassky System, QID; E14",d4 Nf6 c4 e6 Nf3 b6 e3
+E14,"Averbakh Variation, QID",d4 Nf6 c4 e6 Nf3 b6 e3 Bb7 Bd3 c5 O-O Be7 b3 O-O Bb2 cxd4 Nxd4
+E15,"Fianchetto System, QID; E15",d4 Nf6 c4 e6 Nf3 b6 g3
+E15,"Nimzovich Variation, QID",d4 Nf6 c4 e6 Nf3 b6 g3 Ba6
+E15,"Quiet Line, QID",d4 Nf6 c4 e6 Nf3 b6 g3 Ba6 b3
+E15,"Nimzovich Attack, QID",d4 Nf6 c4 e6 Nf3 b6 g3 Ba6 Qa4+
+E15,"Timman's Line, QID",d4 Nf6 c4 e6 Nf3 b6 g3 Ba6 Qb3
+E16,"Fianchetto Traditional, QID; E16",d4 Nf6 c4 e6 Nf3 b6 g3 Bb7
+E16,"Capablanca Variation, QID",d4 Nf6 c4 e6 Nf3 b6 g3 Bb7 Bg2 Bb4+
+E16,"Yates Variation, QID",d4 Nf6 c4 e6 Nf3 b6 g3 Bb7 Bg2 Bb4+ Bd2 a5
+E16,"Riumin Variation, QID",d4 Nf6 c4 e6 Nf3 b6 g3 Bb7 Bg2 Bb4+ Bd2 Be7
+E17,"Traditional Variation, QID; E17",d4 Nf6 c4 e6 Nf3 b6 g3 Bb7 Bg2 Be7
+E17,Anti-Queen's Indian System,d4 Nf6 c4 e6 Nf3 b6 g3 Bb7 Bg2 Be7 Nc3
+E17,"Opocensky Variation, QID",d4 Nf6 c4 e6 Nf3 b6 g3 Bb7 Bg2 Be7 Nc3 Ne4 Bd2
+E17,"Classical Variation, QID",d4 Nf6 c4 e6 Nf3 b6 g3 Bb7 Bg2 Be7 O-O
+E17,"Euwe Variation, QID",d4 Nf6 c4 e6 Nf3 b6 g3 Bb7 Bg2 Be7 O-O O-O b3
+E17,"Taimanov Gambit, QID",d4 Nf6 c4 e6 Nf3 b6 g3 Bb7 Bg2 Be7 O-O O-O d5 exd5 Nd4
+E17,"Polugaevsky Gambit, QID",d4 Nf6 c4 e6 Nf3 b6 g3 Bb7 Bg2 Be7 O-O O-O d5 exd5 Nh4
+E18,E18,d4 Nf6 c4 e6 Nf3 b6 g3 Bb7 Bg2 Be7 O-O O-O Nc3
+E18,"Tiviakov Defense, QID",d4 Nf6 c4 e6 Nf3 b6 g3 Bb7 Bg2 Be7 O-O O-O Nc3 Na6
+E19,E19,d4 Nf6 c4 e6 Nf3 b6 g3 Bb7 Bg2 Be7 O-O O-O Nc3 Ne4 Qc2
+E17,"Kramnik Variation, QID",d4 Nf6 c4 e6 Nf3 b6 g3 Bb7 Bg2 Be7 O-O O-O Re1
+E15,"Saemisch Variation, QID",d4 Nf6 c4 e6 Nf3 b6 g3 Bb7 Bg2 c5
+E16,"Buerger Variation, QID",d4 Nf6 c4 e6 Nf3 b6 g3 Bb7 Bg2 c5 d5 exd5 Ng5
+E16,"Rubinstein Variation, QID",d4 Nf6 c4 e6 Nf3 b6 g3 Bb7 Bg2 c5 d5 exd5 Nh4
+E16,"Fine Variation, QID",d4 Nf6 c4 e6 Nf3 b6 g3 Bb7 Bg2 Qc8 O-O c5 d5
+E12,"Kasparov Variation, QID",d4 Nf6 c4 e6 Nf3 b6 Nc3
+E12,"Kasparov-Petrosian Variation, QID",d4 Nf6 c4 e6 Nf3 b6 Nc3 Bb7 a3
+E12,"Polovodin Gambit, QID",d4 Nf6 c4 e6 Nf3 b6 Nc3 Bb7 a3 d5 cxd5 Nxd5 e4
+E12,"Hedgehog Variation, QID",d4 Nf6 c4 e6 Nf3 b6 Nc3 Bb7 a3 g6
+E13,E13,d4 Nf6 c4 e6 Nf3 b6 Nc3 Bb7 Bg5 h6 Bh4 Bb4
+E12,"Botvinnik Variation, QID",d4 Nf6 c4 e6 Nf3 b6 Nc3 Bb7 Bg5 h6 Bh4 g5 Bg3 Nh5
+E11,Bogoljubow Defense; Bogo-Indian Defense; E11,d4 Nf6 c4 e6 Nf3 Bb4+
+E11,Monticelli Trap,d4 Nf6 c4 e6 Nf3 Bb4+ Bd2 Bxd2+ Qxd2 b6 g3 Bb7 Bg2 O-O Nc3 Ne4 Qc2 Nxc3 Bg5
+E11,"Nimzovich Variation, Bogo-Indian",d4 Nf6 c4 e6 Nf3 Bb4+ Bd2 Qe7
+E11,"Grunfeld Variation, Bogo-Indian",d4 Nf6 c4 e6 Nf3 Bb4+ Nbd2
+E10,Blumenfeld Variation,d4 Nf6 c4 e6 Nf3 c5
+E10,Blumenfeld Countergambit,d4 Nf6 c4 e6 Nf3 c5 d5 b5
+E10,Dus-Chotimursky Variation,d4 Nf6 c4 e6 Nf3 c5 d5 b5 Bg5
+E10,"Spielmann Variation, Blumenfeld",d4 Nf6 c4 e6 Nf3 c5 d5 b5 Bg5 exd5 cxd5 h6
+E10,Blumenfeld Countergambit Accepted,d4 Nf6 c4 e6 Nf3 c5 d5 b5 dxe6 fxe6 cxb5 d5
+E10,"Rubinstein Variation, Blumenfeld",d4 Nf6 c4 e6 Nf3 c5 d5 b5 e4
+E10,Dory (Doery) Defense,d4 Nf6 c4 e6 Nf3 Ne4
+A50,Medusa Gambit,d4 Nf6 c4 g5
+D70,King's Indian Defense; West Indian Defense; D70,d4 Nf6 c4 g6
+E60,King's Indian Defense; West Indian Defense; E60,d4 Nf6 c4 g6
+D70,Anti-Grunfeld Variation,d4 Nf6 c4 g6 d5
+D70,Danube Gambit; Adorjan Gambit,d4 Nf6 c4 g6 d5 b5
+D70,Danube; Donau Gambit,d4 Nf6 c4 g6 d5 b5 cxb5 a6 bxa6 c6
+D70,Nimzovich Attack; Anti-Grunfeld; Alekhine Variation,d4 Nf6 c4 g6 f3
+D70,Goglidze Attack,d4 Nf6 c4 g6 f3 d5
+D70,Leko Gambit,d4 Nf6 c4 g6 f3 e5
+E60,"Fianchetto Variation, KID",d4 Nf6 c4 g6 g3
+E60,Counterthrust Variation,d4 Nf6 c4 g6 g3 Bg7 Bg2 d5
+E60,Kemeri Variation,d4 Nf6 c4 g6 g3 Bg7 Bg2 d5 cxd5 Nxd5 Nf3 O-O O-O c5
+E60,Yugoslav Variation,d4 Nf6 c4 g6 g3 Bg7 Bg2 d6 Nf3 O-O Nc3 c5
+E60,Bronstein Variation,d4 Nf6 c4 g6 g3 Bg7 Bg2 d6 Nf3 O-O Nc3 c6 O-O Qa5
+E60,Panno Variation,d4 Nf6 c4 g6 g3 Bg7 Bg2 d6 Nf3 O-O Nc3 Nc6 O-O a6 h3 Rb8
+E60,Spassky Variation,d4 Nf6 c4 g6 g3 Bg7 Bg2 d6 Nf3 O-O Nc3 Nc6 O-O Bf5
+E60,Simagin Variation,d4 Nf6 c4 g6 g3 Bg7 Bg2 d6 Nf3 O-O Nc3 Nc6 O-O Bg4
+E60,Szabo Variation,d4 Nf6 c4 g6 g3 Bg7 Bg2 d6 Nf3 O-O Nc3 Nc6 O-O e5
+E60,Panno System,d4 Nf6 c4 g6 g3 Bg7 Bg2 d6 Nf3 O-O O-O Nc6 d5 Na5
+E60,"Pomar Variation, KID",d4 Nf6 c4 g6 g3 Bg7 Bg2 O-O Nge2
+D70,Kemeri; Neo-Grunfeld,d4 Nf6 c4 g6 g3 d5
+D71,Counterthrust Variation,d4 Nf6 c4 g6 g3 d5 Bg2 Bg7
+D71,"Exchange Variation, Neo-Grunfeld",d4 Nf6 c4 g6 g3 d5 Bg2 Bg7 cxd5 Nxd5
+D72,D72,d4 Nf6 c4 g6 g3 d5 Bg2 Bg7 cxd5 Nxd5 e4 Nb6
+D73,D73,d4 Nf6 c4 g6 g3 d5 Bg2 Bg7 Nf3
+D74,"Delayed Exchange Variation, Neo-Grunfeld; D74",d4 Nf6 c4 g6 g3 d5 Bg2 Bg7 Nf3 O-O cxd5 Nxd5 O-O
+D75,D75,d4 Nf6 c4 g6 g3 d5 Bg2 Bg7 Nf3 O-O cxd5 Nxd5 O-O c5
+D76,D76,d4 Nf6 c4 g6 g3 d5 Bg2 Bg7 Nf3 O-O cxd5 Nxd5 O-O Nb6
+D77,"Classical Variation, Neo-Grunfeld; D77",d4 Nf6 c4 g6 g3 d5 Bg2 Bg7 Nf3 O-O O-O
+D78,"Original Defesne, Neo-Grunfeld; D78",d4 Nf6 c4 g6 g3 d5 Bg2 Bg7 Nf3 O-O O-O c6
+D79,D79,d4 Nf6 c4 g6 g3 d5 Bg2 Bg7 Nf3 O-O O-O c6 cxd5
+D79,"Ultra-delayed Exchange Variation, Neo-Grunfeld",d4 Nf6 c4 g6 g3 d5 Bg2 Bg7 Nf3 O-O O-O c6 cxd5 cxd5
+D78,"Modern Defense, Neo-Grunfeld",d4 Nf6 c4 g6 g3 d5 Bg2 Bg7 Nf3 O-O O-O dxc4
+D78,"Polgar Variation, Neo-Grunfeld",d4 Nf6 c4 g6 g3 d5 Bg2 Bg7 Nf3 O-O O-O Nc6
+E61,E61,d4 Nf6 c4 g6 Nc3
+E61,"Smyslov Variation, KID",d4 Nf6 c4 g6 Nc3 Bg7 Bg5
+E70,"Normal Variation, KID; E70",d4 Nf6 c4 g6 Nc3 Bg7 e4
+E77,"Six Pawns Attack, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6
+E73,E73,d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Be2
+E73,"Semi-Averbakh System, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Be2 O-O Be3
+E73,"Averbakh Variation, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Be2 O-O Bg5
+E73,"Spanish Defense, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Be2 O-O Bg5 a6
+E74,"Benoni Defense, KID; E74",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Be2 O-O Bg5 c5
+E75,E75,d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Be2 O-O Bg5 c5 d5 c6
+E73,"Flexible Defense, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Be2 O-O Bg5 h6
+E73,"Burgess Line, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Be2 O-O Bg5 Na6 Qd2 c6
+E73,"Geller Defense, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Be2 O-O Bg5 Nbd7
+E70,"Accelerated Averbakh Variation, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Bg5
+E80,"Saemisch Variation, KID; E80",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 f3
+E80,"Bronstein Variation, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 f3 e5 d5 Nh5 Be3 Na6 Qd2 Qh4+ g3 Nxg3 Qf2 Nxf1 Qxh4 Nxe3 1Kf2 Nxc4
+E81,"Normal Defesne, Sameisch Variation, KID; E81",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 f3 O-O
+E82,"Double Fianchetto, KID; E82",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 f3 O-O Be3 b6
+E81,"Byrne Defense, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 f3 O-O Be3 c6 Bd3 a6
+E85,"Orthodox Variation, KID; E85",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 f3 O-O Be3 e5
+E87,"Closed Variation, KID; E87",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 f3 O-O Be3 e5 d5
+E88,E88,d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 f3 O-O Be3 e5 d5 c6
+E89,E89,d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 f3 O-O Be3 e5 d5 c6 Nge2
+E87,"Bronstein Defense, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 f3 O-O Be3 e5 d5 Nh5 Qd2 Qh4+ g3 Nxg3 Qf2 Nxf1
+E86,E86,d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 f3 O-O Be3 e5 Nge2 c6
+E83,"Yates Defense, KID; E83",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 f3 O-O Be3 Nc6
+E83,"Panno Formation, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 f3 O-O Be3 Nc6 Nge2 a6
+E84,E84,d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 f3 O-O Be3 Nc6 Nge2 a6 Qd2 Rb8
+E83,"Ruban Variation, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 f3 O-O Be3 Nc6 Nge2 Rb8
+E81,"Steiner Attack, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 f3 O-O Bg5
+E81,"Bobotsov-Korchnoi-Petrosian Variation, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 f3 O-O Nge2
+E76,"Four Pawns Attack, KID; E76",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 f4
+E76,"Six Pawns Attack, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 f4 c5 d5 O-O Be2 e6 dxe6 fxe6 g4 Nc6 h4
+E76,"Modern Defense, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 f4 Na6
+E77,E77,d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 f4 O-O Be2
+E77,"Florentine Gambit, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 f4 O-O Be2 c5 d5 e6 Nf3 exd5 e5
+E78,"Fluid Attack, KID; E78",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 f4 O-O Be2 c5 Nf3
+E79,"Exchange Variation, Four Pawns Attack, KID; E79",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 f4 O-O Be2 c5 Nf3 cxd4 Nxd4 Nc6 Be3
+E76,"Dynamic Attack, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 f4 O-O Nf3 c5 d5
+E72,"Deferred Fianchetto, KID; E72",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 g3
+E72,"Pomar System, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 g3 O-O Bg2 e5 Nge2
+E71,"Makogonov Variation, KID; E71",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 h3
+E90,E90,d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3
+E91,"Orthodox Variation, KID; E91",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O Be2
+E92,E92,d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O Be2 e5
+E92,"Gligoric-Taimanov Variation, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O Be2 e5 Be3
+E92,"Petrosian Variation, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O Be2 e5 d5
+E92,"Stein Defense, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O Be2 e5 d5 a5
+E93,E93,d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O Be2 e5 d5 Nbd7
+E93,"Keres Variation, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O Be2 e5 d5 Nbd7 Bg5 h6 Bh4 g5 Bg3 Nh5 h4
+E94,E94,d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O Be2 e5 O-O
+E94,"Ukranian Defense, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O Be2 e5 O-O a5
+E94,"Donner Variation, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O Be2 e5 O-O c6
+E94,"Glek Defense, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O Be2 e5 O-O Na6
+E95,E95,d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O Be2 e5 O-O Nbd7 Re1
+E96,E96,d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O Be2 e5 O-O Nbd7 Re1 c6 Bf1 a5
+E97,"Aronin-Taimanov Variation, KID; E97",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O Be2 e5 O-O Nc6
+E97,"Normal Variation, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O Be2 e5 O-O Nc6 d5 Ne7
+E97,"Bayonet Attack, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O Be2 e5 O-O Nc6 d5 Ne7 b4
+E97,"Yepishin's Line, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O Be2 e5 O-O Nc6 d5 Ne7 b4 Nh5 Qc2
+E97,"Sokolov's Line, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O Be2 e5 O-O Nc6 d5 Ne7 b4 Nh5 Re1
+E97,"Korchnoi Attack, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O Be2 e5 O-O Nc6 d5 Ne7 Bd2
+E98,E98,d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O Be2 e5 O-O Nc6 d5 Ne7 Ne1
+E98,"Kozul Gambit, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O Be2 e5 O-O Nc6 d5 Ne7 Ne1 Nd7 Be3 f5
+E99,"Benko Attack, KID; E99",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O Be2 e5 O-O Nc6 d5 Ne7 Ne1 Nd7 f3
+E99,"Benko Variation, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O Be2 e5 O-O Nc6 d5 Ne7 Ne1 Nd7 f3 f5 g4
+E90,"Larsen Variation, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O Be3
+E90,"Zinnowitz Variation, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O Bg5
+E91,"Kazakh Variation, KID",d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O Na6
+E61,"Smyslov Variation, KID",d4 Nf6 c4 g6 Nc3 Bg7 Nf3 d6 Bg5
+E62,"Delayed Fianchetto, KID; E62",d4 Nf6 c4 g6 Nc3 Bg7 Nf3 d6 g3
+E64,"Yugoslav Variation, KID; E64",d4 Nf6 c4 g6 Nc3 Bg7 Nf3 d6 g3 O-O Bg2 c5
+E65,E65,d4 Nf6 c4 g6 Nc3 Bg7 Nf3 d6 g3 O-O Bg2 c5 O-O
+E66,E66,d4 Nf6 c4 g6 Nc3 Bg7 Nf3 d6 g3 O-O Bg2 c5 O-O Nc6 d5
+E62,"Larsen Defense, KID",d4 Nf6 c4 g6 Nc3 Bg7 Nf3 d6 g3 O-O Bg2 c6 O-O Bf5
+E62,"Kavalek Defense, KID",d4 Nf6 c4 g6 Nc3 Bg7 Nf3 d6 g3 O-O Bg2 c6 O-O Qa5
+E62,"Benjamin Defense, KID",d4 Nf6 c4 g6 Nc3 Bg7 Nf3 d6 g3 O-O Bg2 c6 O-O Qb6
+E67,"Debrecen Defense, KID; E67",d4 Nf6 c4 g6 Nc3 Bg7 Nf3 d6 g3 O-O Bg2 Nbd7
+E68,E68,d4 Nf6 c4 g6 Nc3 Bg7 Nf3 d6 g3 O-O Bg2 Nbd7 O-O e5 e4
+E69,E69,d4 Nf6 c4 g6 Nc3 Bg7 Nf3 d6 g3 O-O Bg2 Nbd7 O-O e5 e4 c6 h3
+E62,"Carlsbad Variation, KID",d4 Nf6 c4 g6 Nc3 Bg7 Nf3 d6 g3 O-O Bg2 Nc6
+E63,"Panno Variation, KID; E63",d4 Nf6 c4 g6 Nc3 Bg7 Nf3 d6 g3 O-O Bg2 Nc6 O-O a6
+E62,"Lesser Simagin (Spassky) Variation, KID",d4 Nf6 c4 g6 Nc3 Bg7 Nf3 d6 g3 O-O Bg2 Nc6 O-O Bf5
+E62,"Simagin Variation, KID",d4 Nf6 c4 g6 Nc3 Bg7 Nf3 d6 g3 O-O Bg2 Nc6 O-O Bg4
+E62,"Uhlmann-Szabo System, KID",d4 Nf6 c4 g6 Nc3 Bg7 Nf3 d6 g3 O-O Bg2 Nc6 O-O e5
+E70,"Kramer Variation, KID",d4 Nf6 c4 g6 Nc3 Bg7 Nf3 d6 Nge2
+D80,Grunfeld Defense; D80,d4 Nf6 c4 g6 Nc3 d5
+D82,"Brinckmann Attack, Grunfeld; D82",d4 Nf6 c4 g6 Nc3 d5 Bf4
+D83,Grunfeld Gambit; D83,d4 Nf6 c4 g6 Nc3 d5 Bf4 Bg7 e3 O-O
+D84,D84,d4 Nf6 c4 g6 Nc3 d5 Bf4 Bg7 e3 O-O cxd5 Nxd5
+D83,"Capablanca Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 Bf4 Bg7 e3 O-O Rc1
+D83,"Botvinnik Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 Bf4 Bg7 e3 O-O Rc1 c5 dxc5 Be6
+D83,"Reshevsky Gambit, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 Bf4 Bg7 e3 O-O Rc1 c5 dxc5 Qa5
+D80,"Stockholm Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 Bg5
+D80,"Lundin Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 Bg5 Ne4 Nxe4 dxc3 Qd2 c5
+D85,"Exchange Variation, Grunfeld; D85",d4 Nf6 c4 g6 Nc3 d5 cxd5 Nxd5
+D85,"Exchange Variation, Grunfeld;",d4 Nf6 c4 g6 Nc3 d5 cxd5 Nxd5 e4 Nxc3 bxc3
+D86,"Classical Main Line, Grunfeld; D86",d4 Nf6 c4 g6 Nc3 d5 cxd5 Nxd5 e4 Nxc3 bxc3 Bg7 Bc4
+D86,"Simagin Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 cxd5 Nxd5 e4 Nxc3 bxc3 Bg7 Bc4 O-O Ne2 b6 h4 Ba6
+D87,"Spassky Variation, Grunfeld; D87",d4 Nf6 c4 g6 Nc3 d5 cxd5 Nxd5 e4 Nxc3 bxc3 Bg7 Bc4 O-O Ne2 c5
+D87,"Seville Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 cxd5 Nxd5 e4 Nxc3 bxc3 Bg7 Bc4 O-O Ne2 c5 O-O Nc6 Be3
+D88,D88,d4 Nf6 c4 g6 Nc3 d5 cxd5 Nxd5 e4 Nxc3 bxc3 Bg7 Bc4 O-O Ne2 c5 O-O Nc6 Be3 cxd4
+D89,D89,d4 Nf6 c4 g6 Nc3 d5 cxd5 Nxd5 e4 Nxc3 bxc3 Bg7 Bc4 O-O Ne2 c5 O-O Nc6 Be3 cxd4 cxd4 Bg4 1f3 Na5 1Bd3
+D89,"Sokolsky Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 cxd5 Nxd5 e4 Nxc3 bxc3 Bg7 Bc4 O-O Ne2 c5 O-O Nc6 Be3 cxd4 cxd4 Bg4 1f3 Na5 1Bd3 Be6 1d5
+D86,"Simagin Improved Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 cxd5 Nxd5 e4 Nxc3 bxc3 Bg7 Bc4 O-O Ne2 Nc6
+D86,"Larsen Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 cxd5 Nxd5 e4 Nxc3 bxc3 Bg7 Bc4 O-O Ne2 Qd7
+D86,"Larsen Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 cxd5 Nxd5 e4 Nxc3 bxc3 Bg7 Bc4 O-O Ne2 Qd7 O-O b6
+D85,"Modern Main Line, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 cxd5 Nxd5 e4 Nxc3 bxc3 Bg7 Nf3
+D85,"Kramnik's Line, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 cxd5 Nxd5 e4 Nxc3 bxc3 Bg7 Nf3 c5 h3
+D85,"Kemeri Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 cxd5 Nxd5 g3
+D85,Nadanian Attack,d4 Nf6 c4 g6 Nc3 d5 cxd5 Nxd5 Na4
+D80,"Makogonov Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 e3 Bg7 Nf3 O-O b4
+D80,"Opocensky Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 e3 Bg7 Nf3 O-O Bd2
+D80,"Paris Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 e3 Bg7 Nf3 O-O Bd3
+D80,"Schlechter Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 e3 Bg7 Nf3 O-O Bd3 c6
+D80,"Flohr Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 e3 Bg7 Nf3 O-O Bd3 c6 O-O Bf5
+D80,"Smyslov Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 e3 Bg7 Nf3 O-O Bd3 c6 O-O Bg4
+D80,"Vienna Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 e3 Bg7 Nf3 O-O Qb3
+D80,"Pachman Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 e3 Bg7 Nf3 O-O Qb3 dxc4 Bxc4 Nbd7 Ng5
+D80,"Botvinnik Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 e3 Bg7 Nf3 O-O Qb3 e6
+D80,"Schlechter Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 e3 c6
+D70,"Lutikov Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 f3
+D70,"Murey Attack, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 f3 c5 cxd5 Nxd5 Na4
+D80,"Kemeri Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 g3
+D80,Gibbon Gambit; Grunfeld Spike,d4 Nf6 c4 g6 Nc3 d5 g4
+D80,"Zaitsev Gambit, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 h4
+D90,"Three Knights Variation, Grunfeld; D90",d4 Nf6 c4 g6 Nc3 d5 Nf3
+D92,"Hungarian Attack, Grunfeld; D92",d4 Nf6 c4 g6 Nc3 d5 Nf3 Bg7 Bf4
+D93,D93,d4 Nf6 c4 g6 Nc3 d5 Nf3 Bg7 Bf4 O-O e3
+D91,"Petrosian System, Grunfeld; D91",d4 Nf6 c4 g6 Nc3 d5 Nf3 Bg7 Bg5
+D94,"Burille Variation, Grunfeld; D94",d4 Nf6 c4 g6 Nc3 d5 Nf3 Bg7 e3
+D94,"Makogonov Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 Nf3 Bg7 e3 O-O b4
+D94,"Opocensky Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 Nf3 Bg7 e3 O-O Bd2
+D95,D95,d4 Nf6 c4 g6 Nc3 d5 Nf3 Bg7 e3 O-O Qb3
+D90,"Flohr Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 Nf3 Bg7 Qa4+
+D96,"Russian Variation, Grunfeld; D96",d4 Nf6 c4 g6 Nc3 d5 Nf3 Bg7 Qb3
+D97,D97,d4 Nf6 c4 g6 Nc3 d5 Nf3 Bg7 Qb3 dxc4 Qxc4 O-O e4
+D97,"Hungarian Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 Nf3 Bg7 Qb3 dxc4 Qxc4 O-O e4 a6
+D97,"Levenfish Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 Nf3 Bg7 Qb3 dxc4 Qxc4 O-O e4 b6
+D98,"Smyslov Variation, Grunfeld; D98",d4 Nf6 c4 g6 Nc3 d5 Nf3 Bg7 Qb3 dxc4 Qxc4 O-O e4 Bg4
+D98,"Keres Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 Nf3 Bg7 Qb3 dxc4 Qxc4 O-O e4 Bg4 Be2 Nfd7 Be2 Nb6 Qd3 Nc6 O-O-O Qc8
+D99,D99,d4 Nf6 c4 g6 Nc3 d5 Nf3 Bg7 Qb3 dxc4 Qxc4 O-O e4 Bg4 Be3 Nfd7 Qb3
+D99,"Yugoslav Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 Nf3 Bg7 Qb3 dxc4 Qxc4 O-O e4 Bg4 Be3 Nfd7 Qb3 c5
+D97,"Szabo (Boleslavsky) Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 Nf3 Bg7 Qb3 dxc4 Qxc4 O-O e4 c6
+D97,"Prins Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 Nf3 Bg7 Qb3 dxc4 Qxc4 O-O e4 Na6
+D97,"Simagin (Byrne) Variation, Grunfeld",d4 Nf6 c4 g6 Nc3 d5 Nf3 Bg7 Qb3 dxc4 Qxc4 O-O e4 Nc6
+D90,Slav Fianchetto,d4 Nf6 c4 g6 Nc3 d5 Nf3 Nf6 Nc3 g6
+D81,"Accelerated Russian Variation, Grunfeld; D81",d4 Nf6 c4 g6 Nc3 d5 Qb3
+E60,"King's Knight Variation, KID",d4 Nf6 c4 g6 Nf3
+E60,"Santassiere Variation, KID",d4 Nf6 c4 g6 Nf3 Bg7 b4
+D70,Neo-Grunfeld Defense,d4 Nf6 c4 g6 Nf3 d5
+A50,Van Geet; Kevitz; Trajkovic; Mexican,d4 Nf6 c4 Nc6
+D70,Iago Defense,d4 Nf6 c4 Nc6
+A50,Horsefly Gambit,d4 Nf6 c4 Nc6 d5 Ne5 f4
+D71,D71,d4 Nf6 c4 Nc6 g3 d5
+A45,Pawn Push Variation,d4 Nf6 d5
+A45,Omega Gambit,d4 Nf6 e4
+A45,Arafat Gambit,d4 Nf6 e4 Nxe4 Bd3 Nf6 Bg5
+A45,Paleface Attack,d4 Nf6 f3
+A45,Webster Gambit,d4 Nf6 f3 c5 d5 e6 e4 exd5 e5
+A45,Blackmar-Diemer Gambit Deferred,d4 Nf6 f3 d5 e4
+A45,Kraus-Muhlherr Counter Gambit,d4 Nf6 f3 d5 e4 e5 dxe5 Nxe4
+A45,Gedult Attack,d4 Nf6 f3 d5 g4
+A45,Gedult-Gunderam System,d4 Nf6 f3 d5 g4
+A45,Linder Counter Gambit,d4 Nf6 f3 e6 e4 Nxe4
+A45,Canard Attack,d4 Nf6 f4
+A45,Ueberlinger Gambit,d4 Nf6 g3 e5
+A45,Bullfrog; Weidenhagen; Krabbe; Ochsenfrosch,d4 Nf6 g4
+A45,Bronstein Gambit,d4 Nf6 g4
+A45,Oshima Defense,d4 Nf6 g4 e5
+A45,Gibbins-Wiedehagen Gambit Accepted,d4 Nf6 g4 Nxg4
+A45,Stummer Gambit,d4 Nf6 g4 Nxg4 e4 d6 Be2 Nf6 Nc3
+A45,Maltese Falcon,d4 Nf6 g4 Nxg4 f3 Nf6 e4
+A45,Reversed Chigorin Defense,d4 Nf6 Nc3 c5
+A45,Von Beivorseen,d4 Nf6 Nc3 c5 dxc5
+A45,Malich Gambit,d4 Nf6 Nc3 d5 Bg5 c5 Bxf6 gxf6 e4 dxe4 d5
+A45,Huebsch Gambit,d4 Nf6 Nc3 d5 e4 Nxe4
+A45,Maddigan Gambit,d4 Nf6 Nc3 e5
+A45,Lazard Gambit; Maddigan Gambit,d4 Nf6 Nd2 e5
+A46,"Knights Variation, Indian Game; A46",d4 Nf6 Nf3
+A46,Polish Defense,d4 Nf6 Nf3 b5
+A47,"Capablanca Variation, Indian Game; A47",d4 Nf6 Nf3 b6
+A47,Torre Attack,d4 Nf6 Nf3 b6 Bg5
+A47,Schnepper Gambit,d4 Nf6 Nf3 b6 c3 e5
+A47,Marienbad Variation,d4 Nf6 Nf3 b6 g3 Bb7 Bg2 c5
+A47,Berg Variation,d4 Nf6 Nf3 b6 g3 Bb7 Bg2 c5 c4 cxd4 Qxd4
+A46,Spielmann-Indian,d4 Nf6 Nf3 c5
+A46,Pseudo-Benko Gambit,d4 Nf6 Nf3 c5 d5 b5
+A46,Czech-Indian,d4 Nf6 Nf3 c6
+A46,London System,d4 Nf6 Nf3 e6 Bf4
+A46,Torre Attack,d4 Nf6 Nf3 e6 Bg5
+A46,Petrosian Gambit,d4 Nf6 Nf3 e6 Bg5 c5 e3 b6 d5
+A46,Swiss; Wagner Gambit,d4 Nf6 Nf3 e6 Bg5 c5 e4
+A46,"Nimzovich Variation, Torre Attack",d4 Nf6 Nf3 e6 Bg5 h6
+A46,Yusupov-Rubinstein System,d4 Nf6 Nf3 e6 e3
+A48,Pseudo-King's Indian Variation; A48,d4 Nf6 Nf3 g6
+A48,"London System, Torre Attack",d4 Nf6 Nf3 g6 Bf4
+A48,London Variation,d4 Nf6 Nf3 g6 Bf4 Bg7 Nbd2
+A48,"Fianchetto Defense, Torre Attack",d4 Nf6 Nf3 g6 Bg5
+A48,"Euwe Variation, Torre Attack",d4 Nf6 Nf3 g6 Bg5 Bg7 Nbd2 c5
+A48,King's Indian Variation,d4 Nf6 Nf3 g6 e3 Bg7 Bd3 d6
+A49,Przepiorka Variation; A49,d4 Nf6 Nf3 g6 g3
+D02,Barry Attack,d4 Nf6 Nf3 g6 Nc3 d5 Bf4 Bg7 e3 O-O Be2
+A46,Dory Defense,d4 Nf6 Nf3 Ne4
+A00,Keoni-Hiva Gambit,e3 d5 Nc3 Nf6 a3 e5 f4 exf4 Nf3
+A00,Van't Kruijs Opening,e3 e5
+A00,Bouncing Bishop Variation,e3 e5 Bc4 b5 Bb3
+A00,Amsterdam Attack,e3 e5 c4 d6 Nc3 Nc6 b3 Nf6
+A00,Ekolu Variation,e3 e5 Nc3 d5 f4 exf4 Nf3
+A00,Alua Variation,e3 e5 Nc3 Nc6 f4 exf4 Nf3
+A00,Akahi Variation,e3 e5 Nc3 Nf6 f4 exf4 Nf3
+B00,Ware Defense,e4 a5
+B00,Corn Stalks,e4 a5
+B00,Snagkeouss Defense,e4 a5 d4 Nc6
+B00,St George; Birmingham; Baker,e4 a6
+B00,San Jorge Variation,e4 a6 d4 b5 Nf3 Bb7 Bd3 d6 O-O g6 c3 Bg7
+B00,"Polish Variation, St George Defense",e4 a6 d4 b5 Nf3 Bb7 Bd3 e6
+B00,"Zilbermints Gambit, St George Defense",e4 a6 d4 e5
+B00,San Jorge Variation,e4 a6 d4 e6
+B00,"Three Pawn Attack, St George",e4 a6 d4 e6 c4
+B00,"Sanky-Georg Gambit, St George",e4 a6 d4 e6 c4 b5
+B00,"Woodchuck Variation, St George",e4 a6 d4 Nc6
+B00,Owen's Defense; Greek Defense,e4 b6
+B00,Guatemalan Defense,e4 b6 d4 Ba6
+B00,Matovinsky Gambit,e4 b6 d4 Bb7 Bd3 f5
+B00,Matovinsky Gambit,e4 b6 d4 Bb7 Bd3 f5 exf5 Bxg2 Qh5+ g6
+B00,"Naselwaus Variation, Owen's Defense",e4 b6 d4 Bb7 Bg5
+B00,"Wind Gambit, Owen Defense",e4 b6 d4 Bb7 f3 e5
+B00,"Smith Gambit, Owen Defense",e4 b6 d4 Bb7 Nf3
+B00,"Hekili-Loa Gambit, Owen Defense",e4 b6 d4 c5 dxc5 Nc6
+B20,Sicilian Defense; B20,e4 c5
+B20,"Mengarini Gambit, Sicilian",e4 c5 a3
+B20,"Mengarini Gambit, Sicilian",e4 c5 a3 Nc6 b4
+B20,"Snyder Variation, Sicilian",e4 c5 b3
+B20,"Queen Fianchetto Variation, Sicilian",e4 c5 b3 b6
+B20,"Wing Gambit, Sicilian",e4 c5 b4
+B20,"Marshall Variation, Sicilian",e4 c5 b4 cxb4 a3
+B20,"Wing; Carlsbad Variation, Sicilian",e4 c5 b4 cxb4 a3 bxa3
+B20,"Marienbad Variation, Sicilian",e4 c5 b4 cxb4 a3 d5 exd5 Qxd5 Bb2
+B20,"Abrahams Variation, Sicilian Wing Gambit",e4 c5 b4 cxb4 Bb2
+B20,"Santasiere Wing Gambit, Sicilian",e4 c5 b4 cxb4 c4
+B20,"Bowlder Attack, Sicilian",e4 c5 Bc4
+B20,Slow Sicilian,e4 c5 Be2
+B22,"Alapin; Sveshnikov Var, Sicilian; B22",e4 c5 c3
+B22,"Barmen Defense, Sicilian",e4 c5 c3 d5 exd5 Qxd5
+B22,"Sherzer Variation, Sicilian",e4 c5 c3 Nf6 e5 Nd5 d4 e6 Nf3 Nc6
+B22,"Stoltz Attack, Sicilian",e4 c5 c3 Nf6 e5 Nd5 Nf3 Nc6 Bc4 Nb6 Bb3
+B20,"Staunton-Cochrane Variation, Sicilian",e4 c5 c4
+B20,"Gloria Variation, Sicilian",e4 c5 c4 d6 Nc3 Nc6 g3 h5
+B20,"Chameleon Variation, Sicilian",e4 c5 d3
+B20,"Big Clamp Variation, Sicilian",e4 c5 d3 Nc6 c3 d6 f4
+B20,Sicilian Center Game,e4 c5 d4 cxd4
+B20,"Smith-Morra; Fleissig Gambit, Sic",e4 c5 d4 cxd4 c3
+B20,"Rivadavia Gambit, Sicilian",e4 c5 d4 cxd4 c3
+B20,"Push Variation, Smith-Morra Gambit, Sicilian",e4 c5 d4 cxd4 c3 d3
+B20,"Dubois Variation, Sicilian",e4 c5 d4 cxd4 c3 d3 c4
+B20,"Scandanavian Formation, Smith-Morra, Sicilian",e4 c5 d4 cxd4 c3 d5
+B20,"Smith-Morra Accepted, Sicilian",e4 c5 d4 cxd4 c3 dxc3
+B20,"Chicago Defense, Smith-Morra Accepted, Sicilian",e4 c5 d4 cxd4 c3 dxc3 Nxc3 d6 Bc4 e6 Nf3 Nf6 O-O a6
+B20,"Taimanov Formation, Smith-Morra Accepted, Sicilian",e4 c5 d4 cxd4 c3 dxc3 Nxc3 e6 Bc4 a6 Nf3 Ne7
+B20,"Kan Formation, Smith-Morra Accepted, Sicilian",e4 c5 d4 cxd4 c3 dxc3 Nxc3 e6 Nf3 a6
+B20,"Fianchetto Defense, Smith-Morra Accepted, Sicilian",e4 c5 d4 cxd4 c3 dxc3 Nxc3 e6 Nf3 g6
+B20,"Classical Formation, Smith-Morra Accepted, Sicilian",e4 c5 d4 cxd4 c3 dxc3 Nxc3 Nc6 Nf3 d6 Bc4 a6 O-O Nf6
+B20,"Scheveningen Formation, Smith-Morra Accepted",e4 c5 d4 cxd4 c3 dxc3 Nxc3 Nc6 Nf3 d6 Bc4 e6
+B20,"Paulsen Formation, Smith-Morra Accepted, Sicilian",e4 c5 d4 cxd4 c3 dxc3 Nxc3 Nc6 Nf3 e6 Bc4 a6
+B20,"Morphy Defense Deferred, Smith-Morra Accepted",e4 c5 d4 cxd4 c3 dxc3 Nxc3 Nc6 Nf3 e6 Bc4 a6 O-O b5 Bb3 Bc5
+B20,"Larsen Defense, Smith-Morra Accepted, Sicilian",e4 c5 d4 cxd4 c3 dxc3 Nxc3 Nc6 Nf3 e6 Bc4 a6 O-O Qc7 Qe2 Bd6
+B20,"Pin Defense, Smith-Morra Accepted, Sicilian",e4 c5 d4 cxd4 c3 dxc3 Nxc3 Nc6 Nf3 e6 Bc4 Bb4
+B20,"Morphy Defense, Smith-Morra Accepted, Sicilian",e4 c5 d4 cxd4 c3 dxc3 Nxc3 Nc6 Nf3 e6 Bc4 Bc5
+B20,"Sozin Formation, Smith-Morra Accepted, Sicilian",e4 c5 d4 cxd4 c3 dxc3 Nxc3 Nc6 Nf3 e6 Bc4 d6 O-O a6 Qe2 b5
+B20,"Center Formation, Smith-Morra Declined, Sicilian",e4 c5 d4 cxd4 c3 e5
+B20,"Alapin Formation, Smith-Morra Declined, Sicilian",e4 c5 d4 cxd4 c3 Nf6
+B20,"Wing Formation, Smith-Morra Declined, Sicilian",e4 c5 d4 cxd4 c3 Qa5
+B20,"Halasz Gambit, Sicilian",e4 c5 d4 cxd4 f4
+B20,"Morphy Gambit, Sicilian",e4 c5 d4 cxd4 Nf3
+B20,"Andreaschek Gambit, Sicilian",e4 c5 d4 cxd4 Nf3 e5 c3
+B21,"Larsen-Santasiere (McDonnell Attack) Variation, Sicilian; B21",e4 c5 f4
+B21,"Tal Gambit, Sicilian",e4 c5 f4 d5 exd5 Nf6
+B20,"Steinitz; Tartakower, Lasker-Dunne Variation, Sicilian",e4 c5 g3
+B20,"Myers Attack, Sicilian",e4 c5 h4
+B20,King David's Opening,e4 c5 Ke2
+B23,"Closed; Chigorin Variation, Sicilian; B23",e4 c5 Nc3
+B23,"Grand Prix Variation, Sicilian",e4 c5 Nc3 d6 f4
+B23,"Marshall Gambit, Sicilian",e4 c5 Nc3 e6 d4 d5
+B23,"Korchnoi Defense, Sicilian",e4 c5 Nc3 e6 g3 d5
+B23,Traditional Closed Sicilian,e4 c5 Nc3 Nc6
+B23,"Portland Attack, Sicilian",e4 c5 Nc3 Nc6 d3 g6 g4
+B23,"Vinken System, Sicilian; Grand Prix Attack",e4 c5 Nc3 Nc6 f4
+B23,"Schofman Variation, Sicilian",e4 c5 Nc3 Nc6 f4 g6 Nf3 Bg7 Bc4 e6 f5
+B24,"Fianchetto Variation, Sicilian Closed; B24",e4 c5 Nc3 Nc6 g3
+B25,B25,e4 c5 Nc3 Nc6 g3 g6 Bg2 Bg7 d3 d6
+B26,B26,e4 c5 Nc3 Nc6 g3 g6 Bg2 Bg7 d3 d6 Be3
+B25,"Botvinnik Defense, Sicilian Closed",e4 c5 Nc3 Nc6 g3 g6 Bg2 Bg7 d3 d6 f4 e5
+B25,"Edge Variation, Sicilian Closed",e4 c5 Nc3 Nc6 g3 g6 Bg2 Bg7 d3 d6 f4 e5 Nh3 Nge7
+B23,Chameleon Sicilian,e4 c5 Nc3 Nc6 Nge2
+B20,"Keres; Billium Attack, Sicilian; Chameleon",e4 c5 Ne2
+B27,B27,e4 c5 Nf3
+B28,"O'Kelly Variation, Sicilian; B28",e4 c5 Nf3 a6
+B28,"Kieseritzky System, Sicilian",e4 c5 Nf3 a6 b3
+B28,"Wing Gambit, Sicilian",e4 c5 Nf3 a6 b4
+B28,"Aronin System, Sicilian",e4 c5 Nf3 a6 Be2
+B28,"Venice System, Sicilian",e4 c5 Nf3 a6 c3
+B28,"Ljubojevic Line, Sicilian",e4 c5 Nf3 a6 c3 b5
+B28,"Gambit Line, O'Kelly Sicilian",e4 c5 Nf3 a6 c3 d5 exd5 Nf6
+B28,"Steiner Line, Sicilian",e4 c5 Nf3 a6 c3 d6
+B28,"Barcza Line, Sicilian",e4 c5 Nf3 a6 c3 Nf6
+B28,"Maroczy Bind, O'Kelly Sicilian",e4 c5 Nf3 a6 c4
+B28,"Robatsch Line, Sicilian",e4 c5 Nf3 a6 c4 d6
+B28,"Paulsen Line, Sicilian",e4 c5 Nf3 a6 c4 e6
+B28,"Geller Line, Sicilian",e4 c5 Nf3 a6 c4 Nc6 d4 cxd4 Nxd4 e5
+B28,"Quiet System, O'Kelly Sicilian",e4 c5 Nf3 a6 d3
+B28,"Normal System, O'Kelly Sicilian",e4 c5 Nf3 a6 d4
+B28,"Cortlever Gambit, Sicilian",e4 c5 Nf3 a6 d4 cxd4 Bc4
+B28,"Smith-Morra Line, O'Kelly Sicilian",e4 c5 Nf3 a6 d4 cxd4 c3
+B28,"Taimanov Line, O'Kelly Sicilian",e4 c5 Nf3 a6 d4 cxd4 Nxd4 e5
+B28,"Kan Line, O'Kelly Sicilian",e4 c5 Nf3 a6 d4 cxd4 Nxd4 e6
+B28,"Zagorovsky Line, O'Kelly Sicilian",e4 c5 Nf3 a6 d4 cxd4 Qxd4
+B28,"Reti System, O'Kelly Sicilian",e4 c5 Nf3 a6 g3
+B28,"Yerevan System, O'Kelly Sicilian",e4 c5 Nf3 a6 Nc3
+B27,"Polish Gambit, Sicilian",e4 c5 Nf3 b5
+B27,"Katalimov Variation, Sicilian",e4 c5 Nf3 b6
+B50,"Modern Variation, Sicilian; B50",e4 c5 Nf3 d6
+B51,"Wing Gambit Deferred, Sicilian",e4 c5 Nf3 d6 b4
+B51,"Moscow Variation, Sicilian; Canal Attack; B51",e4 c5 Nf3 d6 Bb5+
+B52,"Main Line, Canal Attack, Sicilian; B52",e4 c5 Nf3 d6 Bb5+ Bd7
+B52,"Bronstein (Haag) Gambit, Sicilian",e4 c5 Nf3 d6 Bb5+ Bd7 Bxd7+ Qxd7 O-O Nc6 c3 Nf6 d4
+B51,"Moscow Gambit, Sicilian",e4 c5 Nf3 d6 Bb5+ Nc6 O-O Bd7 c3 a6 Bxc6 Bxc6 Re1 Nf6 d4 Bxe4 Bg5
+B51,"Dorfman Gambit, Sicilian",e4 c5 Nf3 d6 Bb5+ Nc6 O-O Bd7 Qe2 g6 e5
+B50,"Kopec System, Sicilian",e4 c5 Nf3 d6 Bd3
+B50,"Delayed Alapin, Sicilian",e4 c5 Nf3 d6 c3
+B50,Basman-Palatnik Gambit,e4 c5 Nf3 d6 c3 Nf6 Be2 Nc6 d4 cxd4 cxd4 Nxe4
+B53,B53,e4 c5 Nf3 d6 d4
+B53,"Tartakower Variation, Sicilian",e4 c5 Nf3 d6 d4 cxd4 c3
+B54,B54,e4 c5 Nf3 d6 d4 cxd4 Nxd4
+B55,B55,e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6
+B55,"Ginsberg Gambit, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Bc4
+B55,"Moscow (Prins) Variation, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 f3
+B55,"Venice Attack, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 f3 e5 Bb5+
+B56,B56,e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3
+B90,"Najdorf Variation, Sicilian; B90",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6
+B90,"Lipnitzky Variation, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6 Bc4
+B92,"Opocensky Variation, Sicilian; B92",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6 Be2
+B92,"Opocensky Variation, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6 Be2 e5
+B90,"Byrne Variation, Sicilian; English Attack",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6 Be3
+B90,"Anti-English, Najdorf Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6 Be3 Ng4
+B94,B94,e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6 Bg5
+B95,B95,e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6 Bg5 e6
+B96,B96,e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6 Bg5 e6 f4
+B96,Polugaevsky; Accelerated Najdorf,e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6 Bg5 e6 f4 b5
+B96,"Simagin Line, Najdorf Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6 Bg5 e6 f4 b5 e5 dxe5 fxe5 Qc7 Qe2
+B98,B98,e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6 Bg5 e6 f4 Be7
+B98,"Argenitne; Goteborg Var, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6 Bg5 e6 f4 Be7 Qf3 h6 Bh4 g5
+B98,"Browne Variation, Najdorf Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6 Bg5 e6 f4 Be7 Qf3 h6 Bh4 Qc7
+B99,B99,e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6 Bg5 e6 f4 Be7 Qf3 Qc7 O-O-O Nbd7
+B97,"Poisoned Pawn Variation, Najdorf Sicilian; B97",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6 Bg5 e6 f4 Qb6
+B97,"Poisoned Pawn Variation, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6 Bg5 e6 f4 Qb6 Qd2
+B97,"Poisoned Pawn Accepted, Najdorf Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6 Bg5 e6 f4 Qb6 Qd2 Qxb2
+B93,"Amsterdam Variation, Sicilian; B93",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6 f4
+B91,"Zagreb Variation, Sicilian; B91",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6 g3
+B90,"Adams Attack, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6 h3
+B90,"Freak Attack, Siicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6 Rg1
+B56,"Kupreichik Variation, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 Bd7
+B56,"Venice Attack, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 e5 Bb5+
+B80,"Scheveingen Variation, Sicilian; B80",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 e6
+B80,"Vitolins Variation, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 e6 Bb5+
+B86,"Fischer Attack, Sozin Attack, Sicilian; B86",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 e6 Bc4
+B87,"Flank Variation, Sicilian; B87",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 e6 Bc4 a6 Bb3 b5
+B88,"Leonhardt Variation, Sicilian; B88",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 e6 Bc4 Nc6
+B89,B89,e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 e6 Bc4 Nc6 Be3
+B89,"Sherbakov Variation, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 e6 Bc4 Nc6 Be3 Be7 Bb3 O-O O-O Na5 f4 b6
+B89,"Velimirovic Variation, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 e6 Bc4 Nc6 Be3 Be7 Qe2
+B83,"Scheveningen Variation, Sicilian; B83",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 e6 Be2
+B84,"Modern Paulsen, Sicilian; B84",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 e6 Be2 a6
+B85,B85,e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 e6 Be2 a6 O-O Be7
+B85,"Paulsen Variation, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 e6 Be2 a6 O-O Qc7 f4 Nc6
+B80,"English Attack, Scheveningen Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 e6 Be3 a6 f3
+B81,"Delayed Keres Attack, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 e6 Be3 a6 g4
+B81,"Perenyi Gambit, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 e6 Be3 a6 g4 e5 Nf5 g6 g5
+B82,"Matanovic Attack, Sicilian; B82",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 e6 f4
+B82,"Tal Variation, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 e6 f4 Nc6 Be3 Be7 Qf3
+B80,"Fianchetto Variation, Scheveningen Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 e6 g3
+B81,"Keres; Panov Variation, Sicilian; B81",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 e6 g4
+B70,"Dragon Variation, Sicilian; B70",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6
+B70,"Alekhine Variation, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be2 Bg7 O-O O-O Nb3
+B72,B72,e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be3
+B72,"Nottingham Variation, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be3 Bg7 Be2 Nc6 Nb3
+B73,B73,e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be3 Bg7 Be2 Nc6 O-O
+B73,"Zollner Gambit, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be3 Bg7 Be2 Nc6 O-O O-O f4 Qb6
+B74,B74,e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be3 Bg7 Be2 Nc6 O-O O-O Nb3
+B74,"Alekhine Line, Sicilian Dragon",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be3 Bg7 Be2 Nc6 O-O O-O Nb3 a5
+B74,"Maroczy Line, Sicilian Dragon",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be3 Bg7 Be2 Nc6 O-O O-O Nb3 Be6 f4 Na5
+B74,"Tartakower Line, Sicilian Dragon",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be3 Bg7 Be2 Nc6 O-O O-O Nb3 Be6 f4 Qc8
+B72,"Amsterdam (Battery) Variation, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be3 Bg7 Be2 Nc6 Qd2
+B72,"Grigoriev Variation, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be3 Bg7 Be2 Nc6 Qd2 O-O O-O-O
+B75,B75,e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be3 Bg7 f3
+B76,"Yugoslav Attack, Sicilian Dragon; B76",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be3 Bg7 f3 O-O
+B77,B77,e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be3 Bg7 f3 O-O Qd2 Nc6 Bc4
+B78,B78,e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be3 Bg7 f3 O-O Qd2 Nc6 Bc4 Bd7 O-O-O
+B79,B79,e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be3 Bg7 f3 O-O Qd2 Nc6 Bc4 Bd7 O-O-O Qa5
+B77,"Sosonko Variation, Sicilian Dragon",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be3 Bg7 f3 O-O Qd2 Nc6 Bc4 Nd7
+B77,"Czerniak Variation, Sicilian Dragon",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be3 Bg7 f3 O-O Qd2 Nc6 Bc4 Nxd4 Bxe4
+B76,"Panov Variation, Sicilian Dragon",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 Be3 Bg7 f3 O-O Qd2 Nc6 g4
+B71,"Levenfish Variation, Sicilian; B71",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 f4
+B70,"Fianchetto Variation, Sicilian Dragon",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6 g3
+B56,"Classical Variation, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 Nc6
+B57,"Sozin; Velimirovic Attack, Sicilian; B57",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 Nc6 Bc4
+B57,"Anti-Sozin Variation, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 Nc6 Bc4 Qb6
+B56,"Yates Variation, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 Nc6 Bd3
+B58,B58,e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 Nc6 Be2
+B58,"Boleslavsky Variation, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 Nc6 Be2 e5
+B59,B59,e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 Nc6 Be2 e5 Nb3
+B58,"Louma Variation, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 Nc6 Be2 e5 Nxc6
+B60,"Richter-Rauzer Variation, Sicilian; B60",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 Nc6 Bg5
+B62,B62,e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 Nc6 Bg5 e6
+B62,"Margate (Vitolins) Variation, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 Nc6 Bg5 e6 Bb5
+B62,"Podebrady Variation, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 Nc6 Bg5 e6 Nb3
+B62,"Exchange Variation, Richter-Rauzer Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 Nc6 Bg5 e6 Nxc6
+B63,"Rauzer Variation, Sicilian; B63",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 Nc6 Bg5 e6 Qd2
+B66,B66,e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 Nc6 Bg5 e6 Qd2 a6
+B67,B67,e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 Nc6 Bg5 e6 Qd2 a6 O-O-O Bd7
+B68,B68,e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 Nc6 Bg5 e6 Qd2 a6 O-O-O Bd7 f4 Be7
+B69,B69,e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 Nc6 Bg5 e6 Qd2 a6 O-O-O Bd7 f4 Be7 Nf3 b5 Bxf6
+B64,B64,e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 Nc6 Bg5 e6 Qd2 Be7 O-O-O O-O f4
+B65,B65,e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 Nc6 Bg5 e6 Qd2 Be7 O-O-O O-O f4 Nxd4 Qxd4
+B63,"Ivanov Variation, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 Nc6 Bg5 e6 Qd2 Qb6
+B60,"Dragon Variation, Richter-Rauzer Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 Nc6 Bg5 g6
+B58,"Fianchetto Variation, Richter-Rauzer Sicilizn",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 Nc6 g3
+B56,"Spielmann Variation, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 Nc6 Nde2
+B61,B61,e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 Nc6 Qd2
+B53,"Chekhover Variation, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Qxd4
+B53,"Zaitsev Variation, Sicilian",e4 c5 Nf3 d6 d4 cxd4 Qxd4 Nc6 Bb5 Qd7
+B53,"Lazy Knight Variation, Sicilian",e4 c5 Nf3 d6 d4 Nd7
+B53,"Cortlever Variation, Sicilian",e4 c5 Nf3 d6 d4 Nf6 dxc5 Nxe4 cxd6
+B50,"Kotov Gambit, Sicilian",e4 c5 Nf3 d6 g3 b5
+B27,"Jalalabad Variation, Sicilian",e4 c5 Nf3 e5
+B40,"French Variation, Sicilian; B40",e4 c5 Nf3 e6
+B40,"Wing Gambit Deferred, Sicilian",e4 c5 Nf3 e6 b4
+B40,"Kramnik Variation, Sicilian",e4 c5 Nf3 e6 c4
+B41,B41,e4 c5 Nf3 e6 d4
+B41,"Accelerated Wimpy Variation, Sic",e4 c5 Nf3 e6 d4 cxd4
+B41,"Paulsen; Kan Variation, Sicilian",e4 c5 Nf3 e6 d4 cxd4 Nxd4 a6
+B42,B42,e4 c5 Nf3 e6 d4 cxd4 Nxd4 a6 Bd3
+B42,"Polugaevsky Variation, Sicilian",e4 c5 Nf3 e6 d4 cxd4 Nxd4 a6 Bd3 Bc5
+B42,"Swiss Cheese Variation, Sicilian",e4 c5 Nf3 e6 d4 cxd4 Nxd4 a6 Bd3 g6
+B41,"Reti Variation, Sicilian",e4 c5 Nf3 e6 d4 cxd4 Nxd4 a6 c4
+B41,"Hedgehog Variation, Sicilian",e4 c5 Nf3 e6 d4 cxd4 Nxd4 a6 c4 g6
+B41,"Bronstein Variation, Sicilian",e4 c5 Nf3 e6 d4 cxd4 Nxd4 a6 c4 Nf6 Nc3 Bb4 Bd3 Nc6
+B43,B43,e4 c5 Nf3 e6 d4 cxd4 Nxd4 a6 Nc3
+B44,"Taimanov; Bastrikov, Paulsen Variation, Sicilian; B44",e4 c5 Nf3 e6 d4 cxd4 Nxd4 Nc6
+B44,"Szen Variation, Sicilian",e4 c5 Nf3 e6 d4 cxd4 Nxd4 Nc6 Nb5
+B44,"Gary Gambit, Sicilian",e4 c5 Nf3 e6 d4 cxd4 Nxd4 Nc6 Nb5 d6 c4 Nf6 N1c3 a6 Na3 d5
+B45,B45,e4 c5 Nf3 e6 d4 cxd4 Nxd4 Nc6 Nc3
+B46,B46,e4 c5 Nf3 e6 d4 cxd4 Nxd4 Nc6 Nc3 a6
+B46,"Taimanov Variation, Sicilian",e4 c5 Nf3 e6 d4 cxd4 Nxd4 Nc6 Nc3 a6 Be2 Nge7
+B45,"Paulsen Variation, Sicilian",e4 c5 Nf3 e6 d4 cxd4 Nxd4 Nc6 Nc3 Nf6 Ndb5 Bb4
+B45,"American Attack, Sicilian",e4 c5 Nf3 e6 d4 cxd4 Nxd4 Nc6 Nc3 Nf6 Ndb5 Bb4 Nd6+
+B47,"Bastrikov Variation, Sicilian; B47",e4 c5 Nf3 e6 d4 cxd4 Nxd4 Nc6 Nc3 Qc7
+B48,B48,e4 c5 Nf3 e6 d4 cxd4 Nxd4 Nc6 Nc3 Qc7 Be3
+B49,B49,e4 c5 Nf3 e6 d4 cxd4 Nxd4 Nc6 Nc3 Qc7 Be3 a6 Be2
+B47,"Ponomariov Gambit, Sicilian",e4 c5 Nf3 e6 d4 cxd4 Nxd4 Nc6 Nc3 Qc7 Ndb5 Qb8 Be3 a6 Bb6
+B41,"Anderssen; Counterattack Var, Sic",e4 c5 Nf3 e6 d4 cxd4 Nxd4 Nf6
+B41,Pin Variation; Sicilian CounterAttack,e4 c5 Nf3 e6 d4 cxd4 Nxd4 Nf6 Nc3 Bb4
+B41,"Jaffe Variation, Sicilian",e4 c5 Nf3 e6 d4 cxd4 Nxd4 Nf6 Nc3 Bb4 Bd3 e5
+B41,"Koch Variation, Sicilian",e4 c5 Nf3 e6 d4 cxd4 Nxd4 Nf6 Nc3 Bb4 e5
+B45,"Four Knights Variation, Sicilian",e4 c5 Nf3 e6 d4 cxd4 Nxd4 Nf6 Nc3 Nc6
+B45,"Cobra Variation, Sicilian",e4 c5 Nf3 e6 d4 cxd4 Nxd4 Nf6 Nc3 Nc6 Ndb5 Bc5
+B40,"Gaw-Paw Variation, Sicilian",e4 c5 Nf3 e6 d4 cxd4 Nxd4 Nf6 Nc3 Qb6
+B40,"Kveinis Variation, Sicilian",e4 c5 Nf3 e6 d4 cxd4 Nxd4 Qb6
+B41,"Marshall Variation, Sicilian",e4 c5 Nf3 e6 d4 d5
+B27,"Brussels Gambit, Sicilian",e4 c5 Nf3 f5
+B27,"Double-Dutch Gambit, Sicilian",e4 c5 Nf3 f5 exf5 Nh6
+B27,"Hyperaccelerated Dragon, Sicilian",e4 c5 Nf3 g6
+B27,"Action Extension, Sicilian",e4 c5 Nf3 g6 c4 Bh6
+B27,"Hyperaccelerated Pterodactyl, Sic",e4 c5 Nf3 g6 d4 Bg7
+B27,"Frederico Variation, Sicilian",e4 c5 Nf3 g6 d4 f5
+B27,Sicilian Fred,e4 c5 Nf3 g6 d4 f5
+B27,"Buecker Variation, Sicilian",e4 c5 Nf3 h6
+B30,Old Sicilian,e4 c5 Nf3 Nc6
+B30,"Rossolimo (Nezmetdinov) Variation, Sicilian; B30",e4 c5 Nf3 Nc6 Bb5
+B31,B31,e4 c5 Nf3 Nc6 Bb5 g6
+B31,"Gufeld Gambit, Sicilian",e4 c5 Nf3 Nc6 Bb5 g6 O-O Bg7 c3 e5 d4
+B31,"Lutikov Gambit, Sicilian",e4 c5 Nf3 Nc6 Bb5 g6 O-O Bg7 c3 Nf6 d4
+B31,"Gurgenidze Variation, Sicilian",e4 c5 Nf3 Nc6 Bb5 g6 O-O Bg7 Re1 e5 b4
+B31,"San Francisco Gambit, Sicilian",e4 c5 Nf3 Nc6 Bb5 Na5 b4
+B32,B32,e4 c5 Nf3 Nc6 d4
+B32,"Nimzovich Variation, Sicilian; Nimzo-American Variation",e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 d5
+B32,"Bourdonnais; Lowenthal Var, Sic",e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 e5
+B32,"Kalashnikov Variation, Sicilian",e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 e5 Nb5 d6
+B34,Accelerated Dragon; Fianchetto Var; B34,e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 g6
+B36,"Maroczy Bind, Sicilian; B36",e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 g6 c4
+B37,B37,e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 g6 c4 Bg7
+B38,B38,e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 g6 c4 Bg7 Be3
+B39,"Breyer Variation, Sicilian; B39",e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 g6 c4 Bg7 Be3 Nf6 Nc3 Ng4
+B36,"Gurgenidze Variation, Sicilian",e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 g6 c4 Nf6 Nc3 Nxd4 Qxd4 d6
+B35,B35,e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 g6 Nc3 Bg7 Be3 Nf6 Bc4
+B33,B33,e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 Nf6
+B33,"Four Knights Variation, Sicilian",e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 Nf6 Nc3
+B33,"Lasker-Pelikan Variation, Sicilian",e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 Nf6 Nc3 e5
+B33,"Pelikan Variation, Sicilian",e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 Nf6 Nc3 e5 Ndb5 d6
+B33,"Chelyabinsk Variation, Sicilian",e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 Nf6 Nc3 e5 Ndb5 d6 Bg5 a6 Na3 b5
+B33,"Sveshnikov Variation, Sicilian",e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 Nf6 Nc3 e5 Ndb5 d6 Bg5 a6 Na3 b5 Bxf6 gxf6 Nd5 f5
+B33,"Bird Variation, Siclian",e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 Nf6 Nc3 e5 Ndb5 d6 Bg5 a6 Na3 Be6
+B32,"Retreat Variation, Sicilian",e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 Nf6 Nc3 e5 Nf3
+B32,"Godiva Variation, Sicilian",e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 Qb6
+B32,"Flohr Variation, Sicilian",e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 Qc7
+B29,"Nimzovich; Rubinstein Var, Sicilian; B29",e4 c5 Nf3 Nf6
+B29,"Advance Variation, Sicilian",e4 c5 Nf3 Nf6 e5
+B27,"Mongoose Variation, Sicilian",e4 c5 Nf3 Qa5
+B27,"Althouse; Stiletto Variation, Sicilian",e4 c5 Nf3 Qa5
+B27,"Accelerated Paulsen, Sicilian",e4 c5 Nf3 Qc7
+B27,"Quinteros Variation, Sicilian",e4 c5 Nf3 Qc7
+B20,"Brick Variation, Sicilian",e4 c5 Nh3
+B10,Caro-Kann Defense; B10,e4 c6
+B10,"Hillbilly Attack, Caro-Kann",e4 c6 Bc4
+B10,"Modern; English Variation, Accelerated Panov; Caro-Kann",e4 c6 c4
+B10,"Breyer Variation, Caro-Kann",e4 c6 d3
+B10,"Stein Attack, Caro-Kann",e4 c6 d3 d5 Nd2 g6 g3 Bg7 Bg2 e5 Ngf3 Ne7 O-O O-O b4
+B12,B12,e4 c6 d4
+B12,"Landau Gambit, Caro-Kann",e4 c6 d4 d5 Bd3 Nf6 e5 Nfd7 e6
+B12,"Mieses Gambit, Caro",e4 c6 d4 d5 Be3
+B12,"Diemer-Duhm Gambit, Caro",e4 c6 d4 d5 c4
+B12,"Advance Variation, Caro",e4 c6 d4 d5 e5
+B12,"Prins Attack, Caro-Kann",e4 c6 d4 d5 e5 Bf5 b4
+B12,"Bayonet Variation, Caro",e4 c6 d4 d5 e5 Bf5 g4
+B12,"Tal Variation, Caro-Kann",e4 c6 d4 d5 e5 Bf5 h4
+B12,"Van der Wiel Attack, Caro-Kann",e4 c6 d4 d5 e5 Bf5 Nc3
+B12,"Dreyev Defense, Caro-Kann",e4 c6 d4 d5 e5 Bf5 Nc3 Qb6
+B12,"Bronstein Variation, Caro-Kann",e4 c6 d4 d5 e5 Bf5 Ne2
+B12,"Short Variation, Caro-Kann",e4 c6 d4 d5 e5 Bf5 Nf3
+B12,"Botvinnik-Carls Defense, Caro-Kann",e4 c6 d4 d5 e5 c5
+B13,"Exchange Variation, Caro; B13",e4 c6 d4 d5 exd5
+B13,"Rubinstein Variation, Caro-Kann",e4 c6 d4 d5 exd5 cxd3 Bd3 Nc6 c3 Nf6 Bf4
+B13,Panov-Botvinnik; Gunderam Attack,e4 c6 d4 d5 exd5 cxd5 c4
+B14,B14,e4 c6 d4 d5 exd5 cxd5 c4 Nf6 Nc3
+B14,"Carlsbad Line, Caro-Kann",e4 c6 d4 d5 exd5 cxd5 c4 Nf6 Nc3 Nc6 Bg5 e6
+B14,"Czerniak Line, Caro-Kann",e4 c6 d4 d5 exd5 cxd5 c4 Nf6 Nc3 Nc6 Bg5 Qa5
+B14,"Reifir-Spielmann Line, Caro-Kann",e4 c6 d4 d5 exd5 cxd5 c4 Nf6 Nc3 Nc6 Bg5 Qb6
+B12,"Maroczy Variation, Caro",e4 c6 d4 d5 f3
+B12,"Fantasy; Lilienfisch Variation, Caro",e4 c6 d4 d5 f3
+B12,"Maroczy Gambit, Caro-Kann",e4 c6 d4 d5 f3 dxe4 fxe4 e5 Nf3 exd4 Bc4
+B15,B15,e4 c6 d4 d5 Nc3
+B15,"Gurgenidze Variation, Caro",e4 c6 d4 d5 Nc3 b5
+B15,"Von Hennig Gambit, Caro",e4 c6 d4 d5 Nc3 dxe4 Bc4
+B15,"Milner-Barry Gambit, Caro; Rasa-Studier Gambit",e4 c6 d4 d5 Nc3 dxe4 f3
+B18,"Classical Variation, Caro; B18",e4 c6 d4 d5 Nc3 dxe4 Nxe4 Bf5
+B19,B19,e4 c6 d4 d5 Nc3 dxe4 Nxe4 Bf5 Ng3 Bg6 h4 h6 Nf3
+B19,"Seirawan Variation, Caro-Kann",e4 c6 d4 d5 Nc3 dxe4 Nxe4 Bf5 Ng3 Bg6 h4 h6 Nf3 Nd7 e5 Bh7 Bd3 Bxd3 Qxd3
+B18,"Flohr Variation, Caro-Kann",e4 c6 d4 d5 Nc3 dxe4 Nxe4 Bf5 Ng3 Bg6 Nh3
+B16,"Finnish Variation, Caro-Kann",e4 c6 d4 d5 Nc3 dxe4 Nxe4 h6
+B17,"Karpov Variation, Caro-Kann; B17",e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nd7
+B17,"Smyslov Variation, Caro-Kann",e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nd7 Bc4 Ngf6 Ng5 e6 Qe2 Nb6
+B17,"Tiviakov-Fischer Attack, Caro-Kann",e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nd7 Bc4 Ngf6 Nxf6+ Nxf6
+B17,"Kasparov Attack, Caro-Kann",e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nd7 Nf3 Ngf6 Ng3
+B17,"Ivanchuk Defense, Caro Kann",e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nd7 Ng5 Ndf6
+B15,"Knight Variation, Caro",e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6
+B15,"Tarrasch (Alekhine) Gambit, Caro",e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Bd3
+B15,"Tartakower Variation, Caro",e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6
+B15,"Forgacs Variation, Caro Kann",e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 Bc4
+B16,"Nimzovich; Bronstein-Larsen, Caro; B16",e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ gxf6
+B15,"Gurgenidze System, Caro-Kann",e4 c6 d4 d5 Nc3 g6
+B15,"Gurgenidze Variation, Caro",e4 c6 d4 d5 Nc3 g6 e5 Bg7 f4 h5
+B15,"Campomanes Attack, Caro",e4 c6 d4 d5 Nc3 Nf6
+B12,"Modern Variation, Caro-Kann",e4 c6 d4 d5 Nd2
+B12,New Caro-Kann,e4 c6 d4 d5 Nd2 g6
+B12,"Edinburgh Variation, Caro",e4 c6 d4 d5 Nd2 Qb6
+B12,"Ulysses Gambit, Caro",e4 c6 d4 d5 Nf3 dxe4 Ng5
+B10,"Massachussets Defense, Caro-Kann",e4 c6 d4 f5
+B12,"De Bruycker Defense, Caro",e4 c6 d4 Na6
+B10,"Masi Variation, Caro-Kann",e4 c6 d4 Nf6
+B11,B11,e4 c6 Nc3
+B10,"Scorpion-Horus Gambit, Caro-Kann",e4 c6 Nc3 d5 d3 dxe4 Bg5
+B11,"Two Knights Attack, Caro Kann",e4 c6 Nc3 d5 Nf3
+B11,"Mindeno Variation, Caro-Kann",e4 c6 Nc3 d5 Nf3 Bg4
+B11,"Retreat Line, Mindeno Variation, Caro-Kann",e4 c6 Nc3 d5 Nf3 Bg4 h3 Bh5
+B12,"Hector Gambit, Caro",e4 c6 Nc3 d5 Nf3 dxe4 Ng5
+B10,"Goldman Variation, Caro",e4 c6 Nc3 d5 Qf3
+B10,"Two Knights Variation, Caro",e4 c6 Nf3 d5 Nc3
+B01,Center Counter; Scandanavian; B01,e4 d5
+B01,"Zilbermints Gambit, Center Counter",e4 d5 b4
+B01,"Blackbunre-Kloosterboer Gambit, Center Counter",e4 d5 exd5 c6 dxc6 e5
+B01,"Atkinson (Kloosterboer) Variation, Center Counter",e4 d5 exd5 c6 dxc6 e5
+B01,"Blackburne Gambit, Center Counter",e4 d5 exd5 c6 dxc6 Nxc6
+B01,"Boehnke Gambit, Center Counter",e4 d5 exd5 e5
+B01,"Boehnke Gambit Accepted, Center Counter",e4 d5 exd5 e5 dxe6 Bxe6
+B01,"Marshall Gambit, Scandanavian G; Modern Variation, CC",e4 d5 exd5 Nf6
+B01,"Panov Transfer, Center Counter",e4 d5 exd5 Nf6 c4 c6
+B01,"Icelandic-Palme Gambit, CC",e4 d5 exd5 Nf6 c4 e6
+B01,"Portuguese Variation, Center Counter",e4 d5 exd5 Nf6 d4 Bg4
+B01,"Portuguese Gambit, Center Counter",e4 d5 exd5 Nf6 d4 Bg4 f3 Bf5 Bb5+ Nbd7
+B01,"Kadas Gambit, Center Counter",e4 d5 exd5 Nf6 d4 c6 dxc6 e5
+B01,"Wing Gambit, Center Counter",e4 d5 exd5 Nf6 d4 g6 c4 b5
+B01,"Marshall Variation, Center Counter",e4 d5 exd5 Nf6 d4 Nxd5
+B01,"Kiel Variation, Center Counter",e4 d5 exd5 Nf6 d4 Nxd5 c4 Nb4
+B01,"Tomalty Gambit, Center Counter",e4 d5 exd5 Nf6 d4 Nxd5 c4 Nf6 Nc3 c5
+B01,"Gipslis Variation, Center Counter",e4 d5 exd5 Nf6 d4 Nxd5 Nf3 Bg4
+B01,"Richter Variation, Center Counter",e4 d5 exd5 Nf6 d4 Nxd5 Nf3 g6
+B01,"Mieses-Kotroc Variation, Center Counter",e4 d5 exd5 Qxd5
+B01,"Leonhardt (Rosen) Gambit, Center Counter",e4 d5 exd5 Qxd5 Nc3 Qa5 b4
+B01,"Anderssen Variation, Center Counter",e4 d5 exd5 Qxd5 Nc3 Qa5 d4 e5
+B01,"Collijn Variation, Center Counter",e4 d5 exd5 Qxd5 Nc3 Qa5 d4 e5 Nf3 Bg4
+B01,"Mieses Variation, Center Counter",e4 d5 exd5 Qxd5 Nc3 Qa5 d4 Nf6
+B01,"Gruenfeld Variation, Center Counter",e4 d5 exd5 Qxd5 Nc3 Qa5 d4 Nf6 Nf3 Bf5 Ne5 c6 g4
+B01,"Lasker Variation, Center Counter",e4 d5 exd5 Qxd5 Nc3 Qa5 d4 Nf6 Nf3 Bg4 h3
+B01,"Gubinsky-Melts Defense, Center Counter",e4 d5 exd5 Qxd5 Nc3 Qd6
+B01,"Schiller-Pytel Variation, Center Counter",e4 d5 exd5 Qxd5 Nc3 Qd6 d4 c6
+B01,"Bronstein Variation, Center Counter",e4 d5 exd5 Qxd5 Nc3 Qd6 d4 Nf6 Nf3 a6
+B01,Closed Scandavian,e4 d5 Nc3
+B07,B07,e4 d6
+B07,"Maroczy Defense, Pirc",e4 d6 d4 e5
+B07,"Philidor Gambit, Pirc",e4 d6 d4 e5 dxe5 Bd7
+B07,Small Center Defense,e4 d6 d4 e6
+B07,"Balogh Defense, Pirc",e4 d6 d4 f5
+B07,Pirc Defense,e4 d6 d4 Nf6
+B07,"Lion's Jaw, Pirc",e4 d6 d4 Nf6 f3
+B07,Czech Defense,e4 d6 d4 Nf6 Nc3 c6
+B07,Pirc; Ufimtsev; Antal Defense,e4 d6 d4 Nf6 Nc3 g6
+B07,"Kholmov System, Pirc",e4 d6 d4 Nf6 Nc3 g6 Bc4
+B07,"Classical System, Pirc",e4 d6 d4 Nf6 Nc3 g6 Be2
+B07,"Chinese Variation, Pirc",e4 d6 d4 Nf6 Nc3 g6 Be2 Bg7 g4
+B07,"Bayonet Attack, Pirc",e4 d6 d4 Nf6 Nc3 g6 Be2 Bg7 h4
+B07,"Sveshnikov-Jansa Attack, Pirc",e4 d6 d4 Nf6 Nc3 g6 Be3 c6 h3
+B07,150 Attack,e4 d6 d4 Nf6 Nc3 g6 Be3 c6 Qd2
+B07,"Panov; Opatijav; Byrne Variation, Pirc",e4 d6 d4 Nf6 Nc3 g6 Bg5
+B09,"Austrian Attack, Pirc; B09",e4 d6 d4 Nf6 Nc3 g6 f4
+B09,"Ljubojevic Variation, Pirc",e4 d6 d4 Nf6 Nc3 g6 f4 Bg7 Bc4
+B09,"Austrian; Yugoslav Defense, Pirc",e4 d6 d4 Nf6 Nc3 g6 f4 Bg7 Nf3
+B09,"Dragon Formation, Pirc",e4 d6 d4 Nf6 Nc3 g6 f4 Bg7 Nf3 c5
+B09,"Weiss Variation, Pirc",e4 d6 d4 Nf6 Nc3 g6 f4 Bg7 Nf3 O-O Bd3
+B09,"Kurajica Variation, Pirc",e4 d6 d4 Nf6 Nc3 g6 f4 Bg7 Nf3 O-O Be3
+B09,"Unzicker Attack, Pirc",e4 d6 d4 Nf6 Nc3 g6 f4 Bg7 Nf3 O-O e5
+B08,B08,e4 d6 d4 Nf6 Nc3 g6 Nf3
+B08,"Two Knights System, Pirc",e4 d6 d4 Nf6 Nc3 g6 Nf3 Bg7
+B08,"Quiet System, Pirc",e4 d6 d4 Nf6 Nc3 g6 Nf3 Bg7 Be2
+B08,"Parma Defense, Pirc",e4 d6 d4 Nf6 Nc3 g6 Nf3 Bg7 Be2 O-O O-O Bg4
+B08,"Czech Defense, Pirc",e4 d6 d4 Nf6 Nc3 g6 Nf3 Bg7 Be2 O-O O-O c6
+B08,"Chigorin Line, Pirc",e4 d6 d4 Nf6 Nc3 g6 Nf3 Bg7 Be2 O-O O-O Nc6
+B08,"Schlechter Variation, Pirc",e4 d6 d4 Nf6 Nc3 g6 Nf3 Bg7 h3
+B07,Anti-Philidor,e4 d6 d4 Nf6 Nc3 Nbd7 f4
+B07,"Roscher Gambit, Pirc",e4 d6 d4 Nf6 Nf3
+C20,King Pawn Game; C20,e4 e5
+C20,Mengarini Opening,e4 e5 a3
+C20,Portuguese Opening,e4 e5 Bb5
+C20,Miguel Gambit,e4 e5 Bb5 Bc5 b4
+C23,Bishop's Opening; C23,e4 e5 Bc4
+C23,Anderssen Gambit,e4 e5 Bc4 b5 Bxb5 c6
+C23,Thorold Gambit,e4 e5 Bc4 b5 Bxb5 f5
+C23,"Classical Variation, Bishop; Boi Variation",e4 e5 Bc4 Bc5
+C23,"MacDonnell Gambit, Bishop",e4 e5 Bc4 Bc5 b4
+C23,"Labourdonnais-Denker Gambit, Bishop",e4 e5 Bc4 Bc5 b4 Bxb4 c3
+C23,"McDonnell Double Gambit, Bishop",e4 e5 Bc4 Bc5 b4 Bxb4 f4
+C23,"Philidor Variation, Bishop",e4 e5 Bc4 Bc5 c3
+C23,"Lewis Counter-Gambit, Bishop",e4 e5 Bc4 Bc5 c3 d5
+C23,"Lewis Countergambit, Bishop",e4 e5 Bc4 Bc5 c3 d5 Bxd5 Nf6
+C23,"Walker Variation, Bishop",e4 e5 Bc4 Bc5 c3 d5 Bxd5 Nf6 d4
+C23,"Lewis Gambit, Bishop",e4 e5 Bc4 Bc5 d4
+C23,"Stein Gambit, Bishop",e4 e5 Bc4 Bc5 f4
+C23,"Lopez Variation, Bishop",e4 e5 Bc4 Bc5 Qe2
+C23,"Lopez Gambit, Bishop",e4 e5 Bc4 Bc5 Qe2 Nf6 f4
+C23,"Khan Gambit, Bishop",e4 e5 Bc4 d5
+C23,"King's Gambit Reversed, Bishop",e4 e5 Bc4 f5
+C23,Calabrese Counter-Gambit,e4 e5 Bc4 f5
+C24,"Berlin Defense, Bishop; C24",e4 e5 Bc4 Nf6
+C24,"Spielmann Attack, Bishop",e4 e5 Bc4 Nf6 d3 Bc5 Nc3
+C24,"Kitchner Folly, Bishop",e4 e5 Bc4 Nf6 d3 Be7 Nf3 O-O
+C24,"Vienna Hybrid, Bishop",e4 e5 Bc4 Nf6 d3 Nc6 Nc3
+C24,"Hromadka Variation, Bishop",e4 e5 Bc4 Nf6 d3 Nc6 Nc3 Bb4 Ne2
+C24,"Ponziani Center Gambit, Bishop",e4 e5 Bc4 Nf6 d4
+C24,"Warsaw Gambit, Bishop",e4 e5 Bc4 Nf6 d4 exd4 c3
+C24,Urusov; Ouroussoff; Keidansky G,e4 e5 Bc4 Nf6 d4 exd4 Nf3
+C24,"Keidansky Gambit, Bishop",e4 e5 Bc4 Nf6 d4 exd4 Nf3 Nxe4 Qxd4
+C23,"Kreijcik Gambit, Bishop",e4 e5 Bc4 Nf6 f3 Bc5 Ne2 Nc6 b4
+C23,"Greco Gambit, Bishop",e4 e5 Bc4 Nf6 f4
+C23,"Horwitz Gambit, Bishop",e4 e5 Bc4 Nf6 Nc3 b5
+C23,"Blanel Gambit, Bishop",e4 e5 Bc4 Nf6 Nc3 Nxe4
+C23,"Paschmann Gambit, Bishop",e4 e5 Bc4 Nf6 Ne2 Nxe4 Nec3
+C20,Tortoise Opening,e4 e5 Bd3
+C20,Macleod Attack,e4 e5 c3
+C20,Norwalder Gambit,e4 e5 c3 d5 Qh5 Bd6
+C20,Lasa Gambit,e4 e5 c3 f5
+C20,Whale Opening,e4 e5 c4
+C20,Bavarian Gambit,e4 e5 c4 d5
+C20,Clam Variation; Leonardis Variation,e4 e5 d3
+C20,Indian Opening,e4 e5 d3
+C20,Weber Gambit,e4 e5 d3 d5 exd5 c6 dxc6 Nxc6
+C20,King's Gambit Reversed,e4 e5 d3 f5
+C20,Radisch Gambit,e4 e5 d3 Nf6 f4 Bc5
+C21,Center Game; C21,e4 e5 d4
+C21,Beyer Gambit,e4 e5 d4 d5
+C21,Philidor Gambit,e4 e5 d4 d6 dxe5 Bd7
+C21,Center Game Accepted,e4 e5 d4 exd4
+C21,Von der Lasa Gambit,e4 e5 d4 exd4 Bc4
+C21,"Ross Gambit, Center",e4 e5 d4 exd4 Bd3
+C21,Danish Gambit,e4 e5 d4 exd4 c3
+C21,"Sorensen Defense, Center",e4 e5 d4 exd4 c3 d5
+C21,Danish Gambit Accepted,e4 e5 d4 exd4 c3 dxc3 Bc4 cxb2 Bxb2
+C21,"Copenhagen Defense, Danish Gambit",e4 e5 d4 exd4 c3 dxc3 Bc4 cxb2 Bxb2 Bb4+
+C21,"Schlechter Defense, Center",e4 e5 d4 exd4 c3 dxc3 Bc4 cxb2 Bxb2 d5
+C21,"Classical Defense, Danish Gambit",e4 e5 d4 exd4 c3 dxc3 Bc4 cxb2 Bxb2 Nf6
+C21,"Chigorin Defense, Danish Gambit",e4 e5 d4 exd4 c3 dxc3 Bc4 cxb2 Bxb2 Qe7
+C21,"Svenonius Defense, Center",e4 e5 d4 exd4 c3 Ne7
+C21,Halasz-McDonnell Gambit,e4 e5 d4 exd4 f4
+C21,"Crocodile Variation, Center Game",e4 e5 d4 exd4 f4 Bc5 Nf3 Nc6 c3
+C21,"Lanc-Arnold Gambit, Center",e4 e5 d4 exd4 Nf3 Bc5 c3
+C21,"Scippler Gambit, Center",e4 e5 d4 exd4 Nf3 Bc5 c3 dxc3 Bc4
+C22,C22,e4 e5 d4 exd4 Qxd4
+C22,"Hall Variation, Center",e4 e5 d4 exd4 Qxd4 Nc6 Qc4
+C22,"Paulsen Attack Variation, Center",e4 e5 d4 exd4 Qxd4 Nc6 Qe3
+C22,"Berger Variation, Center",e4 e5 d4 exd4 Qxd4 Nc6 Qe3 Nf6
+C22,"Kupreichik Variation, Center",e4 e5 d4 exd4 Qxd4 Nc6 Qe3 Nf6 Nc3 Bb4 Bd2 O-O O-O-O Re8 Bc4
+C20,King's Head,e4 e5 f3
+C20,Walkerling,e4 e5 f3 Nf6
+C20,Krejcik Gambit,e4 e5 f3 Nf6 Bc4 Bc5 Ne2 Nc6 b4
+C20,King's Head Opening,e4 e5 f3 Nf6 Nc3
+C30,King's Gambit; C30,e4 e5 f4
+C30,"Classical Defense, KGD",e4 e5 f4 Bc5
+C30,"Heath Variation, KGD; Rotlewi Countergambit",e4 e5 f4 Bc5 Nf3 d6 b4
+C30,"Marshall (Euwe) Attack, KGD",e4 e5 f4 Bc5 Nf3 d6 c3 Bg4 fxe5 dxe5 Qa4+
+C30,"Rubinstein Countergambit, KGD",e4 e5 f4 Bc5 Nf3 d6 c3 f5
+C30,"Svenonius Variation, KGD",e4 e5 f4 Bc5 Nf3 d6 Nc3 Nf6 Bc4 Nc6 d3 Bg4
+C30,"Senechaud Counter-Gambit, KGD",e4 e5 f4 Bc5 Nf3 g5
+C30,"Mafia Defense, KGD",e4 e5 f4 c5
+C31,"Falkbeer Counter-Gambit, KGD; C31",e4 e5 f4 d5
+C31,"Hinrichsen Gambit, KGD",e4 e5 f4 d5 d4
+C31,"Falkbeer Countergambit Accepted, KGD",e4 e5 f4 d5 exd5
+C31,"Miles Gambit, KGD",e4 e5 f4 d5 exd5 Bc5
+C31,"Nimzovich-Marshall Variation, KGD",e4 e5 f4 d5 exd5 c6
+C31,"Marshall C-G, KGD",e4 e5 f4 d5 exd5 c6
+C31,"Pickler Gambit, KGD",e4 e5 f4 d5 exd5 c6 dxc6 Bc5
+C32,"Staunton Line, KGD; C32",e4 e5 f4 d5 exd5 e4
+C31,"Nimzovich Variation, KGD; Anderssen Attack",e4 e5 f4 d5 exd5 e4 Bb5+
+C32,"Reti (Charousek) Variation, KGD",e4 e5 f4 d5 exd5 e4 d3
+C32,"Morphy Defense, KGD",e4 e5 f4 d5 exd5 e4 d3 Nf6 Nc3 Bb4 Bd2 e3
+C32,"Keres Variation, KGD",e4 e5 f4 d5 exd5 e4 d3 Nf6 Nd2
+C32,"Old Line, Falkbeer Countergambit, KGD",e4 e5 f4 d5 exd5 e4 d3 Nf6 Qe2
+C32,"Modern Transfer, Falkbeer Countergambit, KGD",e4 e5 f4 d5 exd5 exf4
+C31,"Blackbunre Attack, KGD",e4 e5 f4 d5 Nf3
+C33,King's Gambit Accepted; C33,e4 e5 f4 exf4
+C33,"Orsini Gambit, KGA",e4 e5 f4 exf4 b3
+C33,"Schurig Gambit, KGA",e4 e5 f4 exf4 Bb5
+C33,"Bishop's Gambit, KGA",e4 e5 f4 exf4 Bc4
+C33,"Kieseritzky Gambit, Bishop's Gambit, KGA",e4 e5 f4 exf4 Bc4 b5
+C33,"Lopez Defense, KGA",e4 e5 f4 exf4 Bc4 c6
+C33,"Bledow; Morphy Defense, KGA",e4 e5 f4 exf4 Bc4 d5
+C33,"Bledow Countergambit, KGA",e4 e5 f4 exf4 Bc4 d5 Bxd5 Nf6
+C33,"Gianutio Counter-Gambit, KGA",e4 e5 f4 exf4 Bc4 f5
+C33,"Anderssen Defense, KGA",e4 e5 f4 exf4 Bc4 g5
+C33,"Maurian Defense, KGA",e4 e5 f4 exf4 Bc4 Nc6
+C33,Cozio; Hanneken; Prussian; Lichtenhein,e4 e5 f4 exf4 Bc4 Nf6
+C33,"Bogoljubow Variation, KGA",e4 e5 f4 exf4 Bc4 Nf6 Nc3
+C33,"Bogoljubov; Jaenisch Variation, KGA",e4 e5 f4 exf4 Bc4 Nf6 Nc3 c6
+C33,"Bryan; Kieseritzky Gambit, KGA",e4 e5 f4 exf4 Bc4 Qh4+ Kf1 b5
+C33,"Greco Variation, KGA",e4 e5 f4 exf4 Bc4 Qh4+ Kf1 Bc5
+C33,"Cozio Variation, KGA",e4 e5 f4 exf4 Bc4 Qh4+ Kf1 d6
+C33,"Classical Defense, KGA; Lopez Variation",e4 e5 f4 exf4 Bc4 Qh4+ Kf1 g5
+C33,"Grimm Attack, KGA",e4 e5 f4 exf4 Bc4 Qh4+ Kf1 g5 Nc3 Bg7 d4 d6 e5
+C33,"MacDonnell Attack, KGA",e4 e5 f4 exf4 Bc4 Qh4+ Kf1 g5 Nc3 Bg7 d4 Ne7 g3
+C33,"McDonnell Attack, KGA",e4 e5 f4 exf4 Bc4 Qh4+ Kf1 g5 Nc3 Bg7 g3
+C33,"Fraser Variation, KGA",e4 e5 f4 exf4 Bc4 Qh4+ Kf1 g5 Nc3 Bg7 g3 fxg3 Qf3
+C33,"Cozio Attack, KGA",e4 e5 f4 exf4 Bc4 Qh4+ Kf1 g5 Qf3
+C33,"Boden Variation, KGA",e4 e5 f4 exf4 Bc4 Qh4+ Kf1 Nc6
+C33,"Jaenisch Variation, KGA",e4 e5 f4 exf4 Bc4 Qh4+ Kf1 Nf6
+C33,"Jaenisch Variation, KGA",e4 e5 f4 exf4 Bc4 Qh4+ Kf1 Qf6
+C33,Lesser Bishop; Tartakower,e4 e5 f4 exf4 Be2
+C33,"Weiss Defense, KGA",e4 e5 f4 exf4 Be2 f5 exf5 d6
+C33,"Central; Polerio; Willemson, Steinitz",e4 e5 f4 exf4 d4
+C33,"Gaga Gambit, KGA",e4 e5 f4 exf4 g3
+C33,"Gama Gambit, KGA",e4 e5 f4 exf4 g3 fxg3 Nf3
+C33,"Leonardo (Stamma) Gambit, KGA",e4 e5 f4 exf4 h4
+C33,"Drunken King, KGA",e4 e5 f4 exf4 Kf2
+C33,"Tumbleweed; King's Own, KGA",e4 e5 f4 exf4 Kf2
+C33,"Keres, Mason, Parnu, Requena",e4 e5 f4 exf4 Nc3
+C33,"Requena Gambit, KGA",e4 e5 f4 exf4 Nc3 Qh4+
+C33,"Paris Gambit, KGA",e4 e5 f4 exf4 Ne2
+C34,"King's Knight Gambit, KGA; C34",e4 e5 f4 exf4 Nf3
+C35,"Cunningham Gambit, KGA; C35",e4 e5 f4 exf4 Nf3 Be7
+C35,"Wild Cunningham Gambit, KGA",e4 e5 f4 exf4 Nf3 Be7 Bc4 Bh4+
+C35,"Bertin; Three Pawns Gambit, KGA",e4 e5 f4 exf4 Nf3 Be7 Bc4 Bh4+ g3
+C35,"Neo-Cunningham Gambit, KGA; McCormick Defense",e4 e5 f4 exf4 Nf3 Be7 Bc4 Nf6
+C36,"Scandinavian Variation, KGA; Modern Defense, KGA; C36",e4 e5 f4 exf4 Nf3 d5
+C36,"Abbazia Defense, KGA",e4 e5 f4 exf4 Nf3 d5 exd5 Nf6
+C34,"Fischer Defense, KGA",e4 e5 f4 exf4 Nf3 d6
+C34,"Schulder Gambit, KGA",e4 e5 f4 exf4 Nf3 d6 b4
+C34,"Gianutio Countergambit, KGA",e4 e5 f4 exf4 Nf3 f5
+C37,C37,e4 e5 f4 exf4 Nf3 g5
+C37,"Ghulam Kassim; Koch Gambit, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4
+C38,"Traditional Variation, KGA; C38",e4 e5 f4 exf4 Nf3 g5 Bc4 Bg7
+C38,"Mayet Gambit, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4 Bg7 d4 d6 c3
+C38,"Philidor Gambit, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4 Bg7 h4
+C38,"Greco Gambit, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4 Bg7 h4 h6 d4 d6
+C38,"Greco; Calabrian Gambit, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4 Bg7 h4 h6 d4 d6 hxg5 hxg5 Rxh8 Rxh8 Nc3
+C38,"Schultz Variation, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4 Bg7 h4 h6 d4 d6 Qd3
+C38,"Hanstein Gambit, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4 Bg7 O-O
+C37,"Middleton Counter-Gambit, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4 d6 O-O Bg4 h3 h5 hxg4
+C37,"Greco-Lolli; Wild Muzio Gambit, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4 g4 Bxf7+
+C37,"Young Variation, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4 g4 Bxf7+ Kxf7 O-O gxf3 Qxf3 Qf6 d4 Qxd4+ Be3
+C37,"Koch; Ghulam Kassim Gambit, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4 g4 d4
+C37,Kotov Gambit,e4 e5 f4 exf4 Nf3 g5 Bc4 g4 d4 gxf3 Bxf4
+C37,"Ghulam-Kassim Gambit, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4 g4 d4 gxf3 Qxf3
+C37,"Australian Gambit, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4 g4 h4
+C37,"MacDonnell Gambit, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4 g4 Nc3
+C37,"Salvio Gambit, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4 g4 Ne5
+C37,"Cochrane Variation, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4 g4 Ne5  Qh4+ Kf1 f3
+C37,"Herzfeld; Portuguese; Vienna, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4 g4 Ne5  Qh4+ Kf1 Nc6
+C37,"Santa Maria Defense, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4 g4 Ne5  Qh4+ Kf1 Nf6
+C37,"Silberschmidt Variation, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4 g4 Ne5  Qh4+ Kf1 Nh6
+C37,"Anderssen Counter-Attack, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4 g4 Ne5 Qh4+ Kf1 Nh6 d4 d6
+C37,"Muzio-Polerio Gambit, KGA; Wild Muzio",e4 e5 f4 exf4 Nf3 g5 Bc4 g4 O-O
+C37,"Brentano Defense, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4 g4 O-O d5
+C37,"Holloway Defense, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4 g4 O-O gxf3 Qxf3 Nc6
+C37,"From Defense, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4 g4 O-O gxf3 Qxf3 Qe7
+C37,"Sarratt Defense, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4 g4 O-O gxf3 Qxf3 Qf6
+C37,"Young Gambit, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4 g4 O-O gxf3 Qxf3 Qf6 Bxf7+ Kxf7 d4 Qxd4+ Be3 Qf6
+C37,"Double Muzio Gambit, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4 g4 O-O gxf3 Qxf3 Qf6 e5 Qxe5 Bxf7+
+C37,"Paulsen Defense, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4 g4 O-O gxf3 Qxf3 Qf6 e5 Qxe5 d3 Bh6 Nc3 Ne7 Bd2
+C37,"Bello Gambit, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4 g4 O-O gxf3 Qxf3 Qf6 Nc3
+C37,"Baldwin Gambit, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4 g4 O-O gxf3 Qxf3 Qf6 Nc3 Qd4+ Kh1 Qxc4 Nd5
+C37,"Kling & Horwitz Counter-Attack, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4 g4 O-O Qe7
+C37,"Blachy Gambit, KGA",e4 e5 f4 exf4 Nf3 g5 Bc4 Nc6
+C37,"Rosentreter Gambit, KGA",e4 e5 f4 exf4 Nf3 g5 d4
+C37,"Soerensen Gambit, KGA",e4 e5 f4 exf4 Nf3 g5 d4 Bg4 Nc3
+C37,"Sorensen Gambit, KGA",e4 e5 f4 exf4 Nf3 g5 d4 Bg4 Ne5
+C37,"Bird Gambit, KGA",e4 e5 f4 exf4 Nf3 g5 d4 Bg4 Ne5 Qh4+ g3
+C37,"Rosentreter-Testa Gambit, KGA",e4 e5 f4 exf4 Nf3 g5 d4 g4 Bxf4
+C39,C39,e4 e5 f4 exf4 Nf3 g5 h4
+C39,"Kieseritzky Gambit, KGA",e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5
+C39,"Paulsen Defense, KGA",e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 Bg7
+C39,"Campbell; Brentano; Morphy Var, KGA",e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 d5
+C39,"Green; Kolisch Variation, KGA",e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 d6
+C39,"Long Whip Variation, KGA",e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 h5
+C39,"Cotter Gambit, KGA",e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 h6 Nxf7
+C39,"Neumann Defense, KGA",e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 Nc6
+C39,"Berlin Defense, KGA",e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 Nf6
+C39,"Anderssen Defense, Kieseritsky Gambit, KGA",e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 Nf6 Bc4 d5 exd5 Bd6
+C39,"Anderssen-Cordel Gambit, KGA",e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 Nf6 Bc4 d5 exd5 Bd6 d4 Nh5 Bxf4 Nxf4
+C39,"Rice Gambit, KGA",e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 Nf6 Bc4 d5 exd5 Bd6 O-O
+C39,"Rice Gambit Accepted, KGA",e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 Nf6 Bc4 d5 exd5 Bd6 O-O Bxe5
+C39,"Paulsen Defense Deferred, KGA",e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 Nf6 Bc4 d5 exd5 Bg7
+C39,"Rubinstein Variation, KGA",e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 Nf6 d4
+C39,"Riviere Variation, KGA",e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 Nf6 Nxg4 d5
+C39,"Rosenthal; Stockwhip Var, KGA",e4 e5 f4 exf4 Nf3 g5 h4 g4 Ne5 Qe7
+C39,"Allgaier; Cotter Cambit, KGA",e4 e5 f4 exf4 Nf3 g5 h4 g4 Ng5
+C39,"Walker (Urusov) Attack, KGA",e4 e5 f4 exf4 Nf3 g5 h4 g4 Ng5 h6 Nxf7 Kxf7 Bc4+
+C39,"Urusov Attack, KGA",e4 e5 f4 exf4 Nf3 g5 h4 g4 Ng5 h6 Nxf7 Kxf7 Bc4+ d5 Bxd5+ Ke8 d4
+C39,"Thorold Attack, KGA",e4 e5 f4 exf4 Nf3 g5 h4 g4 Ng5 h6 Nxf7 Kxf7 d4
+C39,"Horny Defense, KGA",e4 e5 f4 exf4 Nf3 g5 h4 g4 Ng5 h6 Nxf7 Kxf7 Qxg4 Nf6 Qxf4
+C37,"Quaade; Taylor Variation, KGA",e4 e5 f4 exf4 Nf3 g5 Nc3
+C34,"Becker; Anti-Kieseritzky Var, KGA",e4 e5 f4 exf4 Nf3 h6
+C34,"MacLeod Defense, KGA",e4 e5 f4 exf4 Nf3 Nc6
+C34,"Bonsch-Osmolovsky Variation, KGA",e4 e5 f4 exf4 Nf3 Ne7
+C34,"Schallop Defense, KGA",e4 e5 f4 exf4 Nf3 Nf6
+C34,"Tashkent Attack, KGA",e4 e5 f4 exf4 Nf3 Nf6 e5 Nh5 g4
+C33,"Eisenberg Variation, KGA",e4 e5 f4 exf4 Nh3
+C33,"Basman Gambit, KGA",e4 e5 f4 exf4 Qe2
+C33,"Bilguer-Mirage Variation, KGA",e4 e5 f4 exf4 Qe2
+C33,"Breyer; Hungarian; Carrera, KGA",e4 e5 f4 exf4 Qf3
+C33,"Dodo Gambit, KGA",e4 e5 f4 exf4 Qg4
+C33,"Carrera Gambit, KGA",e4 e5 f4 exf4 Qh5
+C30,"Panteldakis Countergambit, KGD",e4 e5 f4 f5
+C30,"Soller-Zilbermints Gambit, KGD",e4 e5 f4 f6 fxe5 Nc6
+C30,Zilbermints Double Countergambit; KGD,e4 e5 f4 g5
+C30,"Queen's Knight Defense, KGD",e4 e5 f4 Nc6
+C30,"Miles Defense, KGD",e4 e5 f4 Nc6 Nf3 f5
+C30,"Zilbermints Double Gambit I, KGD",e4 e5 f4 Nc6 Nf3 g5
+C30,"Petrov's Defense, KGD",e4 e5 f4 Nf6
+C30,"Norwalde (Norwalder) Variation, KGD",e4 e5 f4 Qf6
+C30,"Schubert Variation, KGD",e4 e5 f4 Qf6 Nc3 Qxf4 d4
+C30,"Keene Defense, KGD",e4 e5 f4 Qh4+ g3 Qe7
+C25,Vienna; Hamppe Opening; C25,e4 e5 Nc3
+C25,"Zhuravlev Counter-Gambit, Vienna",e4 e5 Nc3 Bb4 Qg4
+C25,"Zhuraviev Countergambit, Vienna",e4 e5 Nc3 Bb4 Qg4 Nf6
+C25,"Anderssen Defense, Vienna",e4 e5 Nc3 Bc5
+C25,"Hamppe-Mietner Variation, Vienna",e4 e5 Nc3 Bc5 Na4
+C25,"Giraffe Attack, Vienna",e4 e5 Nc3 Bc5 Qg4
+C25,"Omaha Gambit, Vienna",e4 e5 Nc3 d6 f4
+C23,"Meitner-Mieses Gambit, Vienna",e4 e5 Nc3 Nc6 Bc4 Bc5 Qg4 Qf6 Nd5
+C23,"Bronstein Gambit, Vienna",e4 e5 Nc3 Nc6 Bc4 Nf6 f4 Nxe4 Nf3
+C25,"Fyfe Gambit, Vienna",e4 e5 Nc3 Nc6 d4
+C25,"Philidor Countergambit, Vienna",e4 e5 Nc3 Nc6 d4 f5
+C25,"Alapin Variation, Vienna",e4 e5 Nc3 Nc6 f4
+C25,Vienna Gambit,e4 e5 Nc3 Nc6 f4
+C25,"Quelle Gambit, Vienna",e4 e5 Nc3 Nc6 f4 Bc5 fxe5 d6
+C25,"Steinitz Gambit, Vienna",e4 e5 Nc3 Nc6 f4 exf4 d4
+C25,"Fraser-Minckwitz Variation, Vienna",e4 e5 Nc3 Nc6 f4 exf4 d4 Qh4+ Ke2 b6
+C25,"Zukertort Defense, Vienna",e4 e5 Nc3 Nc6 f4 exf4 d4 Qh4+ Ke2 d5
+C25,"Paulsen Defense, Vienna",e4 e5 Nc3 Nc6 f4 exf4 d4 Qh4+ Ke2 d6
+C25,"Soerensen Defense, Vienna",e4 e5 Nc3 Nc6 f4 exf4 d4 Qh4+ Ke2 g5
+C25,"Knight Variation, Vienna",e4 e5 Nc3 Nc6 f4 exf4 Nf3
+C25,"Cunningham Defense, Vienna",e4 e5 Nc3 Nc6 f4 exf4 Nf3 Be7
+C25,"Hamppe-Muzio Gambit, Vienna",e4 e5 Nc3 Nc6 f4 exf4 Nf3 g5 Bc4 g4 O-O
+C25,"Pierce Gambit, Vienna",e4 e5 Nc3 Nc6 f4 exf4 Nf3 g5 d4
+C25,"Hamppe-Allgaier Gambit, Vienna",e4 e5 Nc3 Nc6 f4 exf4 Nf3 g5 h4 g4 Ng5
+C25,Hamppe-Allgaier-Thorold Gambit,e4 e5 Nc3 Nc6 f4 exf4 Nf3 g5 h4 g4 Ng5 h6 Nxf7 Kxf7 d4
+C25,"Paulsen Variation, Vienna",e4 e5 Nc3 Nc6 g3
+C25,Mariotti Gambit,e4 e5 Nc3 Nc6 g3 Bc5 Bg2 h5 Nf3 h4
+C26,"Falkbeer Variation, Vienna; C26",e4 e5 Nc3 Nf6
+C26,"Mengarini Variation, Vienna",e4 e5 Nc3 Nf6 a3
+C27,"Stanley Variation, Vienna; C27",e4 e5 Nc3 Nf6 Bc4
+C27,"Reversed Spanish, Vienna",e4 e5 Nc3 Nf6 Bc4 Bb4
+C27,"Bishop Variation, Vienna",e4 e5 Nc3 Nf6 Bc4 Bc5
+C27,"Eifel Gambit, Vienna",e4 e5 Nc3 Nf6 Bc4 Bc5 Nge2 b5
+C28,"Three Knights Variation, Vienna; C28",e4 e5 Nc3 Nf6 Bc4 Nc6
+C27,"Modern Variation, Vienna",e4 e5 Nc3 Nf6 Bc4 Nxe4
+C27,"Boden-Kieseritzky Gambit, Vienna",e4 e5 Nc3 Nf6 Bc4 Nxe4 Nf3
+C27,"Monster Variation, Vienna",e4 e5 Nc3 Nf6 Bc4 Nxe4 Qh5 Nd6 Bb3 Be7
+C27,"Alekhine Variation, Vienna",e4 e5 Nc3 Nf6 Bc4 Nxe4 Qh5 Nd6 Bb3 Be7 Nf3 Nc6 Nxe5
+C27,"Adams Gambit, Vienna",e4 e5 Nc3 Nf6 Bc4 Nxe4 Qh5 Nd6 Bb3 Nc6 d4
+C27,"Frankenstein-Dracula Var, Vienna",e4 e5 Nc3 Nf6 Bc4 Nxe4 Qh5 Nd6 Bb3 Nc6 Nb5 g6 Qf3 f5 Qd5 Qe7
+C29,"Vienna Gambit, Vienna; C29",e4 e5 Nc3 Nf6 f4
+C29,"Steinitz Variation, Vienna",e4 e5 Nc3 Nf6 f4 d5 d3
+C26,"Oxford Variation, Vienna",e4 e5 Nc3 Nf6 f4 d5 fxe5 Nxe4 d3
+C29,"Wurzburger Trap, Vienna",e4 e5 Nc3 Nf6 f4 d5 fxe5 Nxe4 d3 Qh4 g3 Nxg3 Nf3 Qh5 Nd5 Bxd5 Nf4
+C29,"Breyer Variation, Vienna",e4 e5 Nc3 Nf6 f4 d5 fxe5 Nxe4 Nf3 Be7
+C29,"Kaufmann Variation, Vienna",e4 e5 Nc3 Nf6 f4 d5 fxe5 Nxe4 Nf3 Bg4 Qe2
+C29,"Paulsen Attack, Vienna",e4 e5 Nc3 Nf6 f4 d5 fxe5 Nxe4 Qf3
+C29,"Bardeleben Variation, Vienna",e4 e5 Nc3 Nf6 f4 d5 fxe5 Nxe4 Qf3 f5
+C26,"Mieses Variation, Vienna",e4 e5 Nc3 Nf6 g3
+C25,"Polluck Gambit, Vienna",e4 e5 Nc3 Nf6 g3 Bc5 Bg2 Nc6 Nge2 d5 exd5
+C25,"Erben Gambit, Vienna",e4 e5 Nc3 Nf6 g3 d5 exd5 c6
+C20,Alapin Opening,e4 e5 Ne2
+C40,King's Knight Opening; C40,e4 e5 Nf3
+C40,Glatz Gambit; Busch-Gass Gambit,e4 e5 Nf3 Bc5
+C25,"Hamppe Meitner, Vienna",e4 e5 Nf3 Bc5 Na4
+C40,Chiodini Gambit,e4 e5 Nf3 Bc5 Nxe5 Nc6
+C40,Jalalabad Defense,e4 e5 Nf3 c5
+C40,Gunderam Gambit,e4 e5 Nf3 c6
+C40,Queen's Pawn Counter-Gambit; Elephant Gambit,e4 e5 Nf3 d5
+C40,Maroczy; Elephant Gambit,e4 e5 Nf3 d5 exd5 Bd6
+C40,Halasz-Jacobsen Gambit,e4 e5 Nf3 d5 exd5 Bd6
+C40,Maroczy Gambit,e4 e5 Nf3 d5 exd5 Bd6
+C40,Paulsen Counter-Gambit,e4 e5 Nf3 d5 exd5 e4
+C40,Wasp Variation,e4 e5 Nf3 d5 Nxe5 dxe4 Bc4 Qg5
+C41,Philidor Defense; C41,e4 e5 Nf3 d6
+C41,"Lopez Counter-Gambit, Philidor",e4 e5 Nf3 d6 Bc4 f5
+C41,Philidor Gambit,e4 e5 Nf3 d6 d4 Bd7
+C41,"Alapin-Blackburne Gambit, Philidor",e4 e5 Nf3 d6 d4 Bg4 dxe5 Nd7
+C41,"Exchange Variation, Philidor",e4 e5 Nf3 d6 d4 exd4
+C41,"Morphy Gambit, Philidor",e4 e5 Nf3 d6 d4 exd4 Bc4
+C41,"Bird Gambit, Philidor",e4 e5 Nf3 d6 d4 exd4 c3
+C41,"Paulsen Attack, Philidor",e4 e5 Nf3 d6 d4 exd4 Nxd4 d5 exd5
+C41,"Larsen Variation, Philidor",e4 e5 Nf3 d6 d4 exd4 Nxd4 g6
+C41,"Boden Variation, Philidor",e4 e5 Nf3 d6 d4 exd4 Qxd4 Bd7
+C41,Philidor Counter Attack,e4 e5 Nf3 d6 d4 f5
+C41,"Zukertort Variation, Philidor",e4 e5 Nf3 d6 d4 f5 Nc3
+C41,"Hanham; Lord Variation, Philidor",e4 e5 Nf3 d6 d4 Nd7
+C41,"Delmar Variation, Philidor",e4 e5 Nf3 d6 d4 Nd7 Bc4 c6 c3
+C41,"Schlechter Variation, Philidor",e4 e5 Nf3 d6 d4 Nd7 Bc4 c6 Nc3
+C41,"Krause Variation, Philidor",e4 e5 Nf3 d6 d4 Nd7 Bc4 c6 O-O
+C41,"Steiner Variation, Philidor",e4 e5 Nf3 d6 d4 Nd7 Bc4 c6 O-O Be7 dxe5
+C41,"Sharp Variation, Philidor",e4 e5 Nf3 d6 d4 Nd7 Bc4 Nb6
+C41,"Lion Variation, Philidor",e4 e5 Nf3 d6 d4 Nd7 Nc3 Nf6
+C41,"Jaenisch Counter-Attack, Philidor; Nimzovich Variation",e4 e5 Nf3 d6 d4 Nf6
+C41,"Klein Variation, Philidor",e4 e5 Nf3 d6 d4 Nf6 Bc4
+C41,"Sokolsky Variation, Philidor",e4 e5 Nf3 d6 d4 Nf6 dxe5 Nxe4 Nbd2
+C41,"Rellstab Variation, Philidor",e4 e5 Nf3 d6 d4 Nf6 dxe5 Nxe4 Qd5
+C41,"Larobok Variation, Philidor",e4 e5 Nf3 d6 d4 Nf6 Nc3 Nbd7
+C41,"Locock Variation, Philidor",e4 e5 Nf3 d6 d4 Nf6 Ng5 h6 Nxf7
+C40,Latvian; Greco Counter-Gambit,e4 e5 Nf3 f5
+C40,"Senechaud Gambit, Latvian",e4 e5 Nf3 f5 b4
+C40,"Mayet Attack, Latvian",e4 e5 Nf3 f5 Bc4
+C40,"Strautins Gambit, Latvian",e4 e5 Nf3 f5 Bc4 b5
+C40,"Polerio-Svedenborg Variation, Latvian",e4 e5 Nf3 f5 Bc4 fxe4 Nxe5 d5
+C40,"Poisoned Pawn Variation, Latvian",e4 e5 Nf3 f5 Bc4 fxe4 Nxe5 Qg5 d4 Qxg2
+C40,"Duke of Courland Variation, Latvian",e4 e5 Nf3 f5 Bc4 fxe4 Nxe5 Qg5 d4 Qxg2 Qh5 g6 Bf7 Kd8 Bg6 Qh1
+C40,"Morgado Defense, Latvian",e4 e5 Nf3 f5 Bc4 Nf6
+C40,"Diepstraten Countergambit, Latvian",e4 e5 Nf3 f5 c4
+C40,"Clam Gambit, Latvian",e4 e5 Nf3 f5 d3 Nc6 exf5
+C40,"Mason Countergambit, Latvian",e4 e5 Nf3 f5 d4
+C40,Latvian Gambit Accepted,e4 e5 Nf3 f5 exf5
+C40,"Lobster Gambit, Latvian",e4 e5 Nf3 f5 g4
+C40,"Mlotkowski Variation, Latvian",e4 e5 Nf3 f5 Nc3
+C40,"Fraser Defense, Latvian",e4 e5 Nf3 f5 Nxe5 Nc6
+C40,"Corkscrew Counter-Gambit, Latvian",e4 e5 Nf3 f5 Nxe5 Nf6 Bc4 fxe4 Nf7 Qe7 Nxh8 d5
+C40,"Greco Variation, Latvian",e4 e5 Nf3 f5 Nxe5 Qe7
+C40,"Mail Line, Latvian Gambit Accepted",e4 e5 Nf3 f5 Nxe5 Qf6 d4
+C40,"Bilguer Variation, Latvian",e4 e5 Nf3 f5 Nxe5 Qf6 d4 d6 Nc4
+C40,"Bronstein Attack, Latvian",e4 e5 Nf3 f5 Nxe5 Qf6 d4 d6 Nc4 fxe4 Be2
+C40,"Nimzovich Attack, Latvian",e4 e5 Nf3 f5 Nxe5 Qf6 d4 d6 Nc4 fxe4 Ne3
+C40,"Bronstein Gambit, Latvian",e4 e5 Nf3 f5 Nxe5 Qf6 d4 d6 Nc4 fxe4 Qh5+ g6 Qe2
+C40,"Foltys-Leonhardt Variation, Latvian Gambit",e4 e5 Nf3 f5 Nxe5 Qf6 Nc4
+C40,"Foltys Variation, Latvian",e4 e5 Nf3 f5 Nxe5 Qf6 Nc4 fxe4 d3
+C40,"Leonhardt Variation, Latvian",e4 e5 Nf3 f5 Nxe5 Qf6 Nc4 fxe4 Nc3
+C40,Damiano Defense,e4 e5 Nf3 f6
+C40,Damiano Gambit,e4 e5 Nf3 f6 Nxe5 fxe5 Qh5+ g6 Qxe5+ Qe7 Qxh8
+C40,"Chigorin Gambit, Damiano",e4 e5 Nf3 f6 Nxe5 Qe7 Nf3 d5
+C44,C44,e4 e5 Nf3 Nc6
+C44,Paschman Wing Gambit,e4 e5 Nf3 Nc6 b4
+C60,Ruy Lopez; Spanish Opening; C60,e4 e5 Nf3 Nc6 Bb5
+C60,"Bulgarian Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a5
+C68,"Morphy Defense, Ruy Lopez; C68",e4 e5 Nf3 Nc6 Bb5 a6
+C70,"Morphy Defense, Ruy Lopez; C70",e4 e5 Nf3 Nc6 Bb5 a6 Ba4
+C70,"Caro Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 b5
+C70,"Graz Variation, Ruy",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 b5 Bb3 Bc5
+C70,"Furman-Taimanov; Wing Var, Ruy; Norwegian Variation",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 b5 Bb3 Na5
+C70,"Nightingale Gambit, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 b5 Bb3 Na5 Bxf7+
+C70,"Alapin's Defense Deferred, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Bb4
+C70,"Classical Defense Deferred, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Bc5
+C71,Steinitz Defense Deferred; Ruy Lopez; C71,e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6
+C71,"Modern Steinitz Defense, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6
+C73,C73,e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6 Bxc6+ bxc6
+C73,"Richter Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6 Bxc6+ bxc6 d4
+C73,"Alapin Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6 Bxc6+ bxc6 d4 f6
+C74,C74,e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6 c3
+C75,C75,e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6 c3 Bd7
+C76,C76,e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6 c3 Bd7 d4 g6
+C74,"Siesta Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6 c3 f5
+C74,"Kopaiev Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6 c3 f5 exf5 Bxf5 O-O
+C71,"Keres Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6 c4
+C71,"Noah's Ark Trap, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6 d4 b5 Bb3 exd4 Nxd4 Nxd4 Qxd4 c5 Qd5 Be6 Qc6+ Bd7
+C72,C72,e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6 O-O
+C70,"Schliemann Defense Deferred, Ruy",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 f5
+C70,"Jaenisch Gambit Deferred, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 f5 exf5
+C77,C77,e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6
+C77,Treybel; Flohr; Exchange Var Deferred,e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 Bxc6
+C77,"Bayreuth Variation, ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 Bxc6
+C77,"Jaffe Gambit, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 c3
+C77,"Anderssen Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 d3
+C77,"Duras Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 d3 d6 c4
+C77,"Mackenzie Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 d4
+C77,"Center Attack, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 d4 exd4
+C77,"Nimzovich; Tarrasch Var, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 Nc3
+C78,"Normal Variation, Ruy Lopez; C78",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O
+C78,"Arkangelsk; Counterthrust Var, Ruy",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O b5
+C78,"Shannon Gambit, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O b5 Bb3 Bb7 Ng5 d5
+C78,"Wing Attack, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O b5 Bb3 Be7 a4
+C78,"Neo-Steinitz Defense, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O b5 Bb3 d6
+C78,"Moeller Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Bc5
+C84,"Closed Defense, Ruy Lopez; C84",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7
+C85,Delayed Exchange Ruy Lopez Deferred; C85,e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Bxc6
+C84,"Center Attack, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 d4
+C84,"Basque Gambit, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 d4 exd4 e5 Ne4 c3
+C84,"Lopez Four Knights, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Nc3
+C86,"Worrall Attack, Ruy Lopez; C86",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Qe2
+C86,"Schlechter Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Qe2 b5 Bb3 O-O c3 d5
+C86,"English Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Qe2 b5 Bb3 O-O c3 d6 d4 Bg4
+C87,C87,e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1
+C88,C88,e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3
+C88,"Trajkovic Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 Bb7
+C88,"Pseudo-Marshall Var, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 Bb7 c3 d5 exd5 Nxd5 Nxe5 Nxe5
+C90,C90,e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6
+C90,"Balla Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 Na5 Bc2 c5 d4 Qc7
+C90,"Suetin Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O a3
+C90,"Lutikov Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O Bc2
+C90,"Pilnik Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O d3
+C91,"Yates Variation, Ruy; C91",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O d4
+C91,"Bogoljubow; Counterthrust Var, Ruy",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O d4 Bg4
+C92,C92,e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3
+C92,"Keres Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 a5
+C92,"Flohr; Zaitsev; Lenzerheide Var, Ruy",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Bb7
+C92,"Kholmov Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Be6
+C93,"Smyslov Variation, Ruy Lopez; C93",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 h6
+C96,C96,e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Na5
+C96,"Borisenko Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Na5 Bc2 c5 d4 Nc6
+C96,"Keres Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Na5 Bc2 c5 d4 Nd7
+C97,"Chigorin Variation, Ruy Lopez; C97",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Na5 Bc2 c5 d4 Qc7
+C92,"Spanish Benoni, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Na5 Bc2 c5 d4 Qc7 1d5
+C97,"Classical Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Na5 Bc2 c5 d4 Qc7 1Nbd2
+C99,C99,e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Na5 Bc2 c5 d4 Qc7 1Nbd2 cxd4
+C98,C98,e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Na5 Bc2 c5 d4 Qc7 1Nbd2 Nc6
+C98,"Rauzer Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Na5 Bc2 c5 d4 Qc7 1Nbd2 Nc6 1dxe5 dxe5 1a4
+C94,"Breyer; Retreat Variation, Ruy Lopez; C94",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Nb8
+C95,C95,e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Nb8 d4
+C95,"Borisenko Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Nb8 d4 Nbd7
+C95,"Arseniev Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Nb8 d4 Nbd7 c4
+C95,"Romanishin Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Nb8 d4 Nbd7 Nbd2 Bb7 1Bc2 Re8 1Nf1 Bf8 1Bg5
+C95,"Simagin Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Nb8 d4 Nbd7 Nh4
+C92,"Keres Defense, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Nd7
+C92,"Zaitsev System, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3 Re8
+C88,"Rosen Attack, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 d4
+C88,"Anti-Marshall Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O a4
+C89,C89,e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O c3
+C89,"Marshall Attack, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O c3 d5
+C89,"Marshall Counter-Attack, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O c3 d5 d4
+C89,"Steiner Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O c3 d5 exd5 e4
+C89,"Kevitz Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O c3 d5 exd5 Nxd5 Nxe5 Nxe5 Rxe5 c6 1Bxd5 cxd5 1d4 Bd6 1Re3
+C89,"Geller Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O c3 d5 exd5 Nxd5 Nxe5 Nxe5 Rxe5 c6 1d4 Bd6 1Re1 Qh4 1g3 Qh3
+C89,"Fischer Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O c3 d5 exd5 Nxd5 Nxe5 Nxe5 Rxe5 c6 1g3
+C90,"Suetin Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O c3 d6 a3
+C90,"Lutikov Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O c3 d6 Bd2
+C90,"Leonhardt Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 O-O c3 Na5 Bc2 c5 d4 Qc7 h3 Nc6 1d5 Nd8 1Nbd2 g5
+C87,"Averbakh Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 d6
+C87,"Kecskemet; Timbuktu Var, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 d6 c3 O-O d4 Bd7 Nbd2 Be8
+C87,"Romanovsky Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 d6 c3 O-O d4 Bd7 Nbd2 exd4 cxd4 Nb4
+C79,"Central Countergambit, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O d5
+C79,"Russian Defense, Ruy Lopez; C79; Lasker Defense",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O d6
+C79,"Brix Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O g6
+C80,"Tarrasch; Open Variation, Ruy Lopez; C80",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4
+C80,"Schlechter Defense, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 a4 Nxd4
+C80,"Berger Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 a4 Nxd4 Nxd4 exd4 Nc3
+C80,"Harksen Gambit, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 c4
+C83,"Malkin Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5
+C81,Keres; Estonian; Howell; Moscow Var,e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6
+C82,C82,e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3
+C82,"Italian Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Bc5
+C82,"St Petersburg Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Bc5 Nbd2
+C82,"Dilworth; Kleczynski Var, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Bc5 Nbd2 O-O Bc2
+C82,"Motzko Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Bc5 Qd3
+C82,"Nenarokov Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Bc5 Qd3 Ne7
+C83,C83,e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Be7
+C83,"Breslau Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Be7 Re1 O-O Nd4
+C82,"Berlin Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Nc5
+C80,"Bernstein Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 Nbd2
+C80,"Karpov Gambit, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 Nbd2 Nc5 c3 d4
+C81,"Howell Attack, Ruy Lopez; C81",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 Qe2
+C81,"Adam Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 Qe2 Be7 c4
+C81,"Ekstrom Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 Qe2 Be7 Rd1 O-O c4
+C80,"Zukertort Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Ne7
+C80,"Richter Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 d5
+C80,"Friess Attack, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Nxe5
+C80,"Riga Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 exd4
+C80,"Knoore Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 Nc3
+C80,"Tartakower Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 Qe2
+C80,"Skipworth Gambit, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 Re1 d5
+C77,"Wormald Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 Qe2
+C70,"Cozio Defense Deferred, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nge7
+C68,"Exchange Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Bxc6
+C68,"Lutikov Variation, Ruy Lopez Exchange",e4 e5 Nf3 Nc6 Bb5 a6 Bxc6 bxc6
+C68,"Keres Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Bxc6 bxc6 Nc3
+C68,"Romanovsky Variation, Ruy Lopez Exchange",e4 e5 Nf3 Nc6 Bb5 a6 Bxc6 bxc6 Nc3 f6 d3
+C68,"Alekhjne Variation, Ruy Lopez Exchange",e4 e5 Nf3 Nc6 Bb5 a6 Bxc6 dxc6 d4 exd4 Qxd4 Qxd4 Nxd4 Bd6
+C68,"Barendregt-Fischer Var, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Bxc6 dxc6 O-O
+C68,"King's Bishop Variation, Ruy Lopez Exchange",e4 e5 Nf3 Nc6 Bb5 a6 Bxc6 dxc6 O-O Bd6
+C68,"Alapin Gambit, Ruy Lopez Exchange",e4 e5 Nf3 Nc6 Bb5 a6 Bxc6 dxc6 O-O Bg4 h3 h5
+C69,"Gligoric Variation, Ruy Lopez; C69",e4 e5 Nf3 Nc6 Bb5 a6 Bxc6 dxc6 O-O f6
+C69,"Bronstein Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 a6 Bxc6 dxc6 O-O Qd6
+C60,"Rotary-Albany Gambit, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 b6
+C60,"Alapin Defense, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Bb4
+C60,"Alapin Gambit, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Bb4 c3 Ba5 Bxc6 dxc6
+C64,"Classical; Cordel Var, Ruy Lopez; C64",e4 e5 Nf3 Nc6 Bb5 Bc5
+C64,"Spanish Wing Gambit, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Bc5 b4
+C64,"Charousek Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Bc5 c3 Bb6
+C64,"Konikowski Gambit, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Bc5 c3 d5
+C64,"Cordel Gambit, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Bc5 c3 f5
+C64,"Benelux Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Bc5 c3 Nf6 d4 Bb6 O-O O-O
+C64,"Boden Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Bc5 c3 Qe7
+C64,"Zaitsev Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Bc5 O-O Nd4 b4
+C64,"Zukertort Gambit, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Bc5 O-O Nf6 c3
+C60,"Lucena Defense, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Be7
+C60,"Sawyer's Gambit, Ruy Lopez; Spanish Countergambit",e4 e5 Nf3 Nc6 Bb5 d5
+C60,"Harding Gambit, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 d5 Nxe5 Qg5 Nxc6
+C60,"Fricke Gambit, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 d5 Nxe5 Qg5 O-O
+C62,"Steinitz Defense, Ruy Lopez; C62",e4 e5 Nf3 Nc6 Bb5 d6
+C62,"Nimzovich Attack, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 d6 d4 Bd7 Nc3 Nf6 Bxc6
+C62,"Center Gambit, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 d6 d4 exd4 O-O
+C63,"Schliemann; Jaenisch Var, Ruy Lopez; C63",e4 e5 Nf3 Nc6 Bb5 f5
+C63,"Exchange Variation, Schliemann Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 f5 Bxc6
+C63,"Schoenemann Attack, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 f5 d4
+C63,"Jaenisch Gambit Accepted, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 f5 exf5
+C63,"Berger (Dyckhoff) Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 f5 Nc3
+C63,"Kostic Defense, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 f5 Nc3 fxe4 Nxe4 Be7
+C63,"Moehring Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 f5 Nc3 fxe4 Nxe4 d5 Nxe5 dxe4 Nxc6 Qd5
+C63,"Tartakower Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 f5 Nc3 fxe4 Nxe4 Nf6
+C63,"Soviet Youth Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 f5 Nc3 Nd4 O-O
+C63,"Kostic Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 f5 Nc3 Nf6 exf5 Bc5
+C60,"Nuremberg Defense, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 f6
+C60,"Brentano Defense, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 g5
+C60,"Barnes; Smyslov; Fianchetto Var, Ruy",e4 e5 Nf3 Nc6 Bb5 g6
+C60,"Retreat Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Nc8
+C61,"Bird Defense, Ruy Lopez; C61",e4 e5 Nf3 Nc6 Bb5 Nd4
+C61,"Paulsen Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Nd4 Nxd4 exd4 O-O Ne7
+C65,"Berlin Defense, Ruy Lopez; C65",e4 e5 Nf3 Nc6 Bb5 Nf6
+C65,"Kaufmann Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Nf6 d3 Bc5 Be3
+C65,"Anderssen Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Nf6 d3 d6 Bxc6+
+C65,"Duras Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Nf6 d3 d6 c4
+C65,"Mortimer Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Nf6 d3 Ne7
+C65,"Mortimer Trap, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Nf6 d3 Ne7 Nxe5 c6
+C65,"Nyholm Attack, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Nf6 d4 exd4 O-O
+C65,"Beverwijk Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Bc5
+C66,"Improved Steinitz Defense, Ruy Lopez; C66",e4 e5 Nf3 Nc6 Bb5 Nf6 O-O d6
+C66,"Hedgehog Defense, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Nf6 O-O d6 d4 Bd7 Nc3 Be7
+C66,"Closed Bernstein Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Nf6 O-O d6 d4 Bd7 Nc3 Be7 Bg5
+C66,"Closed Showalter Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Nf6 O-O d6 d4 Bd7 Nc3 Be7 Bxc6
+C66,"Tarrasch Trap, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Nf6 O-O d6 d4 Bd7 Nc3 Be7 Re1 O-O
+C66,"Closed Wolf Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Nf6 O-O d6 d4 Bd7 Nc3 exd4
+C66,"Fishing Pole Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Ng4
+C67,"Rio Gambit Accepted, Ruy Lopez; C67",e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4
+C67,"Rosenthal Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4 d4 a6
+C67,"Rio de Janeiro Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4 d4 Be7
+C67,"Minckwitz Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4 d4 Be7 dxe5
+C67,"Trifunovic Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4 d4 Be7 Qe2 d5
+C67,"Pillsbury Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4 d4 Be7 Qe2 Nd6 Bxc6+ bxc6 dxe5 Nb7 b3
+C67,"Zukertort Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4 d4 Be7 Qe2 Nd6 Bxc6+ bxc6 dxe5 Nb7 c4
+C67,"Berlin; Rio de Janerio Var, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4 d4 Be7 Qe2 Nd6 Bxc6+ bxc6 dxe5 Nb7 Nc3 O-O Re1
+C67,"Winawer Attack, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4 d4 Be7 Qe2 Nd6 Bxc6+ bxc6 dxe5 Nb7 Nd4 O-O
+C67,"Cordel Defense, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4 d4 Be7 Qe2 Nd6 Bxc6+ bxc6 dxe5 Nf5
+C67,"L'Hermet Variation, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4 d4 Nd6
+C67,"Westerinen Line, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4 d4 Nd6 Bxc6 dxc6 dxe5 Ne4
+C60,"Cozio Defense, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Nge7
+C60,"Tartakower Gambit, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Nge7 d4 exd4 Nxd4 g6 Nc3 Bg7 Be3 O-O Qd2 d5
+C60,"Paulsen Variation, Cozio Defense, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Nge7 Nc3 g6
+C60,"Vinogradov Var, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Qe7
+C60,"Frankfort; Gunderam Var, Ruy Lopez",e4 e5 Nf3 Nc6 Bb5 Qf6
+C50,Italian Game; C50,e4 e5 Nf3 Nc6 Bc4
+C50,Giuoco Piano; Italian Opening,e4 e5 Nf3 Nc6 Bc4 Bc5
+C51,Evans Gambit; C51,e4 e5 Nf3 Nc6 Bc4 Bc5 b4
+C51,"Lange Variation, Evans Gambit",e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bb6 b5 Na5 Nxe5 Nh6
+C51,Evans Gambit Accepted,e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4
+C52,"Main Line, Evans Gambit; C52",e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5
+C52,"Leonhardt Variation, Evans",e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 b5
+C52,"Sokolsky Variation, Evans",e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 d6 Bg5
+C52,"Lasker Defense, Evans",e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 d6 O-O Bb6
+C52,"Tartakower Attack, Evans",e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 d6 Qb3
+C52,"Pierce Defense, Evans",e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 exd4
+C52,"Schulen Defense, Evans",e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 exd4 O-O b5
+C52,"Waller Attack, Evans",e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 exd4 O-O d6 Qb3
+C52,"Compromised Defense, Evans",e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 exd4 O-O dxc3
+C52,"Mieses Defense, Evans",e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 d4 exd4 O-O Nge7
+C52,"Slow Variation, Evans",e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 O-O
+C52,"Richardson Attack, Evans",e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Ba5 O-O Nf6 d4 O-O Nxe5
+C51,"Normal Position, Evans Gambit",e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bc5 d4 exd4 O-O d6 cxd4 Bb6
+C51,"Ulvestad Variation, Evans",e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bc5 d4 exd4 O-O d6 cxd4 Bb6 d5 Na5 Bb2
+C51,"Paulsen Variation, Evans",e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bc5 d4 exd4 O-O d6 cxd4 Bb6 d5 Na5 Bb2 Ne7
+C51,"Morphy Attack, Evans",e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bc5 d4 exd4 O-O d6 cxd4 Bb6 Nc3
+C51,"Fraser Attack; Mortimer, Evans",e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bc5 d4 exd4 O-O d6 cxd4 Bb6 Nc3 Bg4 Qa4
+C51,"Goering Attack, Evans",e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bc5 d4 exd4 O-O d6 cxd4 Bb6 Nc3 Na5 Bg5
+C51,"Stone-Ware Defense, Evans Gambit",e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Bd6
+C51,"Anderssen Variation, Evans",e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Be7
+C51,"Cordel Line, Evans",e4 e5 Nf3 Nc6 Bc4 Bc5 b4 Bxb4 c3 Be7 d4 Na5
+C51,"Hein Countergambit, Evans",e4 e5 Nf3 Nc6 Bc4 Bc5 b4 d5
+C50,Jerome Gambit; Kentucky Opening,e4 e5 Nf3 Nc6 Bc4 Bc5 Bxf7+
+C53,"Classical Variation, Italian; C53",e4 e5 Nf3 Nc6 Bc4 Bc5 c3
+C53,"Labourdonnais Variation, Italian",e4 e5 Nf3 Nc6 Bc4 Bc5 c3 d6 d4 exd4 cxd4 Bb6
+C53,"Alexandre Gambit, Italian",e4 e5 Nf3 Nc6 Bc4 Bc5 c3 f5
+C54,C54,e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6
+C54,"Bird Attack, Italian",e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 b4
+C53,Giuoco Pianissimo,e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d3
+C53,"Center Attack, Italian",e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4
+C53,"Grevo Gambit, Italian",e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4
+C54,"Cracow Variation, Italian",e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4 Bb4+ Kf1
+C54,"Moeller (Therkatz) Attack, Italian",e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4 Bb4+ Nc3 Nxe4 O-O Bxc3 d5
+C54,"Therkatz-Herzog, Italian",e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4 Bb4+ Nc3 Nxe4 O-O Bxc3 d5 Bf6 Re1 Ne7
+C54,"Greco Variation, Italian",e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 cxd4 Bb4+ Nc3 Nxe4 O-O Nxc3
+C54,"Mason Gambit, Italian",e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 d4 exd4 O-O
+C53,"Albin Gambit, Italian",e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6 O-O
+C53,"Lewis Defense, Italian; Closed Variation",e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Qe7
+C53,"Center Holding Variation, Italian",e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Qe7 d4 Bb6
+C53,"Mestel Variation, Italian",e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Qe7 d4 Bb6 Bg5
+C50,Giuoco Pianissimo,e4 e5 Nf3 Nc6 Bc4 Bc5 d3
+C50,Lucchini Gambit; Italian,e4 e5 Nf3 Nc6 Bc4 Bc5 d3 f5
+C50,Italian Four Knights Variation,e4 e5 Nf3 Nc6 Bc4 Bc5 d3 Nf6 Nc3
+C50,"Canal Variation, Italian",e4 e5 Nf3 Nc6 Bc4 Bc5 d3 Nf6 Nc3 d6 Bg5
+C50,"Rosentreter Gambit, Italian",e4 e5 Nf3 Nc6 Bc4 Bc5 d4
+C50,"Italian Variation, Four Knights Game",e4 e5 Nf3 Nc6 Bc4 Bc5 Nc3 Nf6
+C50,"Deutz Gambit, Italian",e4 e5 Nf3 Nc6 Bc4 Bc5 O-O Nf6 d4
+C50,Hungarian Defense,e4 e5 Nf3 Nc6 Bc4 Be7
+C50,"Tartakower Variation, Hungarian",e4 e5 Nf3 Nc6 Bc4 Be7 d4 exd4 c3 Nf6 e4 Ne4
+C50,Half Giuoco Piano; Semi-Italian Opening,e4 e5 Nf3 Nc6 Bc4 d6
+C50,Rousseau Gambit,e4 e5 Nf3 Nc6 Bc4 f5
+C50,"Shilling (Kostic) Gambit, Italian",e4 e5 Nf3 Nc6 Bc4 Nd4
+C55,Two Knights Defense; C55,e4 e5 Nf3 Nc6 Bc4 Nf6
+C55,De Riviere Gambit,e4 e5 Nf3 Nc6 Bc4 Nf6 c3
+C55,Modern Bishop's Opening,e4 e5 Nf3 Nc6 Bc4 Nf6 d3
+C56,"Open Variation, Two Knights Defense; C56",e4 e5 Nf3 Nc6 Bc4 Nf6 d4
+C56,"Perreux Variation, Two Knights Defense",e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 Ng5
+C56,Scotch Gambit,e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 O-O
+C56,Max Lange Attack,e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 O-O Bc5 e5
+C56,"Loman Defense, 2 Knights",e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 O-O Bc5 e5 d5 exf6 dxc4 Re1+ Be6 Ng5 g6
+C56,"Marshall Variation, 2 Knights",e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 O-O Bc5 e5 d5 exf6 dxc4 Re1+ Be7 Ng5 Qd5 Nc3 Qf5
+C56,"Double Gambit Accepted, Two Knights",e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 O-O Nxe4
+C56,"Nachmanson Gambit, 2 Knights",e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 O-O Nxe4 Nc3
+C56,"Jordansky Attack, 2 Knights",e4 e5 Nf3 Nc6 Bc4 Nf6 d4 exd4 O-O Nxe4 Re1 d5 Bxd5 Qxd5 Nc3 Qa5 Ne4 Be6 Bg5
+C57,"Prussian Game; Knight Attack, Two Knights; C57",e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5
+C57,"Traxler; Wilkes-Barre Var, 2 Knights",e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 Bc5
+C57,"Trencianske-Teplice Gambit, Two Knights",e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 Bc5 Bxf7+ Ke7 d4
+C57,"Ulvestad Variation, 2 Knights",e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 b5
+C57,"Kurkin Gambit, Two Knights",e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 b5 Bf1 h6 Nxf7
+C58,"Polerio Defense, Two Knights; C58",e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5
+C59,C59,e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 Bb5+ c6 dxc6 bxc6 Be2
+C59,"Suhle Defense, Two Knights",e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 Bb5+ c6 dxc6 bxc6 Be2 h6
+C59,"Goering Variation, Two Knights",e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 Bb5+ c6 dxc6 bxc6 Be2 h6 Nf3 e4 Ne5
+C58,"Bogoljubow Variation, Two Knights",e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 Bb5+ c6 dxc6 bxc6 Qf3
+C58,"Colman Variation, 2 Knights",e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 Bb5+ c6 dxc6 bxc6 Qf3 Rb8
+C58,"Kieseritzky; Morphy Var, 2 Knights",e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 d3
+C58,"Yankovich Variation, Two Knights",e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Na5 d3 h6 Nf3 e4 Qe2 Nxc4 dxc4 Bc5 Nfd2
+C57,"Kloss Gambit, Two Knights",e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Nb4
+C57,"Fritz Variation, 2 Knights",e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Nd4
+C57,"Berliner Variation, 2 Knights",e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Nd4 c3 b5 Bf1 Nxd5 Ne4 Qh4
+C57,"Lolli Attack, 2 Knights",e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Nxd5 d4
+C57,"Fried Liver; Fegatello Attack, 2 Knights",e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Nxd5 Nxf7
+C57,"Ponziani-Steintz Gambit, Two Knights",e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 Nxe4
+C44,Taylor Opening; Inverted Hungarian,e4 e5 Nf3 Nc6 Be2
+C44,Inverted Hanham Opening,e4 e5 Nf3 Nc6 Be2 Nf6 d3 d5 Nbd2
+C44,Basman Gambit,e4 e5 Nf3 Nc6 Be2 Nf6 d4 exd4 e5
+C44,Ponziani; Staunton; English Knights,e4 e5 Nf3 Nc6 c3
+C44,"Spanish Variation, Ponziani",e4 e5 Nf3 Nc6 c3 d5 Bb5
+C44,"Nikitin Gambit, Ponziani",e4 e5 Nf3 Nc6 c3 d5 Bb5 dxe4 Nxe5 Qd5 Qa4
+C44,"Caro Variation, Ponziani",e4 e5 Nf3 Nc6 c3 d5 Qa4 Bd7
+C44,"Steinitz Variation, Ponziani",e4 e5 Nf3 Nc6 c3 d5 Qa4 f6
+C44,"Leonhardt Variation, Ponziani",e4 e5 Nf3 Nc6 c3 d5 Qa4 Nf6
+C44,Ponziani Counter-Gambit,e4 e5 Nf3 Nc6 c3 f5
+C44,"Schmidt Attack, Ponziani",e4 e5 Nf3 Nc6 c3 f5 d4 d6 d5
+C44,"Jaenisch Counterattack, Ponziani",e4 e5 Nf3 Nc6 c3 Nf6
+C44,"Neumann Gambit, Ponziani",e4 e5 Nf3 Nc6 c3 Nf6 Bc4
+C44,"Breyer Opening, Ponziani",e4 e5 Nf3 Nc6 c3 Nf6 d3 Be7 b4
+C44,"Vukovic Gambit, Ponziani",e4 e5 Nf3 Nc6 c3 Nf6 d4 Nxe4 d5 Bc5
+C44,Dresden Opening,e4 e5 Nf3 Nc6 c4
+C44,Scotch Game,e4 e5 Nf3 Nc6 d4
+C44,"MacLopez; Relfsson Gambit, Scotch",e4 e5 Nf3 Nc6 d4 exd4 Bb5
+C44,Scotch Gambit,e4 e5 Nf3 Nc6 d4 exd4 Bc4
+C44,"London Defense, Scotch",e4 e5 Nf3 Nc6 d4 exd4 Bc4 Bb4+
+C44,"Vitzhum Attack, Scotch",e4 e5 Nf3 Nc6 d4 exd4 Bc4 Bc5 Ng5 Nh6 Qh5
+C44,"Paulsen; Anderssen C-A, Scotch",e4 e5 Nf3 Nc6 d4 exd4 Bc4 Bc5 O-O d6 c3 Bg4
+C44,"Benima Defense, Scotch",e4 e5 Nf3 Nc6 d4 exd4 Bc4 Be7
+C44,"Goering Gambit, Scotch",e4 e5 Nf3 Nc6 d4 exd4 c3
+C44,"Goering Gambit Declined, Scotch",e4 e5 Nf3 Nc6 d4 exd4 c3 d5
+C44,"Double Pawn Sacrifice, Goering Gambit",e4 e5 Nf3 Nc6 d4 exd4 c3 dxc3 Bc4
+C44,"Bardeleben Variation, Scotch",e4 e5 Nf3 Nc6 d4 exd4 c3 dxc3 Nxc3 Bb4 Bc4 Nf6
+C45,C45,e4 e5 Nf3 Nc6 d4 exd4 Nxd4
+C45,"Malaniuk Variation, Scotch",e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bb4+
+C45,"Classical Variation, Scotch",e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5
+C45`,"Paulsen Attack, Scotch",e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Be3 Qf6 c3 Nge7 Bb5
+C45,"Gunsberg Defense, Scotch",e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Be3 Qf6 c3 Nge7 Bb5 Nd8
+C45,"Fleissig; Meitner Variation, Scotch",e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Be3 Qf6 c3 Nge7 Nc2
+C45,"Blackburne Attack, Scotch",e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Be3 Qf6 c3 Nge7 Qd2
+C45,"Millennium Variation, Scotch",e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Be3 Qf6 c3 Qg6
+C45,"Blumenfeld Variation, Scotch",e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Be3 Qf6 Nb5
+C45,"Potter Variation, Scotch",e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Nb3
+C45,"Romanishin Variation, Scotch",e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Nb3 Bb4+
+C45,"Geller Variation, Scotch",e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Nb3 Bb6 a4 a6 Nc3 Nf6
+C45,"Intermezzo Variation, Scotch",e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Nxc6 Qf6
+C45,"Alekhine Gambit, Scotch",e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Nf6 e5
+C45,Schmidt Var; Scotch Four Knights,e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Nf6 Nc3
+C45,"Mieses Variation, Scotch",e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Nf6 Nxc6
+C45,"Tartakower Variation, Scotch",e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Nf6 Nxc6 bxc6 Nd2
+C45,"Steinitz; Pulling Variation, Scotch",e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4
+C45,"Braune Variation, Scotch",e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4 Be3
+C45,"Horwitz Attack, Scotch",e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4 Nb5
+C45,"Steinitz Variation, Scotch",e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4 Nc3
+C45,"Modern Defesne, Scotch",e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4 Nc3 Bb4
+C45,"Fraser Attack, Scotch",e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4 Nf3
+C45,"Paulsen Variation, Scotch",e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Qh4 Nf5
+C44,"Lolli Attack, Scotch",e4 e5 Nf3 Nc6 d4 Nxd4
+C44,"Napoleon Gambit, Scotch",e4 e5 Nf3 Nc6 d4 Nxd4 Nxd4 exd4 Bc4
+C44,Konstantinopolsky Opening,e4 e5 Nf3 Nc6 g3
+C46,Three Knights Opening; C46,e4 e5 Nf3 Nc6 Nc3
+C46,"Schlechter Variation, Three Knights",e4 e5 Nf3 Nc6 Nc3 Bb4 Nd5 Nf6
+C46,"Winawer Defense, Three Knights",e4 e5 Nf3 Nc6 Nc3 f5
+C46,"Steinitz Defense, Three Knights",e4 e5 Nf3 Nc6 Nc3 g6
+C46,"Rosenthal Variation, Three Knights",e4 e5 Nf3 Nc6 Nc3 g6 d4 exd4 Nd5
+C47,Four Knights Openng; C47,e4 e5 Nf3 Nc6 Nc3 Nf6
+C47,"Gunsberg Variation, Four Kngiths",e4 e5 Nf3 Nc6 Nc3 Nf6 a3
+C47,"Provincial Opening, 4 Knights",e4 e5 Nf3 Nc6 Nc3 Nf6 a3 d6 h3
+C48,Spanish Four Knights Game; C48,e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5
+C48,"Ranken Variation, 4 Knights",e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 a6 Bxc6
+C49,"Double Ruy Lopez Opening, 4 Knights; C49",e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bb4
+C49,"Paulsen Variation, 4 Knights",e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bb4 O-O O-O Bxc6
+C49,"Svenonius Variation, 4 Knights",e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bb4 O-O O-O d3 Bxc3 bxc3 d5
+C49,"Janowski Variation, Four Knights",e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bb4 O-O O-O d3 Bxc3 bxc3 d6 Re1
+C49,"Symmetrical Variation, 4 Knights",e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bb4 O-O O-O d3 d6
+C49,"Bernstein Variation, 4 Knights",e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bb4 O-O O-O d3 d6 Bg5 Bxc3 bxc3 Ne7
+C49,"Metger Unpin Variation, 4 Knights",e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bb4 O-O O-O d3 d6 Bg5 Bxc3 bxc3 Qe7 Re1 Nd8
+C49,"Pillsbury Variation, 4 Knights",e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bb4 O-O O-O d3 d6 Bg5 Ne7
+C49,"Maroczy Variation, 4 Knights",e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bb4 O-O O-O d3 d6 Ne2
+C49,"Blackburne Attack, 4 Knights",e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bb4 O-O O-O Nd5 Bc5 d4
+C48,"Classical Variation, Four Knights",e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bc5
+C48,"Marshall Gambit, Four Knights",e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bc5 Nxe5 Nd4 Ba4 O-O
+C48,"Rubinstein Variation, 4 Knights",e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Nd4
+C46,"Italian Variation, Four Knights",e4 e5 Nf3 Nc6 Nc3 Nf6 Bc4
+C47,"Noa Gambit, Four Knights",e4 e5 Nf3 Nc6 Nc3 Nf6 Bc4 Nxe4 Bxf7+
+C47,"Bogoljubow (Scotch) Variation, 4 Knights",e4 e5 Nf3 Nc6 Nc3 Nf6 d4
+C47,"Oxford Gambit, Four Kngihts",e4 e5 Nf3 Nc6 Nc3 Nf6 d4 Bb4 d5 Nd4
+C47,"Krause Gambit, Four Knights",e4 e5 Nf3 Nc6 Nc3 Nf6 d4 Bb4 Nxe5
+C47,"Leonhardt Defense, Four Knights",e4 e5 Nf3 Nc6 Nc3 Nf6 d4 Bb4 Nxe5 Qe7
+C47,"Belgrade Gambit, 4 Knights",e4 e5 Nf3 Nc6 Nc3 Nf6 d4 exd4 Nd5
+C47,"Schmid Gambit, Four Knights",e4 e5 Nf3 Nc6 Nc3 Nf6 d4 exd4 Nxd4 Nxe4
+C46,"Halloween Gambit, Four Knights",e4 e5 Nf3 Nc6 Nc3 Nf6 Nxe5
+C44,Chicago; Irish; Schulze-Muller Gambit,e4 e5 Nf3 Nc6 Nxe5 Nxe5 d4
+C42,Petroff Defense; Russian Defense; C42,e4 e5 Nf3 Nf6
+C42,"Urosov Gambit, Petroff",e4 e5 Nf3 Nf6 Bc4
+C42,"Boden-Kieseritzky Gambit, Petroff",e4 e5 Nf3 Nf6 Bc4 Nxe4 Nc3
+C42,"Lichtenhein Defense, Petroff",e4 e5 Nf3 Nf6 Bc4 Nxe4 Nc3 d5
+C43,"Modern Attack, Petroff",e4 e5 Nf3 Nf6 d4
+C43,"Symmetrical Variation, Petroff",e4 e5 Nf3 Nf6 d4 d5
+C43,"Suchting Gambit, Petroff",e4 e5 Nf3 Nf6 d4 exd4 Bc4
+C43,"Tal Gambit, Petroff",e4 e5 Nf3 Nf6 d4 exd4 e5 Ne4 Bb5
+C43,"Center Attack, Petroff",e4 e5 Nf3 Nf6 d4 exd4 e5 Ne4 Qxd4
+C43,"Trifunovic Variation, Petroff",e4 e5 Nf3 Nf6 d4 Nxe4 Bd3 d5 Nxe5 Bd6 O-O O-O c4 Bxe5
+C43,"Murret Variation, Petroff",e4 e5 Nf3 Nf6 d4 Nxe4 Bd3 Nc6
+C42,"Russian Three Knights Var, Petroff",e4 e5 Nf3 Nf6 Nc3
+C43,"Steinitz Variation, Petoff; C43",e4 e5 Nf3 Nf6 Nxe5 d6 d4
+C43,"Urusov Gambit, Petroff",e4 e5 Nf3 Nf6 Nxe5 d6 d4 exd4 Bc4
+C42,"Paulsen Attack, Petroff",e4 e5 Nf3 Nf6 Nxe5 d6 Nc4
+C42,"Karklins-Martinovsky Variation, Petroff",e4 e5 Nf3 Nf6 Nxe5 d6 Nd3
+C42,"Millenium Attack, Petroff",e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 Bd3
+C42,"Kaufmann Variation, Petroff",e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 c4
+C42,"French Attack, Petroff",e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d3
+C42,"Classical Attack, Petroff",e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d4
+C42,"Marshall Variation, Petroff",e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d4 d5 Bd3 Bd6
+C42,"Tarrasch Variation, Petroff",e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d4 d5 Bd3 Bd6 O-O O-O c4 Bg4
+C42,"Staunton Variation, Petroff",e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d4 d5 Bd3 Bd6 O-O O-O c4 c6
+C42,"Jaenisch Variation, Petroff",e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d4 d5 Bd3 Be7 O-O Nc6 c4
+C42,"Browne Attack, Petroff",e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d4 d5 Bd3 Be7 O-O Nc6 c4 Nb4 cxd5
+C42,"Chigorin Variation, Petroff",e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d4 d5 Bd3 Be7 O-O Nc6 Re1
+C42,"Berger Variation, Petroff",e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d4 d5 Bd3 Be7 O-O Nc6 Re1 Bg4 c3 f5 Nbd2
+C42,"Mason Variation, Petroff",e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d4 d5 Bd3 Be7 O-O O-O
+C42,"Mason-Showalter Variation, Petroff",e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 d4 d5 Bd3 Nc6
+C42,"Nimzovich Attack, Petroff",e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 Nc3
+C42,"Lasker Variation, Petroff",e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 Qe2
+C42,"Cozio (Lasker) Attack, Petroff",e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 Qe2
+C42,"Cochrane Gambit, Petroff",e4 e5 Nf3 Nf6 Nxe5 d6 Nxf7
+C42,"Stafford Gambit, Petroff",e4 e5 Nf3 Nf6 Nxe5 Nc6
+C42,"Damiano Variation, Petroff",e4 e5 Nf3 Nf6 Nxe5 Nxe4
+C42,"Kholmov Gambit, Petroff",e4 e5 Nf3 Nf6 Nxe5 Nxe4 Qe2 Qe7
+C42,"Moody Gambit, Petroff",e4 e5 Nf3 Nf6 Qe2 Nc6 d4
+C40,Levenstein; Queen's Defense; Brazilian; Gunderam,e4 e5 Nf3 Qe7
+C40,Gunderam Gambit,e4 e5 Nf3 Qe7 Bc4 f5
+C40,McConnell Defense,e4 e5 Nf3 Qf6
+C40,Greco Defense,e4 e5 Nf3 Qf6
+C40,Labourdonnais Gambit,e4 e5 Nf3 Qf6 Bc4 Qg6 O-O
+C20,Napoleon Attack,e4 e5 Qf3
+C20,Wayward Queen; Danvers; Parnham,e4 e5 Qh5
+C20,Mellon Gambit,e4 e5 Qh5 Nc6 Bc4 Nh6 d3 g6 Qf3 f6 Ne2 d5
+C20,Kiddie Countergambit,e4 e5 Qh5 Nf6
+C00,French Defense; C00,e4 e6
+C00,"Reti (Horwitz) Variation, French",e4 e6 b3
+C00,"Papa-Ticulat Gambit, French",e4 e6 b3 d5 Bb2
+C00,"Banzai-Leong Gambit, French",e4 e6 b4
+C00,Pinova Gambit,e4 e6 b4 Bxb4 e5
+C00,"Bird Invitation, French",e4 e6 Bb5
+C00,"Orthoschapp Variation, French",e4 e6 c4 d5 cxd5 exd5 Qb3
+C00,"King""s Indian Attack",e4 e6 d3
+C00,"Reversed Philidor, French",e4 e6 d3 d5 Nd2 Nf6 Ngf3 Nc6 Be2
+C00,"Franco-Hiva Gambit, French",e4 e6 d3 f5
+C01,C01,e4 e6 d4
+C01,"Baeuerle Gambit, French",e4 e6 d4 b5
+C01,"Schlechter Variation, French",e4 e6 d4 d5 Bd3
+C00,"Alapin; Witaker Gambit, French",e4 e6 d4 d5 Be3
+C00,"Alapin-Diemer Gambit, French",e4 e6 d4 d5 Be3 dxe4 f3
+C00,"Diemer-Duhm Gambit, French",e4 e6 d4 d5 c4
+C02,"Advance Variation, French; C02",e4 e6 d4 d5 e5
+C02,"Extended Bishop Swap, French",e4 e6 d4 d5 e5 Bd7
+C02,"Advance; Nimzovich; Steinitz Var, Fr",e4 e6 d4 d5 e5 Bd7
+C02,"Frenkel Gambit, French",e4 e6 d4 d5 e5 c5 b4
+C02,"Paulsen Attack, French",e4 e6 d4 d5 e5 c5 c3 Nc6 Nf3
+C02,"Euwe Variation, French",e4 e6 d4 d5 e5 c5 c3 Nc6 Nf3 Bd7
+C02,"Lputian Variation, French",e4 e6 d4 d5 e5 c5 c3 Nc6 Nf3 Qb6 a3 Nh6
+C02,"Milner-Barry Gambit, French",e4 e6 d4 d5 e5 c5 c3 Nc6 Nf3 Qb6 Bd3
+C02,"Milner-Barry Gambit, French",e4 e6 d4 d5 e5 c5 c3 Nc6 Nf3 Qb6 Bd3 cxd3 cxd3 Bd7 O-O Nxd4 Nxd4
+C02,"Wade Variation, French",e4 e6 d4 d5 e5 c5 c3 Qb6 Nf3 Bd7
+C02,"Nimzovich Variation, French",e4 e6 d4 d5 e5 c5 Nf3
+C02,"Ruisdonk Gambit, French",e4 e6 d4 d5 e5 c5 Nf3 cxd4 Bd3
+C02,"Nimzovich Attack, French",e4 e6 d4 d5 e5 c5 Qg4
+C01,"Exchange Variation, French",e4 e6 d4 d5 exd5 exd5
+C01,"Monte Carlo Variation, French",e4 e6 d4 d5 exd5 exd5 c4
+C01,"Svenius Variation, French",e4 e6 d4 d5 exd5 exd5 Nc3 Nf6 Bg5
+C10,"Normal Variation, French; C10",e4 e6 d4 d5 Nc3
+C15,"Winawer Variation, French; C15",e4 e6 d4 d5 Nc3 Bb4
+C15,"Winckelmann-Riemer Gambit, French",e4 e6 d4 d5 Nc3 Bb4 a3
+C15,"Fingerslip Variation, French",e4 e6 d4 d5 Nc3 Bb4 Bd2
+C15,"Kunin Double Gambit, French",e4 e6 d4 d5 Nc3 Bb4 Bd2 dxe4 Qg4 Qxd4
+C15,"Schwarz's Line, French",e4 e6 d4 d5 Nc3 Bb4 Bd2 Ne7 Nb1
+C15,"Kondratiyev Variation, French",e4 e6 d4 d5 Nc3 Bb4 Bd3 c5 exd5 Qxd5 Bd2
+C16,C16,e4 e6 d4 d5 Nc3 Bb4 e5
+C17,C17,e4 e6 d4 d5 Nc3 Bb4 e5 c5
+C18,C18,e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3
+C18,"Swiss (Retreat) Variation, French",e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Ba5
+C18,"Armenian Line, French",e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Ba5 b4 cxd4
+C19,C19,e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3 Ne7
+C19,"Poisoned Pawn Variation, French Winawer",e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3 Ne7 Qg4
+C18,"Maroczy-Willis Variation, French",e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 cxd4 axb4 dxc3
+C17,"Bogoljubow Variation, French",e4 e6 d4 d5 Nc3 Bb4 e5 c5 Bd2
+C17,"Icelandic Defense, French",e4 e6 d4 d5 Nc3 Bb4 e5 c5 Bd2 Ne7 f4
+C17,"Moscow Variation, French",e4 e6 d4 d5 Nc3 Bb4 e5 c5 Qg4
+C16,"Petrosian Variation, French",e4 e6 d4 d5 Nc3 Bb4 e5 Qd7
+C15,"Delayed Exchange Variation, French",e4 e6 d4 d5 Nc3 Bb4 exd5
+C01,"Canal Attack, French",e4 e6 d4 d5 Nc3 Bb4 exd5 exd5 Bd3 Ne7 Qh5
+C15,"Alekhine (Maroczy) Variation, French",e4 e6 d4 d5 Nc3 Bb4 Ne2
+C15,"Kan Variation, French",e4 e6 d4 d5 Nc3 Bb4 Ne2 dxe4 a3 Bxc3+ Nxc3 Nc6
+C10,"Marshall Variation, French",e4 e6 d4 d5 Nc3 c5
+C10,"Rubinstein Variation, French",e4 e6 d4 d5 Nc3 dxe4
+C10,"Fort Knox Variation, French",e4 e6 d4 d5 Nc3 dxe4 Bd7 Nf3 Bc6
+C10,"Rasa-Studier Gambit, French",e4 e6 d4 d5 Nc3 dxe4 Be3
+C10,"Ellis Gambit, French",e4 e6 d4 d5 Nc3 dxe4 Nxe4 e5
+C10,"Blackburne Defense, French",e4 e6 d4 d5 Nc3 dxe4 Nxe4 Nd7
+C10,"Capablanca Line, French",e4 e6 d4 d5 Nc3 dxe4 Nxe4 Nd7 Nf3 Ngf6 Nxf6+ Nxf6 Ne5
+C10,"Frere; Becker; Katilimov, Maric Var, French",e4 e6 d4 d5 Nc3 dxe4 Nxe4 Qd5
+C11,"Classical Variation, French; C11",e4 e6 d4 d5 Nc3 Nf6
+C11,"Swiss Variation, French",e4 e6 d4 d5 Nc3 Nf6 Bd3
+C11,"Henneberger Variation, French",e4 e6 d4 d5 Nc3 Nf6 Be3
+C12,C12,e4 e6 d4 d5 Nc3 Nf6 Bg5
+C12,"McCutcheon Variation, French",e4 e6 d4 d5 Nc3 Nf6 Bg5 Bb4
+C12,"Olland (Dutch) Variation, French",e4 e6 d4 d5 Nc3 Nf6 Bg5 Bb4 e5 h6 Bc1
+C12,"Lasker Variation, French",e4 e6 d4 d5 Nc3 Nf6 Bg5 Bb4 e5 h6 Bd2 Bxc3
+C12,"Duras Variation, French",e4 e6 d4 d5 Nc3 Nf6 Bg5 Bb4 e5 h6 Bd2 Bxc3 bxc3 Ne4 Qg4 Kf8 Bc1
+C12,"Tartakower Variation, French",e4 e6 d4 d5 Nc3 Nf6 Bg5 Bb4 e5 h6 Bd2 Nfd7
+C12,"Janowski Variation, French",e4 e6 d4 d5 Nc3 Nf6 Bg5 Bb4 e5 h6 Be3
+C12,"Bernstein Variation, French",e4 e6 d4 d5 Nc3 Nf6 Bg5 Bb4 e5 h6 Bh4
+C12,"Chigorin Variation, French",e4 e6 d4 d5 Nc3 Nf6 Bg5 Bb4 e5 h6 exf6
+C12,"Grigoriev Variation, French",e4 e6 d4 d5 Nc3 Nf6 Bg5 Bb4 e5 h6 exf6 hxg5 fxg7 Rg8 h4 gxh4 Qg4
+C12,"Wolf Gambit, French",e4 e6 d4 d5 Nc3 Nf6 Bg5 Bb4 Nge2
+C14,C14,e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7
+C14,"Anderssen (Richter) Attack, French",e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 Bxf6
+C14,"Tartakower Variation, French",e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Ne4
+C14,"Classical Variation, French",e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 Bxe7 Qxe7
+C14,"Tarrasch Variation, French",e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 Bxe7 Qxe7 Bd3
+C14,"Steinitz Variation, French",e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 Bxe7 Qxe7 f4
+C14,"Alapin Variation, French",e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 Bxe7 Qxe7 Nb5
+C14,"Rubinstein Variation, French",e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 Bxe7 Qxe7 Qd2
+C14,"Pollock Variation, French",e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 Bxe7 Qxe7 Qg4
+C14,"Chatard-Alekhine; Albin Attack, Fr",e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 h4
+C14,"Maroczy Variation, French",e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 h4 a6
+C14,"Albin-Chatard Gambit, French",e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 h4 Bxg5 hxg5 Qxg5
+C14,"Breyer Variation, French",e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 h4 c5
+C14,"Teichmann Variation, French",e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 h4 f6
+C14,"Spielmann Variation, French",e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Nfd7 h4 O-O
+C13,"Vistaneckis (Nimzovich) Variation, French",e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Ng8
+C13,"Frankfurt Variation, French",e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7 e5 Ng8 Be3 b6
+C11,"Burn Variation, French",e4 e6 d4 d5 Nc3 Nf6 Bg5 dxe4
+C13,C13,e4 e6 d4 d5 Nc3 Nf6 Bg5 dxe4
+C11,"Steinitz Variation, French",e4 e6 d4 d5 Nc3 Nf6 e5
+C11,"Bradford Attack, French",e4 e6 d4 d5 Nc3 Nf6 e5 Nfd7 f4 c5 dxc5 Bxc5 Qg4
+C11,"Brodsky-Jones Variation, French",e4 e6 d4 d5 Nc3 Nf6 e5 Nfd7 f4 c5 dxc5 Nc6 a3 Bxc5 Qg4 O-O Nf3 f6
+C11,"Boleslavsky Variation, French",e4 e6 d4 d5 Nc3 Nf6 e5 Nfd7 f4 c5 Nf3 Nc6 Be3
+C11,"Gledhill Attack, French",e4 e6 d4 d5 Nc3 Nf6 e5 Nfd7 Qg4
+C10,"Svenonius Variation, French",e4 e6 d4 d5 Nc3 Nf6 exd5
+C03,"Tarrasch Variation, French; C03",e4 e6 d4 d5 Nd2
+C03,"Morozevich Variation, French",e4 e6 d4 d5 Nd2 Be7
+C07,Open System Tarrasch French; C07,e4 e6 d4 d5 Nd2 c5
+C08,C08,e4 e6 d4 d5 Nd2 c5 exd5 exd5
+C09,C09,e4 e6 d4 d5 Nd2 c5 exd5 exd5 Ngf3 Nc6
+C07,"Shaposhnikov Gambit, French",e4 e6 d4 d5 Nd2 c5 exd5 Nf6
+C07,"Chistiakov Defense, French",e4 e6 d4 d5 Nd2 c5 exd5 Qxd5
+C03,"Haberditz Variation, French",e4 e6 d4 d5 Nd2 f5
+C04,C04,e4 e6 d4 d5 Nd2 Nc6
+C06,"Botvinnik Variation, French",e4 e6 d4 d5 Nd2 Nc6 e4 Nfd7 Bd3 c5 c3 b6
+C04,"Guimard Variation, French",e4 e6 d4 d5 Nd2 Nc6 Ngf3 Nf6 e5 Nfd7
+C04,"Leningrad Variation, French",e4 e6 d4 d5 Nd2 Nc6 Ngf3 Nf6 e5 Nfd7 f4 c5 c3 Nc6 Ndf3 cxd4 cxd4
+C05,C05,e4 e6 d4 d5 Nd2 Nf6
+C06,C06,e4 e6 d4 d5 Nd2 Nf6 e5 Nfd7 Bd3
+C01,"Perseus Gambit, French",e4 e6 d4 d5 Nf3
+C01,"Carlson Gambit, French",e4 e6 d4 d5 Nf3 dxe4 Ne5
+C01,"Morphy Gambit, French",e4 e6 d4 d5 Nh3
+C01,Hoffman Gambit,e4 e6 d4 d5 Qe2 e5 f4 exf4
+C01,"Franco-Hiva Gambit I, French",e4 e6 d4 f5
+C01,"Mediterranean Defense, French",e4 e6 d4 Nf6
+C00,"Steinitz Attack, French",e4 e6 e5
+C00,"Bourdonnais (La Bourdonnais) Variation, French",e4 e6 f4
+C00,"Reuter Gambit, French",e4 e6 f4 d5 Nf3 dxe4 Ng5
+C00,"Reti-Spielmann Attack, French",e4 e6 g3
+C00,"Queen's Knight, French",e4 e6 Nc3
+C00,"Pelikan Variation, French",e4 e6 Nc3 d5 f4
+C00,"Two Knight Variation, French",e4 e6 Nc3 d5 Nf3
+C00,"Knight Variation, French",e4 e6 Nf3
+C00,"Wing Gambit, French",e4 e6 Nf3 d5 e5 c5 b4
+C00,"Two Knights Variation, French",e4 e6 Nf3 d5 Nc3
+C00,"Chigorin Variation, French",e4 e6 Qe2
+B00,Mao Tse Tung; Duras,e4 f5
+B00,Fred; From Reversed,e4 f5
+B00,Tiers Counter-Gambit,e4 f5
+B00,Barnes Defense,e4 f6
+B00,Basman Defense; Macho Grob,e4 g5
+B00,Basman; Macho Grob; Borg,e4 g5
+B00,Borg Gambit,e4 g5 d4 Bg7
+B00,"Zilbermints Gambit, Borg",e4 g5 d4 e5
+B00,Borg Defense; Troon Gambit,e4 g5 d4 h6 h4 g4
+B06,Pirc; Robatsch; Modern; King Pawn Fianchetto; B06,e4 g6
+B06,"Monkey's Bum, Pirc",e4 g6 Bc4 Bg7 Qf3 e6 d4
+B06,Bishop Attack,e4 g6 d4 Bg7 Bc4
+B06,Buecker Gambit,e4 g6 d4 Bg7 Bc4 b5
+B06,Westermann Gambit,e4 g6 d4 Bg7 Bd2
+B06,Wind Gambit,e4 g6 d4 Bg7 Bd3
+A40,Polish Variation,e4 g6 d4 Bg7 c4 c5 Nf3 Qb6
+A40,"Dunworth Variation, Modern Defense",e4 g6 d4 Bg7 c4 d5 exd5 c6 dxc6 Bxd4
+B06,Three Pawns Attack,e4 g6 d4 Bg7 f4
+B06,"Pterodactyl, Pirc",e4 g6 d4 Bg7 Nc3 c5
+B06,"Gurgenidze Defense, Modern Defense",e4 g6 d4 Bg7 Nc3 c6 f4 d5 e5 h5
+B06,"Mittenberger Gambit, Modern Defense",e4 g6 d4 Bg7 Nc3 d5
+B06,Anti-Modern,e4 g6 d4 Bg7 Nc3 d6 Bc4 c6 Qe2
+B06,Pseudo-Austrian Attack,e4 g6 d4 Bg7 Nc3 d6 f4
+B06,"Two Knight Variation, Modern Defense",e4 g6 d4 Bg7 Nc3 d6 Nf3
+B06,"Suttles Variation, Modern Defense",e4 g6 d4 Bg7 Nc3 d6 Nf3 c6
+B06,"Mongredien Defense, Pirc",e4 g6 d4 Bg7 Nf3 b6
+B06,"Geller's System, Modern Defense",e4 g6 d4 Bg7 Nf3 d6 c3
+B06,"Rossolimo Variation, Modern Defense",e4 g6 d4 Bg7 Nf3 d6 c4 Bg4
+B06,Accelerated Gurgenidze,e4 g6 d4 Bg7 Nf3 d6 Nc3 c6
+B06,"Small Center Variation, Pirc",e4 g6 d4 Bg7 Nf3 d6 Nc3 e6
+B06,"Fianchetto Gambit, Modern Defense",e4 g6 d4 f5
+B06,Norwegian Defense,e4 g6 d4 Nf6
+B06,Masur Gambit,e4 g6 d4 Nh6 Nc3 f5 Bxh6 Bxh6 exf5 O-O
+B00,Pickering (Goldsmith) Defense,e4 h5
+B00,Picklepuss Defense,e4 h5 d4 Nf6
+B00,Carr Defense,e4 h6
+B00,"Zilbermints Gambit, Carr Defense",e4 h6 d4 e5
+B00,Lemming Defense,e4 Na6
+B00,Nimzovich Defense,e4 Nc6
+B00,"Wheeler Gambit, Nimzovich Defense",e4 Nc6 b4 Nxb4 c3 Nc6 d4
+B00,Pseudo-Spanish Variation,e4 Nc6 Bb5
+B00,"Scandanavian Variation, Nimzovich Defense",e4 Nc6 d4 d5
+B00,"Hornung Gambit, Nimzovich Defense",e4 Nc6 d4 d5 Be3
+B00,"Aachen Gambit, Nimzovich Defense",e4 Nc6 d4 d5 exd5 Nb4
+B00,"Marshall Gambit, Nimzovich",e4 Nc6 d4 d5 exd5 Qxd5 Nc3
+B00,"Bogoljubow Variation, Nizovich Defense",e4 Nc6 d4 d5 Nc3
+B00,"Brandics Gambit, Nimzovich Defense",e4 Nc6 d4 d5 Nc3 a6
+B00,"Richter Gambit, Nimzovich Defense",e4 Nc6 d4 d5 Nc3 dxe4 d5 Nb8 f3
+B00,"Nimzovich Gambit, Nimzovich Defense",e4 Nc6 d4 d5 Nc3 dxe4 d5 Ne5
+B00,"Alekseev Variation, Nimzovich; Heinola-Deppe Gambit",e4 Nc6 d4 d5 Nc3 e5
+B00,"Erben Gambit, Nimzovich Defense",e4 Nc6 d4 d5 Nc3 g6
+B00,"Vehre Variation, Nimzovich Defense",e4 Nc6 d4 d5 Nc3 Nf6
+B00,"Mikenas Variation, Nimzovich Defense",e4 Nc6 d4 d6
+B00,"Kennedy Variation, Nimzovich",e4 Nc6 d4 e5
+B00,"Linksspringer Variation, Nimzovich Defense",e4 Nc6 d4 e5 d5
+B00,"Bileefelder Gambit, Nimzovich Defense",e4 Nc6 d4 e5 dxe5 Bc5
+B00,"Burgar Gambit, Nimzovich Defense",e4 Nc6 d4 e5 dxe5 d6
+B00,"Hammer Gambit, Nimzovich Defense",e4 Nc6 d4 e5 dxe5 f6
+B00,"Riemann Defense, Nimzovich Defense",e4 Nc6 d4 e5 dxe5 Nxe5 f4 Nc6
+B00,"Keres Attack, Nimzovich Defense",e4 Nc6 d4 e5 dxe5 Nxe5 Nc3
+B00,"Paulsen Attack, Nimzovich Defense",e4 Nc6 d4 e5 dxe5 Nxe5 Nf3
+B00,"Herford Gambit, Nimzovich Defense",e4 Nc6 d4 e5 dxe5 Qh4
+B00,"French Connection, Nimzovich Defense",e4 Nc6 d4 e6
+B00,"Neo-Mongoloid Defense, Nimzovich",e4 Nc6 d4 f6
+B00,"Pirc Connection, Nimzovich Defense",e4 Nc6 d4 g6
+B00,"Breyer Defense, Nimzovich",e4 Nc6 Nc3 Nf6
+B00,"Williams Variation, Nimzovich",e4 Nc6 Nf3 d6
+B00,Franco-Nimzovich Variation,e4 Nc6 Nf3 e6
+B00,"Colorado Defense, Nimzovich; Lean Variation",e4 Nc6 Nf3 f5
+B00,"Colorado Counter Accepted, Nimzovich Defense",e4 Nc6 Nf3 f5 exf5
+B00,"El Columpio Defense, Nimzovich Defense",e4 Nc6 Nf3 Nf6 e5 Ng4
+B02,Alekhine's Defense; B02,e4 Nf6
+B02,"Krejcik Variation, Alekhine",e4 Nf6 Bc4
+B02,"Fried Fox, Alekhine; Krejcik Gambit",e4 Nf6 Bc4 Nxe4 Bxf7+
+B02,"Maroczy Variation, Alekhine",e4 Nf6 d3
+B02,"Welling Variation, Alekhine",e4 Nf6 e5 Nd5 b3
+B02,"Kmoch Variation, Alekhine",e4 Nf6 e5 Nd5 Bc4 Nb6 Bb3 c5 d3
+B02,"Hunt Gambit, Alekhine; Two Pawn Attack",e4 Nf6 e5 Nd5 c4
+B02,"Steiner Variation, Alekhine",e4 Nf6 e5 Nd5 c4 Nb6 b3
+B02,"Lasker Variation, Alekhine",e4 Nf6 e5 Nd5 c4 Nb6 c5
+B02,"Mikenas Gambit, Alekhine",e4 Nf6 e5 Nd5 c4 Nb6 c5 Nd5 Bc4 e6 Nc3 d6 Nxd5 exd5 Bxd5
+B02,"Matsukevich Gambit, Alekhine",e4 Nf6 e5 Nd5 c4 Nb6 c5 Nd5 Nc3 Nxc3 dxc3 d6 Bg5
+B03,B03,e4 Nf6 e5 Nd5 d4
+B03,"Wall Variation, Alekhine",e4 Nf6 e5 Nd5 d4 c5
+B03,"Balogh Variation, Alekhine",e4 Nf6 e5 Nd5 d4 d6 Bc4
+B03,"Hunt Variation, Alekhine",e4 Nf6 e5 Nd5 d4 d6 c4 Nb6 c5
+B03,Four Pawns Attack; Chase V,e4 Nf6 e5 Nd5 d4 d6 c4 Nb6 f4
+B03,"Trifunovic Variation, Alekhine",e4 Nf6 e5 Nd5 d4 d6 c4 Nb6 f4 Bf5
+B03,"Cambridge Gambit, Alekhine",e4 Nf6 e5 Nd5 d4 d6 c4 Nb6 f4 g5
+B04,B04,e4 Nf6 e5 Nd5 d4 d6 Nf3
+B05,B05,e4 Nf6 e5 Nd5 d4 d6 Nf3 Bg4
+B05,"Flohr Variation, Alekhine",e4 Nf6 e5 Nd5 d4 d6 Nf3 Bg4 Be2 c6
+B05,"Alekhine Variation, Alekhine",e4 Nf6 e5 Nd5 d4 d6 Nf3 Bg4 c4
+B04,"Panov Variation, Alekhine",e4 Nf6 e5 Nd5 d4 d6 Nf3 Bg4 h3
+B04,"Larsen Variation, Alekhine",e4 Nf6 e5 Nd5 d4 d6 Nf3 dxe5
+B04,"Alburt Variation, Alekhine",e4 Nf6 e5 Nd5 d4 d6 Nf3 g6
+B04,"Keres Variation, Alekhine",e4 Nf6 e5 Nd5 d4 d6 Nf3 g6 Bc4 Nb6 Bb3 Bg7 a4
+B04,"Karpov Variation, Alekhine",e4 Nf6 e5 Nd5 d4 d6 Nf3 g6 c4 Nb6 h3 Bg7 Be2
+B04,"Schmid Variation, Alekhine",e4 Nf6 e5 Nd5 d4 d6 Nf3 Nb6
+B02,"Buntin Gambit, Alekhine",e4 Nf6 e5 Nd5 e6
+B02,"Buckley Attack, Alekhine",e4 Nf6 e5 Nd5 Na3
+B02,"Saemisch Attack, Alekhine",e4 Nf6 e5 Nd5 Nc3
+B02,Mokele Mbembe; Knight's Tour,e4 Nf6 e5 Ne4
+B02,"Retreat; Brooklyn Variation, Alekhine",e4 Nf6 e5 Ng8
+B02,"Everglades Defense, Alekhine",e4 Nf6 e5 Ng8 d4 f5
+B02,"Scandanavian Variation, Alekhine",e4 Nf6 Nc3 d5
+B02,"Myers Gambit, Alekhine",e4 Nf6 Nc3 d5 d3 dxe4 Bg5
+B02,"Spielmann Variation, Alekhine",e4 Nf6 Nc3 d5 e5 Nfd7 e6
+B02,"Noch Gambit, Alekhine",e4 Nf6 Nc3 d5 exd5
+B02,"Geschev Gambit, Alekhine",e4 Nf6 Nc3 d5 exd5 c6
+B02,"John Tracy Gambit, Alekhine",e4 Nf6 Nf3
+B00,Adams Defense,e4 Nh6
+B00,Wild Bull Defense,e4 Nh6
+A00,Barnes; Gedult-Gunderam; Walkerling,f3
+A00,King's Head Opening,f3 e5 e4
+A00,Hammerschlag; Pork Chop Opening,f3 e5 Kf2
+A02,Bird's Opening; Dutch Attack,f4
+A03,A03,f4 d5
+A03,Sturm; Mujannah,f4 d5 c4
+A03,"Prokofiev Gambit, Bird",f4 d5 e4 dxe4 d3
+A03,"Williams Gambit, Bird",f4 d5 e4 dxe4 Nc3
+A02,"From's Gambit, Bird",f4 e5
+A02,Canard Formation; Double Duck,f4 f5 d4 d5
+A02,"Pawn Thrust Attack, Bird",f4 f5 d4 d5
+A02,"Swiss Gambit, Bird",f4 f5 e4 fxe4 Nc3 Nf6 g4
+A02,"Hobbs Gambit, Bird",f4 g5
+A02,"Batavo Polish Attack, Bird",f4 Nf6 Nf3 g6 b4
+A03,"Horsefly Defense, Bird",f4 Nh6
+A00,Benko; Barczay; Bilek; Hungarian,g3
+A00,Gambit 59,g3 d5 Bg2 e5 b4
+A00,Regan Variation,g3 d5 Bg2 e5 d4
+A00,Reversed Alekhine,g3 e5 Nf3
+A00,Lasker Simul Special,g3 h5
+A00,Grob; Ahlhausen; Colibri; Fric; Genoa; Spike,g4
+A00,Grob Gambit,g4 d5 Bg2 Bxg4
+A00,"Romford Counter-Gambit, Grob",g4 d5 Bg2 Bxg4 c4 d4
+A00,"Spike, Grob",g4 d5 Bg2 c6 g5
+A00,"Short Spike, Grob",g4 d5 Bg2 c6 h3
+A00,"Zilbermints Gambit, Grob",g4 d5 e4
+A00,"Keene Defense, Grob",g4 d5 h3 e5
+A00,"Hurst Attack, Grob",g4 e5 Bg2 d5 c4
+A00,"Alessi Gambit, Grob",g4 f5
+A00,Double Grob,g4 g5
+A00,Spike Deferred,g4 g6 d3
+A00,"Bucker Defense, Grob",g4 Nh6
+A00,Clemenz Opening,h3
+A00,Kadas Opening,h4
+A00,Despres Opening,h4
+A00,Koola-Koola,h4 a5
+A00,Wulumulu,h4 e5 d4
+A00,Durkin's Opening; Sodium Attack,Na3
+A00,Dunst; Heinrichsen; Will Bull; Kotrc,Nc3
+A00,"St. George Defense, Dunst",Nc3 a6
+A00,"Novosibirsk Variation, Dunst",Nc3 c5 d4 cxd4 Qxd4 Nc6 Qh4
+A00,"Twyble Attack, Dunst",Nc3 c5 Rb1
+A00,Dunst Gambit,Nc3 d5 e4 dxe4 d3
+A00,"Pseudo-Diemer Gambit, Dunst",Nc3 d5 e4 dxe4 f3 exf3 Qxf3
+A00,"Amazon, Dunst",Nc3 d5 e4 dxe4 Nxe4 Qd5
+A00,Reversed Nimzovich,Nc3 e5
+A00,"Battambang, Dunst",Nc3 e5 a3
+A00,Irish Attack; Polish Attack,Nc3 e5 f4
+A00,"Napoleon Attack, Dunst",Nc3 e5 Nf3
+A00,"Glasscoe Gambit, Dunst",Nc3 f5 g4
+A00,"Anti-Pirc Variation, Dunst",Nc3 g6 h4
+A00,"Tubingen Gambit, Dunst",Nc3 Nf6 g4
+A04,Reti; Zukertort; A04,Nf3
+A06,A06,Nf3 d5
+A06,"Nimzovich Opening, Reti",Nf3 d5 b3
+A06,"Bloodgood Gambit, Reti",Nf3 d5 b3 c5 e4 dxe4 Ne5
+A06,"Santasiere's Folly, Reti",Nf3 d5 b4
+A09,Reti; Landstrasser G; Wolf G; A09,Nf3 d5 c4
+A09,"London V; New York V, Reti",Nf3 d5 c4 c6 b3 Nf6 Bg2 e6 Bb2 Nbd7
+A09,Benoni Reversed; Wing Blumenfeld,Nf3 d5 c4 d4
+A09,Reti Polonaise,Nf3 d5 c4 d4 b4
+A09,"Penguin Variation, Reti",Nf3 d5 c4 d4 Rg1
+A09,Reti Gambit Accepted,Nf3 d5 c4 dxc4
+A09,"Neo-Catalan, Reti",Nf3 d5 c4 e6 g3
+A06,Old Indian Attack,Nf3 d5 d3
+A06,Tennison G; Lemberg G; Abonyi G,Nf3 d5 e4
+A07,"Barcza Opening, Reti; A07",Nf3 d5 g3
+A08,A08,Nf3 d5 g3 c5
+A06,"Reversed Mexican Defense, Reti",Nf3 d5 Nc3
+A06,"Ampel Variation, Reti",Nf3 d5 Rg1
+A04,Wade Defense,Nf3 d6
+A06,"Improved Lisitsin G, Reti",Nf3 f5 d3
+A04,Lisitsin Gambit; Polish Gambit,Nf3 f5 e4
+A04,Rydel-Bloodgood Gambit,Nf3 f5 e4 exf4 Ne5
+A04,Polish G; Dalesio G; Pirc-Lisitsin G,Nf3 f5 e4 fxe4 Ng5
+A04,"Herrstrom Gambit, Reti",Nf3 g5
+A04,Oberndorfer Gambit; Reti,Nf3 g5
+A04,Lessing Defense,Nf3 Nc6
+A05,King's Indian Attack; Reti; Zukertort; A05,Nf3 Nf6
+A00,Amar; Paris Opening,Nh3
+A00,Drunken Knight Opening,Nh3
+A00,Krazy Kat,Nh3 e5 f3 d5 Nf2

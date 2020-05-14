@@ -5,7 +5,7 @@
 **Available on PyPI with `pip install chess-graph`!**
 
 <p align="center">
-  <img width = "574" height = "400" src = "https://github.com/Destaq/opening_analysis/raw/master/src/images/main_image.png">
+  <img width = "574" height = "400" src = "https://github.com/Destaq/opening_analysis/raw/master/images/main_image.png">
  </p>
 
 ## About
@@ -107,17 +107,17 @@ However, if you want to download in *these* formats you need the following insta
 *All examples are those of Magnus Carlsen's OTB tournament games*
 ### Simple Pie Chart
 <p align="center">
-  <img width="700" height="450" src="https://github.com/Destaq/opening_analysis/raw/master/src/images/random.png">
+  <img width="700" height="450" src="https://github.com/Destaq/opening_analysis/raw/master/images/random.png">
 </p>
 
 ### Hover Functionality | Show Percentage of Parent + Game Count
 <p align="center">
-  <img width = "522" height = "117" src = "https://github.com/Destaq/opening_analysis/raw/master/src/images/hovering.png">
+  <img width = "522" height = "117" src = "https://github.com/Destaq/opening_analysis/raw/master/images/hovering.png">
  </p>
 
 ### Click to Zoom
 <p align="center">
-  <img width = "528" height = "457" src = "https://github.com/Destaq/opening_analysis/raw/master/src/images/zoom.png">
+  <img width = "528" height = "457" src = "https://github.com/Destaq/opening_analysis/raw/master/images/zoom.png">
  </p>
 
 ## Extra Info

@@ -241,8 +241,6 @@ def find_colors(ids, ratios, lst, kick_depth):
 
 def graph(database, depth=5, shade = True, fragmentation_percentage=0.0032, should_defragment=False, custom_branching=False, should_download = False, download_format = 'png', download_name = 'fig1', color = 'both', name = ''): # need file path, depth
 
-    t0 = time.time()
-
     ids, labels, parents, values, percentage_everything, lst, ratios, kick_depth = form_values(database, depth, fragmentation_percentage, should_defragment, custom_branching, color, name) # a good value is about 10x the smallest value
 
     full_ratios = find_colors(ids, ratios, lst, kick_depth)

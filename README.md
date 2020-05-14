@@ -62,9 +62,9 @@ If you would like to simply run this code from Python IDE, then type `pip instal
 
   - The `database` argument: This argument must *always* be inputted. It is the path to the file. Let's look at two examples.
 
-    1. `chess_graph.graph('Users/student/Desktop/pgns/mir_khan.pgn')`. Here, we are running the chess_graph on a pgn from Mir Sultan Khan. We are showing the program what file to read this by providing the full path to the file.
+    1. `chess_graph.graph('Users/student/Desktop/sample_pgns/mir_khan.pgn')`. Here, we are running the chess_graph on a pgn from Mir Sultan Khan. We are showing the program what file to read this by providing the full path to the file.
 
-    2. In the example above, you can see that the file is in the `pgns` folder in Desktop. So, we can open our terminal, and then type `cd Desktop`, `cd pgns` to go the folder that has this file. Because we are now in that directory, we can type: `chess_graph.graph('mir_khan.pgn')` as it is in the current directory. If you are unsure, stick with the full file path.
+    2. In the example above, you can see that the file is in the `sample_pgns` folder in Desktop. So, we can open our terminal, and then type `cd Desktop`, `cd sample_pgns` to go the folder that has this file. Because we are now in that directory, we can type: `chess_graph.graph('mir_khan.pgn')` as it is in the current directory. If you are unsure, stick with the full file path.
 
   - The `depth` argument. This is set to 5 by default, and shows the number of rings that the pie chart will have. You can change this by typing `chess_graph.graph(*path to file*, depth = 7)`. Make sure that you type `depth = `, and not just the integer depth.
 

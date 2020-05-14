@@ -1,7 +1,7 @@
 # A Graphical Visualization of Chess Openings
 # April 2020
 
-# Provides a colorful multi-level pie chart which shows the popularity of openings after moves
+# Provides a colorful multi-level pie chart which shows the popularity of openings after moves from any PGN file
 # For more info, go to www.github.com/Destaq/chess_graph
 
 
@@ -14,7 +14,7 @@ import find_opening
 
 def form_values(gammme, depth, fragmentation_percentage, should_defragment, custom_branching, color, name):
     """Create parent, id, labels, and values """
-    lst, ratios, kick_depth = new_parser.parse_games(gammme, depth, custom_branching, color, name) #whether or not to implement custom branching
+    lst, ratios, kick_depth = new_parser.parse_games(gammme, depth, custom_branching, color, name)
     firstx = [
         lst[i][:depth+kick_depth] for i in range(len(lst))
     ]  # probably unneeded but for safety's sake...
@@ -239,7 +239,9 @@ def find_colors(ids, ratios, lst, kick_depth):
     return full_ratios
 
 
-def graph(database, depth=5, shade = True, fragmentation_percentage=0.0032, should_defragment=False, custom_branching=False, should_download = False, download_format = 'png', download_name = 'fig1', color = 'both', name = ''): # need file path, depth,
+def graph(database, depth=5, shade = True, fragmentation_percentage=0.0032, should_defragment=False, custom_branching=False, should_download = False, download_format = 'png', download_name = 'fig1', color = 'both', name = ''): # need file path, depth
+
+    t0 = time.time()
 
     ids, labels, parents, values, percentage_everything, lst, ratios, kick_depth = form_values(database, depth, fragmentation_percentage, should_defragment, custom_branching, color, name) # a good value is about 10x the smallest value
 

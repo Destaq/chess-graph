@@ -1,6 +1,6 @@
 ![Python application](https://github.com/Destaq/chess_graph/workflows/Python%20application/badge.svg)
 [![PyPI version](https://badge.fury.io/py/chess-graph.svg)](https://badge.fury.io/py/chess-graph)
-![PyPI - Downloads](https://img.shields.io/pypi/dw/chess-graph)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/chess-graph)
 # The Chess Opening Analyzer
 **Available on PyPI with `pip install chess-graph`!**
 

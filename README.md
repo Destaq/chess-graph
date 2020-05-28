@@ -54,6 +54,8 @@ If you would like to simply run this code from Python IDE, then type `pip instal
 3. `import chess_graph`
 4. `chess_graph.graph(database, depth=5, shade = True, fragmentation_percentage=0.0032, should_defragment=False, custom_branching=False, should_download = False, download_format = 'png', download_name = 'fig1')`
   - Note that the path to the pgn file (the database) must be relative to the current directory python is running in. For example, if you have the pgn downloaded on your Desktop, you could easily solve this issue by navigating to Desktop within terminal (cd Desktop). From there, you can replace the database argument with the simple filename (assuming it is in Desktop). If this is confusing, just type in the full path.
+  
+ *Special note: there can be some issues if the file you are trying to open is saved in icloud. In that case, you will see a small cloud next to the file with a downwards-pointing arrow. Click on it to download the file - otherwise it will be stored on the cloud and won't register as on your device, and thus cannot be read by the python program.*
 
 ### A Deeper Look at the Function
   The `graph()` function takes 9 arguments, and 8 of them are default-set. We'll explore each of them so that you know how to properly use this package to its full potential.

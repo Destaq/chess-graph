@@ -10,6 +10,9 @@ from collections import Counter
 import new_parser
 import find_opening
 
+import pandas as pd
+import numpy as np
+
 
 
 def form_values(gammme, depth, fragmentation_percentage, should_defragment, custom_branching, color, name):
@@ -116,7 +119,7 @@ def form_values(gammme, depth, fragmentation_percentage, should_defragment, cust
 
     return ids, labels, parents, values, percentage_holder, lst, ratios, kick_depth
 
-
+# fig = form(ids, labels, parents, values, full_ratios, full_ratios, percentage_everything, hovertip_openings, shade)
 def form(ids, labels, parents, values, colors, ratios, percentage_everything, hovertip_openings, shade):
     if shade:
         fig = go.Figure(
@@ -239,7 +242,56 @@ def find_colors(ids, ratios, lst, kick_depth):
     return full_ratios
 
 
-def graph(database, depth=5, shade = True, fragmentation_percentage=0.0032, should_defragment=False, custom_branching=False, should_download = False, download_format = 'png', download_name = 'fig1', color = 'both', name = ''): # need file path, depth,
+def best_worst(ids, labels, parents, values, percentage_everything, full_ratios, min_games_best_lines):
+
+    df = pd.DataFrame()
+
+    df['ids'] = ids
+    df['labels'] = labels
+    df['parents'] = parents
+    df['values'] = values
+    df['percentage_everything'] = percentage_everything
+    df['full_ratios'] = full_ratios
+
+    def semimove_number(l):
+        a=len(l.parents)+1
+        return a
+
+    tmp = df.apply(semimove_number, axis=1)
+    tmp = tmp.to_frame()
+    tmp.columns = ['semimove']
+    
+    df['semimove'] = tmp['semimove']
+    
+    
+    best_worst = pd.DataFrame(columns=['move', 'Best', 'b_score', 'b_games', 'Worst', 'w_score', 'w_games'])
+
+    for i in np.unique(df.semimove):
+        semimove_df = df[(df.semimove == i) & (df['values'] >= min_games_best_lines)]
+    
+        if (len(semimove_df) > 0):
+            semimove_df = semimove_df.sort_values('full_ratios', ascending=False)
+            best = semimove_df.head(1)
+            worst = semimove_df.tail(1)
+        
+            move = semimove_df.semimove.values[0]
+            Best = best['ids'].values[0]
+            b_score = best['full_ratios'].values[0]
+            b_games = best['values'].values[0]
+            Worst = best['ids'].values[0]
+            w_score = worst['full_ratios'].values[0]
+            w_games = worst['values'].values[0]
+    
+            best_worst.loc[len(best_worst)] = [move, Best, b_score, b_games, Worst, w_score, w_games] 
+    
+        else:
+            out_warning = 'No lines at move ' + str(i) + ' with at least ' + str(min_games_best_lines) + ' games'
+            print(out_warning)
+
+    print('\n')
+    print(best_worst)
+
+def graph(database, depth=5, shade = True, fragmentation_percentage=0.0032, should_defragment=False, custom_branching=False, should_download = False, download_format = 'png', download_name = 'fig1', color = 'both', name = '', print_best_lines=False, min_games_best_lines=1): # need file path, depth,
 
     ids, labels, parents, values, percentage_everything, lst, ratios, kick_depth = form_values(database, depth, fragmentation_percentage, should_defragment, custom_branching, color, name) # a good value is about 10x the smallest value
 
@@ -272,3 +324,6 @@ def graph(database, depth=5, shade = True, fragmentation_percentage=0.0032, shou
             download(download_format, download_name)
         else:
             download_html(download_name)
+            
+    if print_best_lines == True:
+        best_worst(ids, labels, parents, values, percentage_everything, full_ratios, min_games_best_lines)

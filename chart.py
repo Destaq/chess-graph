@@ -278,7 +278,7 @@ def best_worst(ids, labels, parents, values, percentage_everything, full_ratios,
             Best = best['ids'].values[0]
             b_score = best['full_ratios'].values[0]
             b_games = best['values'].values[0]
-            Worst = best['ids'].values[0]
+            Worst = worst['ids'].values[0]
             w_score = worst['full_ratios'].values[0]
             w_games = worst['values'].values[0]
     
@@ -289,7 +289,9 @@ def best_worst(ids, labels, parents, values, percentage_everything, full_ratios,
             print(out_warning)
 
     print('\n')
+    best_worst.set_index('move')
     print(best_worst)
+    print('\n')
 
 def graph(database, depth=5, shade = True, fragmentation_percentage=0.0032, should_defragment=False, custom_branching=False, should_download = False, download_format = 'png', download_name = 'fig1', color = 'both', name = '', print_best_lines=False, min_games_best_lines=1): # need file path, depth,
 

@@ -31,7 +31,7 @@ The pie chart sizes will be divided based on how frequent the move is compared t
 
 ### Prerequisites
 - Runs in Python 3, must have Python 3 installed
-- Requires Plotly and pgnparser
+- Requires Plotly, pgnparser, pandas and numpy
 - To run as PyPI module, have this projects PyPI package installed
 
 You can install Plotly and pgnparser using PyPi, as long as you are an admin user on your device. To do so, simply type `pip install plotly` and `pip install pgnparser` into your terminal.
@@ -87,6 +87,10 @@ If you would like to simply run this code from Python IDE, then type `pip instal
   - The `color` argument. This is set to both by default. Valid inputs are 'both', 'white', 'w', 'black' and 'b'. If you change the `color` argument from both, then the program will only read games that are from the `color` you chose. Note that you need to also change the player name with the name argument if you do so. See below.
 
   - The `name` argument. This argument will allow the program to pick games from the file it is given, but only games from a certain player. There is an example below: Set the color to 'black' or 'white' to pick only games where the player (the name) played as black or white. (i.e. chess_graph.graph('pgns/Carlsen.pgn', color = 'white', name = 'Magnus Carlsen') will pick all the games where Carlsen played as white.)
+  
+  - The `print_best_lines` argument. This argument enables ('=True') the feature that allow you to print the best/worst line (computed taking into account the W/B ratio) for each semi-move  of the graph.
+  - The `min_games_best_lines` argument. This argument, set to 1 as default, requires a condition for the best/worst lines to have at least 'n' games. For example if it is set to 10 only lines with at least 10 games in the original database are taken into account for the best/worst line search. In case at a certain deph there are no lines with min_games_best_lines, an output message like this will appear: No lines at move ${depth} with at least ${min_games_best_lines} games
+
 
 **Remember to include all variations and parts of a player's name! For example, the player Viktor Korchnoi has his last name spelled as Kortschnoj as well. In that case, for the 'name' field, type: Viktor Korchnoi Kortschnoj**
 

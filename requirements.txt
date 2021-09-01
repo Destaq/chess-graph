@@ -1,2 +1,2 @@
-plotly==5.2.2
+plotly==5.3.1
 pgnparser==1.0

@@ -1,5 +1,4 @@
 numpy==1.21.4
 pandas==1.3.4
-pgn==0.1.0
 pgnparser==1.0
 plotly==5.3.1
